@@ -8,6 +8,8 @@ XIAO ESP32-S3 Plus + DFRobot DFR0664(ST7789, 240×320). 제품 규칙, 화면 �
 
 v0.9.0은 [앱 BLE 설정 계약](docs/ble-wifi-provisioning.md)을 개발 빌드에 추가하고, Wi-Fi 성공 후 저장과 글꼴 무손실 압축을 반영했다. `tools/build.ps1 -BleDevelopment`에서만 평문 BLE·로컬 HTTP를 허용한다. D3 5초 유지로 설정을 열고, 이 빌드의 0.8초 확인은 손을 뗄 때 실행한다. 이번 변경은 코드·PC/빌드 검증 범위이며 실제 앱·보드 연결은 미검증이다.
 
+공모전 서버 연동에서는 사용자 지시대로 `battery: 100`을 고정 전송한다. 배터리 미측정으로 루틴 sync가 중단되지 않으며, 실제 측정값은 아니다. 기기 화면의 배터리 미측정 표시는 유지한다.
+
 ## 버튼
 
 | 현재 D3 한 개 | 의도 | 루틴 화면 |
@@ -77,7 +79,7 @@ Figma는 읽기만 한다. 원본 개별 자산은 `assets/source/`, 문맥은 `
 팀 전달 문서: [디자이너 — 자산·이름·화면](docs/designer-handoff.md), [서버·앱 개발자 — API·데이터 책임](docs/server-app-handoff.md).
 
 
-v0.7은 HTTPS claim/sync 어댑터, 안전한 일정 병합과 과거 기록 보관, 스키마 4, USB 진행 백업, 단계별 홈/테마/먹이, 편지·울기·먹기 연출을 포함한다. 실제 서버 연결은 접속 정보·등록 코드·필수 battery unknown 계약을 기다린다. 현재 상태와 자료 의존성은 [개발 상태](docs/development.md), 원본/모션 한계는 [디자이너 문서](docs/designer-handoff.md), API 계약은 [서버·앱 문서](docs/server-app-handoff.md)를 따른다. `tools/backup-state.ps1 -Port COM5`로 진행 백업을 만들 수 있고 `motion off/on`으로 연출 설정을 저장한다.
+v0.7은 HTTPS claim/sync 어댑터, 안전한 일정 병합과 과거 기록 보관, 스키마 4, USB 진행 백업, 단계별 홈/테마/먹이, 편지·울기·먹기 연출을 포함한다. 실제 서버 연결에는 접속 정보·등록 코드가 필요하며, 공모전에서는 배터리 100 고정값으로 동기화를 진행한다. 현재 상태와 자료 의존성은 [개발 상태](docs/development.md), 원본/모션 한계는 [디자이너 문서](docs/designer-handoff.md), API 계약은 [서버·앱 문서](docs/server-app-handoff.md)를 따른다. `tools/backup-state.ps1 -Port COM5`로 진행 백업을 만들 수 있고 `motion off/on`으로 연출 설정을 저장한다.
 
 
 v0.8은 동기화 중 화면 유지, 표시 context에 묶인 버튼 입력, API 본문 검사, 불변 과거 파일과 `backup-state.ps1 -All`을 보완한다. 제품 성장 규칙·스키마 4·이미지 묶음은 그대로다.

@@ -19,7 +19,7 @@ struct Store:ProductStore {
   bool archive(const ProductState& s)override{if(archiveFail)return false;assert(validProduct(s));++archives;return true;}
 };
 int64_t timestamp(const char* s){int64_t v=0;assert(api::parseTimestamp(s,v));return v;}
-api::SyncRequest dates(){api::SyncRequest r;r.battery=70;r.dateCount=1;assert(api::parseDate("2026-10-04",r.dates[0]));return r;}
+api::SyncRequest dates(){api::SyncRequest r;r.battery=100;r.dateCount=1;assert(api::parseDate("2026-10-04",r.dates[0]));return r;}
 void parsing(){
   int64_t value=0;assert(api::parseDate("2024-02-29",value));assert(api::formatDate(value)=="2024-02-29");assert(!api::parseDate("2025-02-29",value));assert(!api::parseDate("2026-13-01",value));
   assert(api::parseTimestamp("2026-10-03T22:31:00.000Z",value));assert(api::formatTimestamp(value)=="2026-10-03T22:31:00Z");assert(!api::parseTimestamp("2026-10-03T24:31:00Z",value));
@@ -36,16 +36,22 @@ void parsing(){
   api::ClaimResponse claim;const char* c=R"({"success":true,"data":{"deviceId":55,"deviceAccessUuid":"7c9e4d21-8b3a-4f60-a1d5-2e8c0b7f3a94"},"error":null})";
   assert(api::parseClaim(c,std::strlen(c),claim)==api::Result::Ok&&claim.deviceId==55);
   std::string body;assert(api::makeClaim("0482913057","YESO-001","0.7.0",body));assert(body.find("\"0482913057\"")!=std::string::npos);assert(!api::makeClaim("482913057","x","x",body));
-  auto request=dates();request.battery=-1;assert(!api::makeSync(request,"x",body));request.battery=70;assert(api::makeSync(request,"0.7.0",body));assert(body.find("\"completions\":[]")!=std::string::npos);
+  auto request=dates();request.battery=-1;assert(!api::makeSync(request,"x",body));request.battery=101;assert(!api::makeSync(request,"x",body));
+  request.battery=100;assert(api::makeSync(request,"0.9.0",body));assert(body.find("\"completions\":[]")!=std::string::npos);
+  JsonDocument outgoing;assert(!deserializeJson(outgoing,body));assert(outgoing["battery"].is<int>()&&outgoing["battery"].as<int>()==100);
 }
 void workflow(){
   auto memory=std::make_unique<Store>();auto controller=std::make_unique<ProductController>(*memory);auto& c=*controller;assert(c.begin()==LoadResult::Empty);
   auto response=std::make_unique<api::SyncResponse>();assert(api::parseSync(sample,sizeof(sample)-1,*response)==api::Result::Ok);auto request=dates();const int64_t now=response->serverTime;
+  assert(api::prepareSync(c.state(),now,100,request));std::string body;assert(api::makeSync(request,"0.9.0",body));
+  JsonDocument outgoing;assert(!deserializeJson(outgoing,body));assert(outgoing["battery"].as<int>()==100&&outgoing["completions"].size()==0);
   c.tick({now,true});assert(c.applySync(*response,request)==api::Result::Ok);const auto initial=c.state().generation;
   assert(c.applySync(*response,request)==api::Result::Ok&&c.state().generation==initial);
   c.tick({now,true});assert(c.view().screen==Screen::Letter);c.input(input::Intent::Confirm,{now,true});assert(c.view().screen==Screen::Routine);
   c.input(input::Intent::Confirm,{now+1,true});c.input(input::Intent::Confirm,{now+2,true});assert(c.state().routines[0].run.earnedRewards==1&&c.state().routines[0].run.completedSteps==2);
-  assert(api::prepareSync(c.state(),now+3,71,request));assert(request.completionCount==1&&request.completions[0].step==901&&request.completions[0].at==now+2);
+  assert(api::prepareSync(c.state(),now+3,100,request));assert(request.completionCount==1&&request.completions[0].step==901&&request.completions[0].at==now+2);
+  assert(api::makeSync(request,"0.9.0",body));assert(!deserializeJson(outgoing,body));
+  assert(outgoing["battery"].as<int>()==100&&outgoing["completions"].size()==1&&outgoing["completions"][0]["smallRoutineId"].as<unsigned>()==901);
   response->accepted=1;response->serverTime=now+3;
   assert(c.applySync(*response,request)==api::Result::Ok&&c.state().routines[0].syncedRewards==0); // Count alone never acknowledges.
   auto& remote=response->routines[0];remote.record.run.remoteCompleted=3;remote.record.run.completedSteps=2;remote.completedAt[0]=now+1;
@@ -58,7 +64,7 @@ void workflow(){
   assert(c.state().routines[0].run.earnedRewards==5&&c.state().routines[0].run.phase==domain::Phase::Completed);
   c.input(input::Intent::Confirm,{now+9,true});c.input(input::Intent::Confirm,{now+10,true});c.input(input::Intent::Confirm,{now+11,true});c.input(input::Intent::Confirm,{now+12,true});
   assert(c.state().routines[0].resultSeen&&c.state().companion.experience[0]==2);
-  assert(api::prepareSync(c.state(),now+13,71,request)&&request.completionCount==1&&request.completions[0].step==903);
+  assert(api::prepareSync(c.state(),now+13,100,request)&&request.completionCount==1&&request.completions[0].step==903);
   remote.record.run.remoteCompleted=7;remote.record.run.completedSteps=3;remote.record.run.phase=domain::Phase::Completed;remote.record.run.version=1;remote.record.run.lastTransitionAt=now+13;remote.record.resultSeen=true;remote.completedAt[2]=now+8;response->serverTime=now+13;
   assert(c.applySync(*response,request)==api::Result::Ok&&c.state().routines[0].syncedRewards==5);
   std::vector<uint8_t> bytes(kSnapshotBytes);const auto length=encodeState(c.state(),bytes.data(),bytes.size());assert(length&&bytes[4]==4);

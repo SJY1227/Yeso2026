@@ -11,6 +11,10 @@
 #include <Preferences.h>
 
 namespace routine::platform {
+namespace {
+// User-approved contest placeholder for the server API; not a battery measurement.
+constexpr int kServerBatteryPercent=100;
+}
 domain::TimeSample ProductRuntime::time() const { return demo_.active()?demo_.time(millis()):domain::TimeSample{clock_.unixSeconds(),clock_.sync().known()}; }
 void ProductRuntime::begin() {
   beginUsbConsole();
@@ -37,6 +41,7 @@ void ProductRuntime::status() {
   Serial.printf("BLE: development=%d active=%d state=%s\n",kBleDevelopment,ble_.active(),ble_.status());
   Serial.printf("Session: demo=%d clock=%s persistence=%s\n",demo_.active(),demo_.active()?"simulated":"system",demo_.active()?"ram":"flash");
   network_.printStatus();
+  Serial.printf("API battery=%d source=contest-placeholder\n",kServerBatteryPercent);
   Serial.printf("Product: generation=%llu revision=%llu runs=%u events=%u screen=%u selection=%u fault=%d\n",
     static_cast<unsigned long long>(product_.state().generation),static_cast<unsigned long long>(product_.state().scheduleRevision),
     unsigned(product_.state().count),unsigned(product_.state().eventCount),unsigned(product_.view().screen),unsigned(product_.view().selected),product_.faulted());
@@ -165,7 +170,7 @@ void ProductRuntime::tick(){
   if(board_.takeSetupRequest()&&!demo_.active()){
     if(ble_.active()){ble_.stop(clock_);resetPresentation();}else setupRequested_=kBleDevelopment;
   }
-  if(!demo_.active())network_.tick(product_,clock_,-1,!ble_.active()&&!setupRequested_&&clock_.setupState()!=provisioning::JoinState::Connecting&&!assets_.active()&&!transfer_.active());
+  if(!demo_.active())network_.tick(product_,clock_,kServerBatteryPercent,!ble_.active()&&!setupRequested_&&clock_.setupState()!=provisioning::JoinState::Connecting&&!assets_.active()&&!transfer_.active());
   if(setupRequested_&&!network_.busy()&&!assets_.active()&&!transfer_.active()&&!demo_.active()&&clock_.setupState()!=provisioning::JoinState::Connecting){
     setupRequested_=false;inputSession_.invalidate();board_.inputContext(0);board_.armButton();motion_.skip();
     if(!ble_.start())Serial.println("BLE ERR start");shownSetupStatus_=nullptr;dirty_=true;
