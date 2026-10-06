@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "481:3752",
+    "type": "RECTANGLE",
+    "name": "감 1",
+    "x": 70,
+    "y": 524,
+    "w": 238,
+    "h": 210,
+    "originals": []
+  },
+  {
+    "id": "481:3753",
+    "type": "RECTANGLE",
+    "name": "바나나 1",
+    "x": 72,
+    "y": 988,
+    "w": 235,
+    "h": 186,
+    "originals": []
+  },
+  {
+    "id": "481:3754",
+    "type": "RECTANGLE",
+    "name": "멜론 1",
+    "x": 56,
+    "y": 1460,
+    "w": 266,
+    "h": 198,
+    "originals": []
+  },
+  {
+    "id": "481:3755",
+    "type": "RECTANGLE",
+    "name": "블루베리 1",
+    "x": 52,
+    "y": 1954,
+    "w": 275,
+    "h": 211,
+    "originals": []
+  },
+  {
+    "id": "481:3756",
+    "type": "RECTANGLE",
+    "name": "핫도그 1",
+    "x": 41,
+    "y": 2442,
+    "w": 296,
+    "h": 233,
+    "originals": []
+  },
+  {
+    "id": "481:3761",
+    "type": "RECTANGLE",
+    "name": "쿠키 1",
+    "x": 894,
+    "y": 2438,
+    "w": 211,
+    "h": 201,
+    "originals": []
+  },
+  {
+    "id": "481:3762",
+    "type": "RECTANGLE",
+    "name": "팬케이크 1",
+    "x": 915,
+    "y": 1974,
+    "w": 220,
+    "h": 197,
+    "originals": []
+  },
+  {
+    "id": "481:3763",
+    "type": "RECTANGLE",
+    "name": "키위 1",
+    "x": 853,
+    "y": 1460,
+    "w": 243,
+    "h": 201,
+    "originals": []
+  },
+  {
+    "id": "481:3764",
+    "type": "RECTANGLE",
+    "name": "레몬 1",
+    "x": 810,
+    "y": 971,
+    "w": 272,
+    "h": 213,
+    "originals": []
+  },
+  {
+    "id": "481:3765",
+    "type": "RECTANGLE",
+    "name": "오렌지 1",
+    "x": 833,
+    "y": 508,
+    "w": 267,
+    "h": 239,
+    "originals": []
+  },
+  {
+    "id": "481:3768",
+    "type": "RECTANGLE",
+    "name": "애플망고 1",
+    "x": 67,
+    "y": 725,
+    "w": 245,
+    "h": 222,
+    "originals": []
+  },
+  {
+    "id": "481:3769",
+    "type": "RECTANGLE",
+    "name": "파인애플 1",
+    "x": 84,
+    "y": 1196,
+    "w": 210,
+    "h": 234,
+    "originals": []
+  },
+  {
+    "id": "481:3770",
+    "type": "RECTANGLE",
+    "name": "옥수수 1",
+    "x": 67,
+    "y": 1701,
+    "w": 244,
+    "h": 253,
+    "originals": []
+  },
+  {
+    "id": "481:3771",
+    "type": "RECTANGLE",
+    "name": "크로아상 1",
+    "x": 68,
+    "y": 2227,
+    "w": 242,
+    "h": 201,
+    "originals": []
+  },
+  {
+    "id": "481:3772",
+    "type": "RECTANGLE",
+    "name": "바닐라 아이스크림 1",
+    "x": 181,
+    "y": 2643,
+    "w": 166.18157958984375,
+    "h": 268.33648681640625,
+    "originals": []
+  },
+  {
+    "id": "481:3776",
+    "type": "RECTANGLE",
+    "name": "초밥 1",
+    "x": 850,
+    "y": 767,
+    "w": 270,
+    "h": 183,
+    "originals": []
+  },
+  {
+    "id": "481:3777",
+    "type": "RECTANGLE",
+    "name": "감자튀김 1",
+    "x": 860,
+    "y": 1195,
+    "w": 222,
+    "h": 245,
+    "originals": []
+  },
+  {
+    "id": "481:3778",
+    "type": "RECTANGLE",
+    "name": "당고 1",
+    "x": 853,
+    "y": 1706,
+    "w": 272,
+    "h": 256,
+    "originals": []
+  },
+  {
+    "id": "481:3779",
+    "type": "RECTANGLE",
+    "name": "빵 1",
+    "x": 867,
+    "y": 2199,
+    "w": 249,
+    "h": 210,
+    "originals": []
+  },
+  {
+    "id": "481:3780",
+    "type": "RECTANGLE",
+    "name": "초코 아이스크림 1",
+    "x": 939.8876953125,
+    "y": 2624,
+    "w": 145.7710418701172,
+    "h": 251.52647399902344,
+    "originals": []
+  },
+  {
+    "id": "481:3767",
+    "type": "RECTANGLE",
+    "name": "석류 1",
+    "x": 60,
+    "y": 291,
+    "w": 256,
+    "h": 214,
+    "originals": []
+  },
+  {
+    "id": "481:3751",
+    "type": "RECTANGLE",
+    "name": "사과 1",
+    "x": 73,
+    "y": 64,
+    "w": 231,
+    "h": 233,
+    "originals": []
+  },
+  {
+    "id": "481:3766",
+    "type": "RECTANGLE",
+    "name": "체리 1",
+    "x": 853,
+    "y": 64,
+    "w": 209,
+    "h": 221,
+    "originals": []
+  },
+  {
+    "id": "481:3775",
+    "type": "RECTANGLE",
+    "name": "용과 1",
+    "x": 868,
+    "y": 277,
+    "w": 257,
+    "h": 229,
+    "originals": []
+  },
+  {
+    "id": "481:3757",
+    "type": "RECTANGLE",
+    "name": "솜사탕 1",
+    "x": 61,
+    "y": 2909,
+    "w": 256,
+    "h": 247,
+    "originals": []
+  },
+  {
+    "id": "481:3758",
+    "type": "RECTANGLE",
+    "name": "딸기케이크 1",
+    "x": 75,
+    "y": 3403,
+    "w": 228,
+    "h": 226,
+    "originals": []
+  },
+  {
+    "id": "481:3759",
+    "type": "RECTANGLE",
+    "name": "김밥 1",
+    "x": 856,
+    "y": 3407,
+    "w": 249,
+    "h": 206,
+    "originals": []
+  },
+  {
+    "id": "481:3760",
+    "type": "RECTANGLE",
+    "name": "복숭아 1",
+    "x": 853,
+    "y": 2902,
+    "w": 227,
+    "h": 205,
+    "originals": []
+  },
+  {
+    "id": "481:3773",
+    "type": "RECTANGLE",
+    "name": "새우 1",
+    "x": 59,
+    "y": 3156,
+    "w": 260,
+    "h": 204,
+    "originals": []
+  },
+  {
+    "id": "481:3774",
+    "type": "RECTANGLE",
+    "name": "무화과 1",
+    "x": 77,
+    "y": 3670,
+    "w": 225,
+    "h": 212,
+    "originals": []
+  },
+  {
+    "id": "481:3781",
+    "type": "RECTANGLE",
+    "name": "버섯 1",
+    "x": 871,
+    "y": 3156,
+    "w": 202,
+    "h": 223,
+    "originals": []
+  },
+  {
+    "id": "481:3845",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 279,
+    "y": 67,
+    "w": 231,
+    "h": 233,
+    "originals": [
+      "사과 2"
+    ]
+  },
+  {
+    "id": "481:3865",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1055,
+    "y": 67,
+    "w": 209,
+    "h": 221,
+    "originals": [
+      "체리 2"
+    ]
+  },
+  {
+    "id": "481:3866",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1068,
+    "y": 272,
+    "w": 257,
+    "h": 229,
+    "originals": [
+      "용과 2"
+    ]
+  },
+  {
+    "id": "481:3867",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1049,
+    "y": 511,
+    "w": 267,
+    "h": 239,
+    "originals": [
+      "오렌지 2"
+    ]
+  },
+  {
+    "id": "481:3868",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1092,
+    "y": 771,
+    "w": 270,
+    "h": 183,
+    "originals": [
+      "초밥 2"
+    ]
+  },
+  {
+    "id": "481:3869",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1062,
+    "y": 974,
+    "w": 272,
+    "h": 213,
+    "originals": [
+      "레몬 2"
+    ]
+  },
+  {
+    "id": "481:3870",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1082,
+    "y": 1195,
+    "w": 222,
+    "h": 245,
+    "originals": [
+      "감자튀김 2"
+    ]
+  },
+  {
+    "id": "481:3871",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1082,
+    "y": 1458,
+    "w": 243,
+    "h": 201,
+    "originals": [
+      "키위 2"
+    ]
+  },
+  {
+    "id": "481:3872",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1053,
+    "y": 1701,
+    "w": 272,
+    "h": 256,
+    "originals": [
+      "당고 2"
+    ]
+  },
+  {
+    "id": "481:3873",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1105,
+    "y": 1974,
+    "w": 220,
+    "h": 197,
+    "originals": [
+      "팬케이크 2"
+    ]
+  },
+  {
+    "id": "481:3874",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1076,
+    "y": 2205,
+    "w": 249,
+    "h": 210,
+    "originals": [
+      "빵 2"
+    ]
+  },
+  {
+    "id": "481:3875",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1114,
+    "y": 2442,
+    "w": 211,
+    "h": 201,
+    "originals": [
+      "쿠키 2"
+    ]
+  },
+  {
+    "id": "481:3876",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1131.814697265625,
+    "y": 2614,
+    "w": 147.38671875,
+    "h": 252.458984375,
+    "originals": [
+      "초코 아이스크림 2"
+    ]
+  },
+  {
+    "id": "481:3877",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1060,
+    "y": 2902,
+    "w": 227,
+    "h": 205,
+    "originals": [
+      "복숭아 2"
+    ]
+  },
+  {
+    "id": "481:3878",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1105,
+    "y": 3144,
+    "w": 202,
+    "h": 223,
+    "originals": [
+      "버섯 2"
+    ]
+  },
+  {
+    "id": "481:3879",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1058,
+    "y": 3408,
+    "w": 249,
+    "h": 206,
+    "originals": [
+      "김밥 2"
+    ]
+  },
+  {
+    "id": "481:3846",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 279,
+    "y": 284,
+    "w": 256,
+    "h": 214,
+    "originals": [
+      "석류 2"
+    ]
+  },
+  {
+    "id": "481:3847",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 272,
+    "y": 525,
+    "w": 238,
+    "h": 210,
+    "originals": [
+      "감 2"
+    ]
+  },
+  {
+    "id": "481:3848",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 290,
+    "y": 725,
+    "w": 245,
+    "h": 222,
+    "originals": [
+      "애플망고 2"
+    ]
+  },
+  {
+    "id": "481:3849",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 259,
+    "y": 985,
+    "w": 235,
+    "h": 186,
+    "originals": [
+      "바나나 2"
+    ]
+  },
+  {
+    "id": "481:3850",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 290,
+    "y": 1199,
+    "w": 210,
+    "h": 234,
+    "originals": [
+      "파인애플 2"
+    ]
+  },
+  {
+    "id": "481:3851",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 307,
+    "y": 1460,
+    "w": 266,
+    "h": 198,
+    "originals": [
+      "멜론 2"
+    ]
+  },
+  {
+    "id": "481:3852",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 294,
+    "y": 1705,
+    "w": 244,
+    "h": 253,
+    "originals": [
+      "옥수수 2"
+    ]
+  },
+  {
+    "id": "481:3853",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 272,
+    "y": 1954,
+    "w": 275,
+    "h": 211,
+    "originals": [
+      "블루베리 2"
+    ]
+  },
+  {
+    "id": "481:3854",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 303,
+    "y": 2227,
+    "w": 242,
+    "h": 201,
+    "originals": [
+      "크로아상 2"
+    ]
+  },
+  {
+    "id": "481:3855",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 266,
+    "y": 2442,
+    "w": 296,
+    "h": 233,
+    "originals": [
+      "핫도그 2"
+    ]
+  },
+  {
+    "id": "481:3860",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 368.85369873046875,
+    "y": 2639,
+    "w": 168.07421875,
+    "h": 269.5048828125,
+    "originals": [
+      "바닐라 아이스크림 2"
+    ]
+  },
+  {
+    "id": "481:3861",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 266,
+    "y": 2911,
+    "w": 256,
+    "h": 247,
+    "originals": [
+      "솜사탕 2"
+    ]
+  },
+  {
+    "id": "481:3862",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 251,
+    "y": 3158,
+    "w": 260,
+    "h": 204,
+    "originals": [
+      "새우 2"
+    ]
+  },
+  {
+    "id": "481:3863",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 280,
+    "y": 3401,
+    "w": 228,
+    "h": 226,
+    "originals": [
+      "딸기케이크 2"
+    ]
+  },
+  {
+    "id": "481:3864",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 283,
+    "y": 3669,
+    "w": 225,
+    "h": 212,
+    "originals": [
+      "무화과 2"
+    ]
+  },
+  {
+    "id": "481:3992",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 483,
+    "y": 70,
+    "w": 231,
+    "h": 233,
+    "originals": [
+      "Subtract",
+      "사과 2"
+    ]
+  },
+  {
+    "id": "481:3993",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 505,
+    "y": 284,
+    "w": 256,
+    "h": 214,
+    "originals": [
+      "Subtract",
+      "석류 2"
+    ]
+  },
+  {
+    "id": "481:3994",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 476,
+    "y": 521,
+    "w": 238,
+    "h": 210,
+    "originals": [
+      "Subtract",
+      "감 2"
+    ]
+  },
+  {
+    "id": "481:3995",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 510,
+    "y": 729,
+    "w": 245,
+    "h": 222,
+    "originals": [
+      "Subtract",
+      "애플망고 2"
+    ]
+  },
+  {
+    "id": "481:3996",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 444,
+    "y": 985,
+    "w": 235,
+    "h": 186,
+    "originals": [
+      "Subtract",
+      "바나나 2"
+    ]
+  },
+  {
+    "id": "481:3997",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 503,
+    "y": 1199,
+    "w": 210,
+    "h": 234,
+    "originals": [
+      "Subtract",
+      "파인애플 2"
+    ]
+  },
+  {
+    "id": "481:3998",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 567,
+    "y": 1466,
+    "w": 266,
+    "h": 198,
+    "originals": [
+      "Subtract",
+      "멜론 2"
+    ]
+  },
+  {
+    "id": "481:3999",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 453,
+    "y": 1702,
+    "w": 244,
+    "h": 253,
+    "originals": [
+      "Subtract",
+      "옥수수 2"
+    ]
+  },
+  {
+    "id": "481:4000",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 490,
+    "y": 1960,
+    "w": 275,
+    "h": 211,
+    "originals": [
+      "Subtract",
+      "블루베리 2"
+    ]
+  },
+  {
+    "id": "481:4001",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 458,
+    "y": 2227,
+    "w": 242,
+    "h": 201,
+    "originals": [
+      "Subtract",
+      "크로아상 2"
+    ]
+  },
+  {
+    "id": "481:4002",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 491,
+    "y": 2444,
+    "w": 296,
+    "h": 233,
+    "originals": [
+      "Subtract",
+      "핫도그 2"
+    ]
+  },
+  {
+    "id": "481:4003",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 561.6521606445312,
+    "y": 2645,
+    "w": 171.845703125,
+    "h": 271.806640625,
+    "originals": [
+      "Subtract",
+      "바닐라 아이스크림 2"
+    ]
+  },
+  {
+    "id": "481:4004",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 440,
+    "y": 2916,
+    "w": 256,
+    "h": 247,
+    "originals": [
+      "Subtract",
+      "솜사탕 2"
+    ]
+  },
+  {
+    "id": "481:4005",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 436,
+    "y": 3158,
+    "w": 260,
+    "h": 204,
+    "originals": [
+      "Subtract",
+      "새우 2"
+    ]
+  },
+  {
+    "id": "481:4006",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 491,
+    "y": 3402,
+    "w": 228,
+    "h": 226,
+    "originals": [
+      "Subtract",
+      "딸기케이크 2"
+    ]
+  },
+  {
+    "id": "481:4007",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 526,
+    "y": 3669,
+    "w": 225,
+    "h": 212,
+    "originals": [
+      "Subtract",
+      "무화과 2"
+    ]
+  },
+  {
+    "id": "481:4023",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1297,
+    "y": 70,
+    "w": 209,
+    "h": 221,
+    "originals": [
+      "Subtract",
+      "체리 2"
+    ]
+  },
+  {
+    "id": "481:4024",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1270,
+    "y": 273,
+    "w": 257,
+    "h": 229,
+    "originals": [
+      "Subtract",
+      "용과 2"
+    ]
+  },
+  {
+    "id": "481:4025",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1281,
+    "y": 516,
+    "w": 267,
+    "h": 239,
+    "originals": [
+      "Subtract",
+      "오렌지 2"
+    ]
+  },
+  {
+    "id": "481:4026",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1333,
+    "y": 776,
+    "w": 270,
+    "h": 183,
+    "originals": [
+      "Subtract",
+      "초밥 2"
+    ]
+  },
+  {
+    "id": "481:4027",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1227,
+    "y": 969,
+    "w": 272,
+    "h": 213,
+    "originals": [
+      "Subtract",
+      "레몬 2"
+    ]
+  },
+  {
+    "id": "481:4028",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1232,
+    "y": 1188,
+    "w": 222,
+    "h": 245,
+    "originals": [
+      "Subtract",
+      "감자튀김 2"
+    ]
+  },
+  {
+    "id": "481:4029",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1265,
+    "y": 1467,
+    "w": 243,
+    "h": 201,
+    "originals": [
+      "Subtract",
+      "키위 2"
+    ]
+  },
+  {
+    "id": "481:4030",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1237,
+    "y": 1710,
+    "w": 272,
+    "h": 256,
+    "originals": [
+      "Subtract",
+      "당고 2"
+    ]
+  },
+  {
+    "id": "481:4031",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1297,
+    "y": 1962,
+    "w": 220,
+    "h": 197,
+    "originals": [
+      "Subtract",
+      "팬케이크 2"
+    ]
+  },
+  {
+    "id": "481:4032",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1247,
+    "y": 2205,
+    "w": 249,
+    "h": 210,
+    "originals": [
+      "Subtract",
+      "빵 2"
+    ]
+  },
+  {
+    "id": "481:4033",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1270,
+    "y": 2437,
+    "w": 211,
+    "h": 201,
+    "originals": [
+      "Subtract",
+      "쿠키 2"
+    ]
+  },
+  {
+    "id": "481:4034",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1336.5479736328125,
+    "y": 2597,
+    "w": 146.234375,
+    "h": 251.7939453125,
+    "originals": [
+      "Subtract",
+      "초코 아이스크림 2"
+    ]
+  },
+  {
+    "id": "481:4035",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1231,
+    "y": 2909,
+    "w": 227,
+    "h": 205,
+    "originals": [
+      "Subtract",
+      "복숭아 2"
+    ]
+  },
+  {
+    "id": "481:4036",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1248,
+    "y": 3144,
+    "w": 202,
+    "h": 223,
+    "originals": [
+      "Subtract",
+      "버섯 2"
+    ]
+  },
+  {
+    "id": "481:4037",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1209,
+    "y": 3401,
+    "w": 249,
+    "h": 206,
+    "originals": [
+      "Subtract",
+      "김밥 2"
+    ]
+  },
+  {
+    "id": "481:4194",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 604,
+    "y": 70,
+    "w": 231,
+    "h": 233,
+    "originals": [
+      "Subtract",
+      "사과 2"
+    ]
+  },
+  {
+    "id": "481:4196",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 606,
+    "y": 271,
+    "w": 256,
+    "h": 214,
+    "originals": [
+      "Subtract",
+      "석류 2"
+    ]
+  },
+  {
+    "id": "481:4198",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 597,
+    "y": 509,
+    "w": 238,
+    "h": 210,
+    "originals": [
+      "Subtract",
+      "감 2"
+    ]
+  },
+  {
+    "id": "481:4200",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 608,
+    "y": 731,
+    "w": 245,
+    "h": 222,
+    "originals": [
+      "Subtract",
+      "애플망고 2"
+    ]
+  },
+  {
+    "id": "481:4202",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 575,
+    "y": 982,
+    "w": 235,
+    "h": 186,
+    "originals": [
+      "Subtract",
+      "바나나 2"
+    ]
+  },
+  {
+    "id": "481:4254",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 650,
+    "y": 1199,
+    "w": 210,
+    "h": 234,
+    "originals": [
+      "Subtract",
+      "파인애플 2"
+    ]
+  },
+  {
+    "id": "481:4253",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 712,
+    "y": 1466,
+    "w": 266,
+    "h": 198,
+    "originals": [
+      "Subtract",
+      "멜론 2"
+    ]
+  },
+  {
+    "id": "481:4252",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 650,
+    "y": 1705,
+    "w": 244,
+    "h": 253,
+    "originals": [
+      "Subtract",
+      "옥수수 2"
+    ]
+  },
+  {
+    "id": "481:4251",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 703,
+    "y": 1943,
+    "w": 275,
+    "h": 211,
+    "originals": [
+      "Subtract",
+      "블루베리 2"
+    ]
+  },
+  {
+    "id": "481:4250",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 639,
+    "y": 2230,
+    "w": 242,
+    "h": 201,
+    "originals": [
+      "Subtract",
+      "크로아상 2"
+    ]
+  },
+  {
+    "id": "481:4249",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 682,
+    "y": 2438,
+    "w": 296,
+    "h": 233,
+    "originals": [
+      "Subtract",
+      "핫도그 2"
+    ]
+  },
+  {
+    "id": "481:4248",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 746.034912109375,
+    "y": 2648,
+    "w": 168.5419921875,
+    "h": 269.7919921875,
+    "originals": [
+      "Subtract",
+      "바닐라 아이스크림 2"
+    ]
+  },
+  {
+    "id": "481:4247",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 600,
+    "y": 2921,
+    "w": 256,
+    "h": 247,
+    "originals": [
+      "Subtract",
+      "솜사탕 2"
+    ]
+  },
+  {
+    "id": "481:4246",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 621,
+    "y": 3158,
+    "w": 260,
+    "h": 204,
+    "originals": [
+      "Subtract",
+      "새우 2"
+    ]
+  },
+  {
+    "id": "481:4245",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 653,
+    "y": 3412,
+    "w": 228,
+    "h": 226,
+    "originals": [
+      "Subtract",
+      "딸기케이크 2"
+    ]
+  },
+  {
+    "id": "481:4244",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 696,
+    "y": 3660,
+    "w": 225,
+    "h": 212,
+    "originals": [
+      "Subtract",
+      "무화과 2"
+    ]
+  },
+  {
+    "id": "481:4243",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1395,
+    "y": 3401,
+    "w": 249,
+    "h": 206,
+    "originals": [
+      "Subtract",
+      "김밥 2"
+    ]
+  },
+  {
+    "id": "481:4242",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1419,
+    "y": 3148,
+    "w": 202,
+    "h": 223,
+    "originals": [
+      "Subtract",
+      "버섯 2"
+    ]
+  },
+  {
+    "id": "481:4241",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1416,
+    "y": 2902,
+    "w": 227,
+    "h": 205,
+    "originals": [
+      "Subtract",
+      "복숭아 2"
+    ]
+  },
+  {
+    "id": "481:4240",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1497.2525634765625,
+    "y": 2614,
+    "w": 149.3291015625,
+    "h": 253.5712890625,
+    "originals": [
+      "Subtract",
+      "초코 아이스크림 2"
+    ]
+  },
+  {
+    "id": "481:4239",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1436,
+    "y": 2426,
+    "w": 211,
+    "h": 201,
+    "originals": [
+      "Subtract",
+      "쿠키 2"
+    ]
+  },
+  {
+    "id": "481:4238",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1419,
+    "y": 2205,
+    "w": 249,
+    "h": 210,
+    "originals": [
+      "Subtract",
+      "빵 2"
+    ]
+  },
+  {
+    "id": "481:4237",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1485,
+    "y": 1952,
+    "w": 220,
+    "h": 197,
+    "originals": [
+      "Subtract",
+      "팬케이크 2"
+    ]
+  },
+  {
+    "id": "481:4236",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1377,
+    "y": 1702,
+    "w": 272,
+    "h": 256,
+    "originals": [
+      "Subtract",
+      "당고 2"
+    ]
+  },
+  {
+    "id": "481:4235",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1429,
+    "y": 1468,
+    "w": 243,
+    "h": 201,
+    "originals": [
+      "Subtract",
+      "키위 2"
+    ]
+  },
+  {
+    "id": "481:4234",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1414,
+    "y": 1184,
+    "w": 222,
+    "h": 245,
+    "originals": [
+      "Subtract",
+      "감자튀김 2"
+    ]
+  },
+  {
+    "id": "481:4233",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1389,
+    "y": 965,
+    "w": 272,
+    "h": 213,
+    "originals": [
+      "Subtract",
+      "레몬 2"
+    ]
+  },
+  {
+    "id": "481:4232",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1435,
+    "y": 760,
+    "w": 270,
+    "h": 183,
+    "originals": [
+      "Subtract",
+      "초밥 2"
+    ]
+  },
+  {
+    "id": "481:4231",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1394,
+    "y": 521,
+    "w": 267,
+    "h": 239,
+    "originals": [
+      "Subtract",
+      "오렌지 2"
+    ]
+  },
+  {
+    "id": "481:4230",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1469,
+    "y": 266,
+    "w": 257,
+    "h": 229,
+    "originals": [
+      "Subtract",
+      "용과 2"
+    ]
+  },
+  {
+    "id": "481:4229",
+    "type": "BOOLEAN_OPERATION",
+    "name": "Subtract",
+    "x": 1521,
+    "y": 63,
+    "w": 209,
+    "h": 221,
+    "originals": [
+      "Subtract",
+      "체리 2"
+    ]
+  }
+]

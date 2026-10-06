@@ -1,0 +1,160 @@
+const imgImage78 = "https://www.figma.com/api/mcp/asset/40fd70e3-9435-4b34-8827-a85201db02d7.png";
+const imgPolygon22 = "https://www.figma.com/api/mcp/asset/fae2987b-a7a8-4290-9c5c-53e99577a97a.svg";
+const imgVector47 = "https://www.figma.com/api/mcp/asset/2057d4c5-0d4d-4ce0-9e72-2c6091a88761.svg";
+const imgVector48 = "https://www.figma.com/api/mcp/asset/47bf72de-fa9f-4987-9e3f-47d1336b8f22.svg";
+const imgVector49 = "https://www.figma.com/api/mcp/asset/666acecb-6b34-4bdf-9462-bdf05504c6fd.svg";
+const imgVector50 = "https://www.figma.com/api/mcp/asset/afa10867-8cef-4517-8743-f10afeadfd42.svg";
+const imgVector51 = "https://www.figma.com/api/mcp/asset/ff27a4c6-1710-4e99-9b4d-f22f1b15400c.svg";
+const imgVector52 = "https://www.figma.com/api/mcp/asset/a087047d-fe34-4690-ac6c-e783fb78628f.svg";
+const imgVector53 = "https://www.figma.com/api/mcp/asset/def89f4d-55d6-44a8-a6d9-27d19399d9b0.svg";
+const imgVector54 = "https://www.figma.com/api/mcp/asset/a9891f45-ba1d-4679-b19c-e42a679a56ab.svg";
+const imgVector55 = "https://www.figma.com/api/mcp/asset/164cb640-c1cf-4129-ae49-6b1c760099d5.svg";
+const imgVector56 = "https://www.figma.com/api/mcp/asset/95a90294-92cb-4308-bb77-24e09854f3e5.svg";
+const imgVector57 = "https://www.figma.com/api/mcp/asset/76a37d0b-f073-4ba3-80a1-b023e30ea21f.svg";
+const imgVector58 = "https://www.figma.com/api/mcp/asset/5bc97c61-aac0-4fe5-a6d4-d86794533d9f.svg";
+const imgVector59 = "https://www.figma.com/api/mcp/asset/81e40945-2378-4d3c-9689-023883987dd4.svg";
+const imgVector60 = "https://www.figma.com/api/mcp/asset/942e9838-fccb-4726-9b1e-fc554e208d69.svg";
+const imgVector61 = "https://www.figma.com/api/mcp/asset/800f131a-17fb-4c19-85f1-e308f41bfb62.svg";
+const imgVector62 = "https://www.figma.com/api/mcp/asset/ed47f223-8c54-4b55-ab44-3aea147891af.svg";
+const imgGroup545 = "https://www.figma.com/api/mcp/asset/4b360aa7-e561-48e5-95a0-10fdfaf85a4c.svg";
+
+export default function Component264() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="102:3246" data-name="264">
+      <div className="absolute left-[-44px] size-[383px] top-[-22px]" data-node-id="322:2907" data-name="image 78">
+        <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgImage78} />
+      </div>
+      <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[120px] left-0 to-[rgba(0,0,0,0.61)] top-[200px] w-[240px]" data-node-id="322:2918" />
+      <div className="absolute bg-[#f6e2ff] h-[229px] left-[20px] top-[52px] w-[202px]" data-node-id="102:3250" />
+      <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[0] left-[120.5px] text-[24px] text-black text-center top-[65px] whitespace-nowrap" data-node-id="102:3251" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        <p className="leading-[normal] mb-0">11:00</p>
+        <p className="leading-[normal]">병원가기 시작!</p>
+      </div>
+      <div className="[word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[0] left-[45px] text-[24px] text-black top-[156px] whitespace-nowrap" data-node-id="102:3252" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        <p className="leading-[normal] mb-0">7번 버스타기</p>
+        <p className="leading-[normal] mb-0">병원도착</p>
+        <p className="leading-[normal]">약국가기</p>
+      </div>
+      <div className="absolute flex h-[34px] items-center justify-center left-[202px] top-[148px] w-[38px]" data-node-id="102:3253">
+        <div className="flex-none rotate-90">
+          <div className="h-[38px] relative w-[34px]">
+            <div className="absolute bottom-1/4 left-[6.7%] right-[6.7%] top-0">
+              <img alt="" className="block max-w-none size-full" src={imgPolygon22} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[34px] items-center justify-center left-[3px] top-[148px] w-[38px]" data-node-id="102:3254">
+        <div className="-scale-y-100 flex-none rotate-90">
+          <div className="h-[38px] relative w-[34px]">
+            <div className="absolute bottom-1/4 left-[6.7%] right-[6.7%] top-0">
+              <img alt="" className="block max-w-none size-full" src={imgPolygon22} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[41.633px] left-[38.98px] top-[33.67px] w-[3.096px]" data-node-id="102:3255">
+        <div className="absolute inset-[-2.4%_-32.3%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector47} />
+        </div>
+      </div>
+      <div className="absolute h-[24.059px] left-[47.21px] top-[40.83px] w-[1.3px]" data-node-id="102:3256">
+        <div className="absolute inset-[-4.16%_-76.94%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector48} />
+        </div>
+      </div>
+      <div className="absolute h-[56.267px] left-[57.13px] top-[32.01px] w-[8.611px]" data-node-id="102:3257">
+        <div className="absolute inset-[-1.78%_-11.61%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector49} />
+        </div>
+      </div>
+      <div className="absolute h-[31.072px] left-[70.16px] top-[39.38px] w-[5.487px]" data-node-id="102:3258">
+        <div className="absolute inset-[-3.22%_-18.23%_-3.22%_-18.22%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector50} />
+        </div>
+      </div>
+      <div className="absolute h-[26.6px] left-[78.82px] top-[41.3px] w-[3.843px]" data-node-id="102:3259">
+        <div className="absolute inset-[-3.76%_-26.03%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector51} />
+        </div>
+      </div>
+      <div className="absolute h-[14.015px] left-[94.31px] top-[47.94px] w-[3.144px]" data-node-id="102:3260">
+        <div className="absolute inset-[-7.14%_-31.81%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector52} />
+        </div>
+      </div>
+      <div className="absolute h-[16.744px] left-[106.36px] top-[46.08px] w-[3.915px]" data-node-id="102:3261">
+        <div className="absolute inset-[-5.97%_-25.54%_-5.97%_-25.55%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector53} />
+        </div>
+      </div>
+      <div className="absolute h-[23.624px] left-[116.76px] top-[38.71px] w-[3.696px]" data-node-id="102:3262">
+        <div className="absolute inset-[-4.23%_-27.07%_-4.23%_-27.06%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector54} />
+        </div>
+      </div>
+      <div className="absolute h-[29.891px] left-[127.71px] top-[36.37px] w-[2.445px]" data-node-id="102:3263">
+        <div className="absolute inset-[-3.35%_-40.9%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector55} />
+        </div>
+      </div>
+      <div className="absolute h-[29.751px] left-[135.08px] top-[39.4px] w-[4.571px]" data-node-id="102:3264">
+        <div className="absolute inset-[-3.36%_-21.88%_-3.36%_-21.87%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector56} />
+        </div>
+      </div>
+      <div className="absolute h-[35.172px] left-[146.46px] top-[47.18px] w-[5.003px]" data-node-id="102:3265">
+        <div className="absolute inset-[-2.84%_-19.99%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector57} />
+        </div>
+      </div>
+      <div className="absolute h-[57.897px] left-[157.12px] top-[42.16px] w-[6.341px]" data-node-id="102:3266">
+        <div className="absolute inset-[-1.73%_-15.77%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector58} />
+        </div>
+      </div>
+      <div className="absolute h-[22.852px] left-[167.25px] top-[52.2px] w-[4.374px]" data-node-id="102:3267">
+        <div className="absolute inset-[-4.38%_-22.87%_-4.38%_-22.86%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector59} />
+        </div>
+      </div>
+      <div className="absolute h-[30.857px] left-[177.43px] top-[46.08px] w-[1.293px]" data-node-id="102:3268">
+        <div className="absolute inset-[-3.24%_-77.36%_-3.24%_-77.37%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector60} />
+        </div>
+      </div>
+      <div className="absolute h-[11.471px] left-[189.57px] top-[53.32px] w-0" data-node-id="102:3269">
+        <div className="absolute inset-[-8.72%_-1px]">
+          <img alt="" className="block max-w-none size-full" src={imgVector61} />
+        </div>
+      </div>
+      <div className="absolute h-[19.023px] left-[193.44px] top-[46.3px] w-[4.262px]" data-node-id="102:3270">
+        <div className="absolute inset-[-5.26%_-23.47%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector62} />
+        </div>
+      </div>
+      <div className="absolute bg-[#2f2f2f] h-[39px] left-[136px] rounded-[19.5px] top-[272px] w-[86px]" data-node-id="102:3271" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[178px] text-[20px] text-center text-white top-[278px] whitespace-nowrap" data-node-id="102:3272" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        나가기
+      </p>
+      <div className="absolute h-[27px] left-0 top-0 w-[240px]" data-node-id="318:2144">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup545} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:SemiBold'] font-semibold leading-[normal] left-[8px] text-[16px] text-white top-[3px] whitespace-nowrap" data-node-id="413:2063" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+        AM 9:10
+      </p>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

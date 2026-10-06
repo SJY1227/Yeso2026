@@ -1,0 +1,282 @@
+콘텐츠로 건너뛰기
+Notion 계정이 있는 모든 사용자가 이 페이지를 편집할 수 있습니다.
+편집하려면 가입 또는 로그인하세요.
+예소 개발자용
+/
+ERD초안
+ERD초안
+새 페이지
+2. 캐릭터 · 커뮤니티
+전체 테이블 요약
+테이블
+	
+도메인
+	
+역할
+	
+soft delete
+
+
+USERS
+	
+계정
+	
+보호자 계정, 이메일 · 비밀번호 로그인, 앱 인증용 access_uuid
+	
+​
+
+
+CHILDREN
+	
+계정
+	
+자녀 프로필, 보호자와의 관계
+	
+​
+
+
+DEVICES
+	
+기기
+	
+페어링 상태, 기기 인증용 device_access_uuid, 배터리, 펌웨어
+	
+​
+
+
+ROUTINE_TEMPLATES
+	
+루틴
+	
+저장해둔 루틴 양식. 꺼내 쓰면 값이 복사됨(자동 생성 없음)
+	
+​
+
+
+BIG_ROUTINES
+	
+루틴
+	
+날짜별 루틴. 반복 생성 시 series_id 로 묶임
+	
+​
+
+
+SMALL_ROUTINES
+	
+루틴
+	
+빅루틴 내부 할 일, 완료 상태
+	
+​
+
+
+CHARACTERS
+	
+캐릭터
+	
+캐릭터 마스터(도감)
+	
+is_active
+
+
+CHILD_CHARACTERS
+	
+캐릭터
+	
+자녀 보유 캐릭터, 레벨 · 경험치
+	
+-
+
+
+POSTS · COMMENTS · POST_LIKES
+	
+커뮤니티
+	
+ 구현 제외(정의만 유지)
+	
+ /  / -
+제약조건 · 인덱스
+대상
+	
+제약조건 / 인덱스
+	
+근거
+
+
+USERS
+	
+unique(email) where deleted_at is null
+	
+이메일이 로그인 식별자. 탈퇴한 행은 제약에서 빠져 같은 이메일로 재가입 가능
+
+
+USERS
+	
+unique(access_uuid)  • index(access_uuid)
+	
+모든 인증 요청이 이 컬럼으로 조회
+
+
+USERS
+	
+unique(provider, provider_user_id)
+	
+소셜 로그인 재도입 대비로 유지. 현재 두 컬럼 모두 비어 있음
+
+
+DEVICES
+	
+unique(device_uid) where deleted_at is null
+	
+해제 후 재페어링 시 과거 행과 충돌 방지. device_uid 는 claim 전 NULL
+
+
+DEVICES
+	
+unique(pairing_code) where status = 'PENDING'
+	
+claim 이 코드로 단일 행을 특정해야 함
+
+
+DEVICES
+	
+unique(device_access_uuid) where deleted_at is null
+	
+기기 인증의 식별자
+
+
+DEVICES
+	
+index(child_id, deleted_at)
+	
+자녀 기기 목록 조회. child_id 단독 유니크는 제거(1:N)
+
+
+BIG_ROUTINES
+	
+index(child_id, routine_date)
+	
+날짜별 · 캘린더 조회, 통계 기간 필터
+
+
+BIG_ROUTINES / SMALL_ROUTINES
+	
+index(series_id)
+	
+미션별 이행률 집계
+
+
+SMALL_ROUTINES
+	
+index(big_routine_id, sort_order)
+	
+순서 정렬 조회
+
+
+POST_LIKES
+	
+unique(post_id, user_id)
+	
+좋아요 중복 방지 (구현 제외)
+행 잠금 (확정 2026-09-10)
+유니크 제약은 "세고 나서 넣는" 동작을 막지 못합니다(넣는 값 자체는 중복이 아니기 때문). 아래 동작은 윗단 행을 잠그고(앞의 요청이 끝날 때까지 다른 요청을 기다리게 하고) 일합니다.
+동작
+	
+잠그는 행
+	
+잠그지 않으면
+
+
+기기 동기화 POST /device-api/v1/sync
+	
+CHILDREN
+	
+같은 완료 기록이 두 번 "새 완료"로 세어져 exp 가 두 번 오르고 첫 캐릭터가 두 마리 지급됨
+
+
+할 일 추가 · 순서 변경
+	
+CHILDREN
+	
+두 할 일이 같은 sort_order 를 받아 같은 series_id 를 가짐(미션별 통계가 한 줄로 합쳐짐)
+
+
+페어링 시작 POST /devices/pairing
+	
+CHILDREN
+	
+자녀당 10대 상한을 둘 다 통과해 11대가 붙음
+
+
+자녀 등록 POST /children
+	
+USERS
+	
+보호자당 10명 상한을 둘 다 통과해 11명이 등록됨
+
+
+기기 claim POST /device-api/v1/claim
+	
+DEVICES (코드로 찾은 행)
+	
+두 기기가 같은 코드로 각각 신분증을 발급받고 나중 것만 저장됨
+잠그는 순서는 항상 위에서 아래(USERS → CHILDREN → 그 아래)입니다. 엇갈리면 교착 상태가 되어 사용자에게는 500 으로 보입니다.
+API 와 대조하며 정리된 결정
+주제
+	
+결정
+
+
+루틴 반복 생성 (2026-09-09, 이전 "제외" 결정을 번복)
+	
+빅루틴이 처리. RANGE · WEEKLY · DATES 3종, 배타 선택, 즉시 생성(지연 생성 없음). 반복 모드는 저장하지 않으므로 컬럼이 늘지 않음. DATES 최대 12개. RANGE 기간 상한은 미확정(설정값)
+
+
+수정 · 삭제 범위
+	
+같은 series_id 전체, 단 오늘(KST)보다 이전 날짜 제외. 수정 기본 series, 삭제 기본 single. 과거에 할 일을 더하면 지난 날의 이행률 분모가 커져 성적이 떨어지므로 과거에는 추가하지 않음
+
+
+타임존
+	
+서버 UTC 저장(timestamptz), time 컬럼은 KST 벽시계 시각. 앱 · 기기가 KST 로 변환. "오늘"은 KST 로 계산(UTC 로 계산하면 한국 00~09시에만 실패하는 버그가 생김)
+
+
+CHILDREN.relationship
+	
+애플리케이션 열거형 PARENT · ADMIN. DB check 제약 없음
+
+
+회원 탈퇴 cascade (2026-09-10)
+	
+자녀 · 기기(페어링 해제 + device_access_uuid 무효화) · 빅/스몰루틴 · 양식을 함께 soft delete. CHILD_CHARACTERS 는 그대로(조회 경로가 막힘). 한 트랜잭션
+
+
+캐릭터 획득 · 진화 (2026-09-10)
+	
+이 ERD 의 "2. 캐릭터 · 커뮤니티" 하위 페이지 참고
+
+
+커뮤니티
+	
+ 구현 제외. 댓글 삭제 표현 · 카운터 갱신 시점 이슈도 함께 종료
+미확정 항목
+영역
+	
+내용
+
+
+루틴
+	
+RANGE 모드 기간 길이 상한 (설정값으로 주입). 캘린더 from~to 최대 범위(31일 제안)
+
+
+기기
+	
+만료 PENDING 행 정리 배치 주기
+
+
+기기
+	
+페어링 완료 폴링 주기 (타임아웃 10분은 확정)

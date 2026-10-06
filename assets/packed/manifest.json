@@ -1,0 +1,4354 @@
+{
+  "schema": 1,
+  "payloadBytes": 7182072,
+  "bytes": 7182088,
+  "crc32": "dad8398c",
+  "sha256": "cd2d255aa1f769a21264bd56ded587c2752ca06adaf0140a70c6ebf52288f4a7",
+  "entries": [
+    {
+      "name": "pinkBase",
+      "offset": 0,
+      "size": 67038,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "darkBase",
+      "offset": 67038,
+      "size": 50101,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "letterImage",
+      "offset": 117139,
+      "size": 72131,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "routineImage",
+      "offset": 189270,
+      "size": 20931,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "catalogImage",
+      "offset": 210201,
+      "size": 23348,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "cryImage",
+      "offset": 233549,
+      "size": 26535,
+      "box": [
+        48,
+        100,
+        199,
+        259
+      ]
+    },
+    {
+      "name": "blueberryImage",
+      "offset": 260084,
+      "size": 7397,
+      "box": [
+        77,
+        188,
+        166,
+        260
+      ]
+    },
+    {
+      "name": "characterArt0",
+      "offset": 267481,
+      "size": 13212,
+      "box": [
+        68,
+        157,
+        184,
+        253
+      ]
+    },
+    {
+      "name": "characterArt1",
+      "offset": 280693,
+      "size": 25009,
+      "box": [
+        47,
+        114,
+        199,
+        273
+      ]
+    },
+    {
+      "name": "characterArt2",
+      "offset": 305702,
+      "size": 29073,
+      "box": [
+        61,
+        103,
+        189,
+        271
+      ]
+    },
+    {
+      "name": "characterArt3",
+      "offset": 334775,
+      "size": 8765,
+      "box": [
+        71,
+        141,
+        163,
+        224
+      ]
+    },
+    {
+      "name": "characterArt4",
+      "offset": 343540,
+      "size": 21787,
+      "box": [
+        57,
+        113,
+        177,
+        258
+      ]
+    },
+    {
+      "name": "characterArt5",
+      "offset": 365327,
+      "size": 28470,
+      "box": [
+        54,
+        102,
+        183,
+        267
+      ]
+    },
+    {
+      "name": "characterArt6",
+      "offset": 393797,
+      "size": 9859,
+      "box": [
+        67,
+        152,
+        167,
+        252
+      ]
+    },
+    {
+      "name": "characterArt7",
+      "offset": 403656,
+      "size": 17471,
+      "box": [
+        54,
+        112,
+        184,
+        258
+      ]
+    },
+    {
+      "name": "characterArt8",
+      "offset": 421127,
+      "size": 18310,
+      "box": [
+        58,
+        94,
+        185,
+        259
+      ]
+    },
+    {
+      "name": "characterArt9",
+      "offset": 439437,
+      "size": 10507,
+      "box": [
+        64,
+        153,
+        167,
+        245
+      ]
+    },
+    {
+      "name": "characterArt10",
+      "offset": 449944,
+      "size": 18749,
+      "box": [
+        62,
+        125,
+        176,
+        255
+      ]
+    },
+    {
+      "name": "characterArt11",
+      "offset": 468693,
+      "size": 22834,
+      "box": [
+        60,
+        98,
+        179,
+        257
+      ]
+    },
+    {
+      "name": "characterArt12",
+      "offset": 491527,
+      "size": 13304,
+      "box": [
+        75,
+        133,
+        166,
+        253
+      ]
+    },
+    {
+      "name": "characterArt13",
+      "offset": 504831,
+      "size": 19754,
+      "box": [
+        61,
+        119,
+        192,
+        258
+      ]
+    },
+    {
+      "name": "characterArt14",
+      "offset": 524585,
+      "size": 23637,
+      "box": [
+        65,
+        87,
+        186,
+        258
+      ]
+    },
+    {
+      "name": "characterArt15",
+      "offset": 548222,
+      "size": 13363,
+      "box": [
+        51,
+        139,
+        193,
+        246
+      ]
+    },
+    {
+      "name": "characterArt16",
+      "offset": 561585,
+      "size": 19247,
+      "box": [
+        54,
+        122,
+        195,
+        254
+      ]
+    },
+    {
+      "name": "characterArt17",
+      "offset": 580832,
+      "size": 16630,
+      "box": [
+        60,
+        94,
+        181,
+        254
+      ]
+    },
+    {
+      "name": "characterArt18",
+      "offset": 597462,
+      "size": 8883,
+      "box": [
+        58,
+        146,
+        183,
+        239
+      ]
+    },
+    {
+      "name": "characterArt19",
+      "offset": 606345,
+      "size": 14375,
+      "box": [
+        69,
+        112,
+        173,
+        255
+      ]
+    },
+    {
+      "name": "characterArt20",
+      "offset": 620720,
+      "size": 15159,
+      "box": [
+        60,
+        111,
+        184,
+        243
+      ]
+    },
+    {
+      "name": "characterArt21",
+      "offset": 635879,
+      "size": 14648,
+      "box": [
+        71,
+        132,
+        159,
+        250
+      ]
+    },
+    {
+      "name": "characterArt22",
+      "offset": 650527,
+      "size": 19364,
+      "box": [
+        54,
+        114,
+        181,
+        254
+      ]
+    },
+    {
+      "name": "characterArt23",
+      "offset": 669891,
+      "size": 20704,
+      "box": [
+        68,
+        94,
+        172,
+        258
+      ]
+    },
+    {
+      "name": "characterArt24",
+      "offset": 690595,
+      "size": 11899,
+      "box": [
+        69,
+        139,
+        174,
+        254
+      ]
+    },
+    {
+      "name": "characterArt25",
+      "offset": 702494,
+      "size": 16522,
+      "box": [
+        63,
+        107,
+        181,
+        258
+      ]
+    },
+    {
+      "name": "characterArt26",
+      "offset": 719016,
+      "size": 15915,
+      "box": [
+        67,
+        85,
+        173,
+        261
+      ]
+    },
+    {
+      "name": "characterArt27",
+      "offset": 734931,
+      "size": 9248,
+      "box": [
+        85,
+        140,
+        160,
+        255
+      ]
+    },
+    {
+      "name": "characterArt28",
+      "offset": 744179,
+      "size": 15952,
+      "box": [
+        60,
+        106,
+        173,
+        259
+      ]
+    },
+    {
+      "name": "characterArt29",
+      "offset": 760131,
+      "size": 19983,
+      "box": [
+        47,
+        90,
+        189,
+        256
+      ]
+    },
+    {
+      "name": "lockedCharacterArt0",
+      "offset": 780114,
+      "size": 7242,
+      "box": [
+        68,
+        157,
+        184,
+        253
+      ]
+    },
+    {
+      "name": "lockedCharacterArt1",
+      "offset": 787356,
+      "size": 13346,
+      "box": [
+        47,
+        114,
+        199,
+        273
+      ]
+    },
+    {
+      "name": "lockedCharacterArt2",
+      "offset": 800702,
+      "size": 13367,
+      "box": [
+        61,
+        103,
+        189,
+        271
+      ]
+    },
+    {
+      "name": "lockedCharacterArt3",
+      "offset": 814069,
+      "size": 4422,
+      "box": [
+        71,
+        141,
+        163,
+        224
+      ]
+    },
+    {
+      "name": "lockedCharacterArt4",
+      "offset": 818491,
+      "size": 9532,
+      "box": [
+        57,
+        113,
+        177,
+        258
+      ]
+    },
+    {
+      "name": "lockedCharacterArt5",
+      "offset": 828023,
+      "size": 12734,
+      "box": [
+        54,
+        102,
+        183,
+        267
+      ]
+    },
+    {
+      "name": "lockedCharacterArt8",
+      "offset": 840757,
+      "size": 10601,
+      "box": [
+        53,
+        85,
+        194,
+        269
+      ]
+    },
+    {
+      "name": "lockedCharacterArt11",
+      "offset": 851358,
+      "size": 11301,
+      "box": [
+        54,
+        92,
+        184,
+        266
+      ]
+    },
+    {
+      "name": "lockedCharacterArt14",
+      "offset": 862659,
+      "size": 12824,
+      "box": [
+        61,
+        83,
+        192,
+        268
+      ]
+    },
+    {
+      "name": "lockedCharacterArt17",
+      "offset": 875483,
+      "size": 8684,
+      "box": [
+        54,
+        92,
+        186,
+        267
+      ]
+    },
+    {
+      "name": "lockedCharacterArt20",
+      "offset": 884167,
+      "size": 9076,
+      "box": [
+        49,
+        108,
+        192,
+        262
+      ]
+    },
+    {
+      "name": "lockedCharacterArt23",
+      "offset": 893243,
+      "size": 9933,
+      "box": [
+        70,
+        97,
+        178,
+        265
+      ]
+    },
+    {
+      "name": "lockedCharacterArt26",
+      "offset": 903176,
+      "size": 8392,
+      "box": [
+        71,
+        92,
+        175,
+        268
+      ]
+    },
+    {
+      "name": "lockedCharacterArt29",
+      "offset": 911568,
+      "size": 9908,
+      "box": [
+        43,
+        90,
+        193,
+        267
+      ]
+    },
+    {
+      "name": "foodArt0",
+      "offset": 921476,
+      "size": 14165,
+      "box": [
+        54,
+        117,
+        187,
+        255
+      ]
+    },
+    {
+      "name": "foodArt1",
+      "offset": 935641,
+      "size": 17621,
+      "box": [
+        51,
+        133,
+        193,
+        253
+      ]
+    },
+    {
+      "name": "foodArt2",
+      "offset": 953262,
+      "size": 13734,
+      "box": [
+        57,
+        137,
+        187,
+        247
+      ]
+    },
+    {
+      "name": "foodArt3",
+      "offset": 966996,
+      "size": 26521,
+      "box": [
+        35,
+        126,
+        209,
+        260
+      ]
+    },
+    {
+      "name": "foodArt4",
+      "offset": 993517,
+      "size": 18053,
+      "box": [
+        34,
+        123,
+        196,
+        254
+      ]
+    },
+    {
+      "name": "foodArt5",
+      "offset": 1011570,
+      "size": 20893,
+      "box": [
+        41,
+        122,
+        203,
+        261
+      ]
+    },
+    {
+      "name": "foodArt6",
+      "offset": 1032463,
+      "size": 15782,
+      "box": [
+        39,
+        118,
+        171,
+        273
+      ]
+    },
+    {
+      "name": "foodArt7",
+      "offset": 1048245,
+      "size": 19580,
+      "box": [
+        52,
+        120,
+        189,
+        265
+      ]
+    },
+    {
+      "name": "foodArt8",
+      "offset": 1067825,
+      "size": 16862,
+      "box": [
+        57,
+        121,
+        175,
+        256
+      ]
+    },
+    {
+      "name": "foodArt9",
+      "offset": 1084687,
+      "size": 24100,
+      "box": [
+        36,
+        116,
+        191,
+        265
+      ]
+    },
+    {
+      "name": "foodArt10",
+      "offset": 1108787,
+      "size": 19194,
+      "box": [
+        46,
+        137,
+        200,
+        259
+      ]
+    },
+    {
+      "name": "foodArt11",
+      "offset": 1127981,
+      "size": 19667,
+      "box": [
+        43,
+        138,
+        194,
+        263
+      ]
+    },
+    {
+      "name": "foodArt12",
+      "offset": 1147648,
+      "size": 19434,
+      "box": [
+        51,
+        133,
+        181,
+        253
+      ]
+    },
+    {
+      "name": "foodArt13",
+      "offset": 1167082,
+      "size": 13936,
+      "box": [
+        52,
+        137,
+        184,
+        256
+      ]
+    },
+    {
+      "name": "foodArt14",
+      "offset": 1181018,
+      "size": 16192,
+      "box": [
+        55,
+        142,
+        194,
+        259
+      ]
+    },
+    {
+      "name": "foodArt15",
+      "offset": 1197210,
+      "size": 13274,
+      "box": [
+        60,
+        146,
+        181,
+        254
+      ]
+    },
+    {
+      "name": "foodArt16",
+      "offset": 1210484,
+      "size": 26110,
+      "box": [
+        42,
+        130,
+        196,
+        267
+      ]
+    },
+    {
+      "name": "foodArt17",
+      "offset": 1236594,
+      "size": 22929,
+      "box": [
+        47,
+        131,
+        193,
+        264
+      ]
+    },
+    {
+      "name": "foodArt18",
+      "offset": 1259523,
+      "size": 25095,
+      "box": [
+        54,
+        117,
+        190,
+        269
+      ]
+    },
+    {
+      "name": "foodArt19",
+      "offset": 1284618,
+      "size": 22679,
+      "box": [
+        59,
+        124,
+        191,
+        269
+      ]
+    },
+    {
+      "name": "foodArt20",
+      "offset": 1307297,
+      "size": 18334,
+      "box": [
+        44,
+        144,
+        200,
+        262
+      ]
+    },
+    {
+      "name": "foodArt21",
+      "offset": 1325631,
+      "size": 15551,
+      "box": [
+        74,
+        111,
+        169,
+        267
+      ]
+    },
+    {
+      "name": "foodArt22",
+      "offset": 1341182,
+      "size": 20213,
+      "box": [
+        38,
+        129,
+        182,
+        253
+      ]
+    },
+    {
+      "name": "foodArt23",
+      "offset": 1361395,
+      "size": 19343,
+      "box": [
+        48,
+        124,
+        188,
+        253
+      ]
+    },
+    {
+      "name": "foodArt24",
+      "offset": 1380738,
+      "size": 26958,
+      "box": [
+        47,
+        107,
+        192,
+        253
+      ]
+    },
+    {
+      "name": "foodArt25",
+      "offset": 1407696,
+      "size": 17565,
+      "box": [
+        34,
+        139,
+        201,
+        248
+      ]
+    },
+    {
+      "name": "foodArt26",
+      "offset": 1425261,
+      "size": 20176,
+      "box": [
+        57,
+        116,
+        182,
+        267
+      ]
+    },
+    {
+      "name": "foodArt27",
+      "offset": 1445437,
+      "size": 15972,
+      "box": [
+        41,
+        116,
+        193,
+        269
+      ]
+    },
+    {
+      "name": "foodArt28",
+      "offset": 1461409,
+      "size": 17677,
+      "box": [
+        48,
+        136,
+        196,
+        254
+      ]
+    },
+    {
+      "name": "foodArt29",
+      "offset": 1479086,
+      "size": 14595,
+      "box": [
+        65,
+        119,
+        170,
+        263
+      ]
+    },
+    {
+      "name": "foodArt30",
+      "offset": 1493681,
+      "size": 14531,
+      "box": [
+        61,
+        126,
+        185,
+        261
+      ]
+    },
+    {
+      "name": "catalogArrows",
+      "offset": 1508212,
+      "size": 1411,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "catalogPinkBar",
+      "offset": 1509623,
+      "size": 853,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "catalogDarkBar",
+      "offset": 1510476,
+      "size": 1096,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "catalogLock",
+      "offset": 1511572,
+      "size": 653,
+      "box": [
+        117,
+        276,
+        137,
+        301
+      ]
+    },
+    {
+      "name": "themetopbar0",
+      "offset": 1512225,
+      "size": 853,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows0",
+      "offset": 1513078,
+      "size": 1411,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground0",
+      "offset": 1514489,
+      "size": 74107,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase0",
+      "offset": 1588596,
+      "size": 2143,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper0",
+      "offset": 1590739,
+      "size": 4321,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar1",
+      "offset": 1595060,
+      "size": 1096,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows1",
+      "offset": 1596156,
+      "size": 1411,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground1",
+      "offset": 1597567,
+      "size": 42727,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase1",
+      "offset": 1640294,
+      "size": 2022,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper1",
+      "offset": 1642316,
+      "size": 4295,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar2",
+      "offset": 1646611,
+      "size": 889,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows2",
+      "offset": 1647500,
+      "size": 1379,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground2",
+      "offset": 1648879,
+      "size": 89428,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase2",
+      "offset": 1738307,
+      "size": 2070,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper2",
+      "offset": 1740377,
+      "size": 4240,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar3",
+      "offset": 1744617,
+      "size": 950,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows3",
+      "offset": 1745567,
+      "size": 1379,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground3",
+      "offset": 1746946,
+      "size": 85214,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase3",
+      "offset": 1832160,
+      "size": 2077,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper3",
+      "offset": 1834237,
+      "size": 4164,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar4",
+      "offset": 1838401,
+      "size": 906,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows4",
+      "offset": 1839307,
+      "size": 1355,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground4",
+      "offset": 1840662,
+      "size": 99587,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase4",
+      "offset": 1940249,
+      "size": 2273,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper4",
+      "offset": 1942522,
+      "size": 4366,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar5",
+      "offset": 1946888,
+      "size": 937,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows5",
+      "offset": 1947825,
+      "size": 1425,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground5",
+      "offset": 1949250,
+      "size": 87932,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase5",
+      "offset": 2037182,
+      "size": 2204,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper5",
+      "offset": 2039386,
+      "size": 4320,
+      "box": [
+        8,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar6",
+      "offset": 2043706,
+      "size": 905,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows6",
+      "offset": 2044611,
+      "size": 1475,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground6",
+      "offset": 2046086,
+      "size": 103644,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase6",
+      "offset": 2149730,
+      "size": 2135,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper6",
+      "offset": 2151865,
+      "size": 4328,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar7",
+      "offset": 2156193,
+      "size": 851,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows7",
+      "offset": 2157044,
+      "size": 1467,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground7",
+      "offset": 2158511,
+      "size": 89235,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase7",
+      "offset": 2247746,
+      "size": 2124,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper7",
+      "offset": 2249870,
+      "size": 4364,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar8",
+      "offset": 2254234,
+      "size": 924,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows8",
+      "offset": 2255158,
+      "size": 1492,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground8",
+      "offset": 2256650,
+      "size": 85656,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase8",
+      "offset": 2342306,
+      "size": 1847,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper8",
+      "offset": 2344153,
+      "size": 4328,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "themetopbar9",
+      "offset": 2348481,
+      "size": 998,
+      "box": [
+        0,
+        0,
+        240,
+        30
+      ]
+    },
+    {
+      "name": "themearrows9",
+      "offset": 2349479,
+      "size": 1488,
+      "box": [
+        1,
+        193,
+        240,
+        227
+      ]
+    },
+    {
+      "name": "themebackground9",
+      "offset": 2350967,
+      "size": 101680,
+      "box": [
+        0,
+        0,
+        240,
+        320
+      ]
+    },
+    {
+      "name": "themehomebase9",
+      "offset": 2452647,
+      "size": 2171,
+      "box": [
+        13,
+        40,
+        226,
+        106
+      ]
+    },
+    {
+      "name": "themepaper9",
+      "offset": 2454818,
+      "size": 4242,
+      "box": [
+        9,
+        49,
+        236,
+        320
+      ]
+    },
+    {
+      "name": "homecharacter0",
+      "offset": 2459060,
+      "size": 17467,
+      "box": [
+        50,
+        148,
+        190,
+        268
+      ]
+    },
+    {
+      "name": "homecharacter1",
+      "offset": 2476527,
+      "size": 23031,
+      "box": [
+        44,
+        112,
+        198,
+        274
+      ]
+    },
+    {
+      "name": "homecharacter2",
+      "offset": 2499558,
+      "size": 30325,
+      "box": [
+        51,
+        99,
+        187,
+        279
+      ]
+    },
+    {
+      "name": "homecharacter3",
+      "offset": 2529883,
+      "size": 16029,
+      "box": [
+        50,
+        134,
+        192,
+        267
+      ]
+    },
+    {
+      "name": "homecharacter4",
+      "offset": 2545912,
+      "size": 21889,
+      "box": [
+        57,
+        115,
+        185,
+        271
+      ]
+    },
+    {
+      "name": "homecharacter5",
+      "offset": 2567801,
+      "size": 35280,
+      "box": [
+        46,
+        90,
+        193,
+        280
+      ]
+    },
+    {
+      "name": "homecharacter6",
+      "offset": 2603081,
+      "size": 13241,
+      "box": [
+        57,
+        151,
+        175,
+        270
+      ]
+    },
+    {
+      "name": "homecharacter7",
+      "offset": 2616322,
+      "size": 22531,
+      "box": [
+        43,
+        108,
+        195,
+        277
+      ]
+    },
+    {
+      "name": "homecharacter8",
+      "offset": 2638853,
+      "size": 21183,
+      "box": [
+        53,
+        97,
+        191,
+        279
+      ]
+    },
+    {
+      "name": "homecharacter9",
+      "offset": 2660036,
+      "size": 12767,
+      "box": [
+        57,
+        159,
+        173,
+        263
+      ]
+    },
+    {
+      "name": "homecharacter10",
+      "offset": 2672803,
+      "size": 23842,
+      "box": [
+        53,
+        124,
+        185,
+        274
+      ]
+    },
+    {
+      "name": "homecharacter11",
+      "offset": 2696645,
+      "size": 26169,
+      "box": [
+        54,
+        102,
+        184,
+        277
+      ]
+    },
+    {
+      "name": "homecharacter12",
+      "offset": 2722814,
+      "size": 18103,
+      "box": [
+        67,
+        129,
+        175,
+        272
+      ]
+    },
+    {
+      "name": "homecharacter13",
+      "offset": 2740917,
+      "size": 25373,
+      "box": [
+        54,
+        116,
+        203,
+        278
+      ]
+    },
+    {
+      "name": "homecharacter14",
+      "offset": 2766290,
+      "size": 27590,
+      "box": [
+        60,
+        90,
+        192,
+        277
+      ]
+    },
+    {
+      "name": "homecharacter15",
+      "offset": 2793880,
+      "size": 18069,
+      "box": [
+        38,
+        135,
+        207,
+        263
+      ]
+    },
+    {
+      "name": "homecharacter16",
+      "offset": 2811949,
+      "size": 22106,
+      "box": [
+        50,
+        131,
+        202,
+        274
+      ]
+    },
+    {
+      "name": "homecharacter17",
+      "offset": 2834055,
+      "size": 19190,
+      "box": [
+        55,
+        98,
+        187,
+        273
+      ]
+    },
+    {
+      "name": "homecharacter18",
+      "offset": 2853245,
+      "size": 11810,
+      "box": [
+        46,
+        144,
+        195,
+        255
+      ]
+    },
+    {
+      "name": "homecharacter19",
+      "offset": 2865055,
+      "size": 18485,
+      "box": [
+        61,
+        108,
+        181,
+        274
+      ]
+    },
+    {
+      "name": "homecharacter20",
+      "offset": 2883540,
+      "size": 17217,
+      "box": [
+        56,
+        118,
+        189,
+        262
+      ]
+    },
+    {
+      "name": "homecharacter21",
+      "offset": 2900757,
+      "size": 19631,
+      "box": [
+        62,
+        128,
+        166,
+        268
+      ]
+    },
+    {
+      "name": "homecharacter22",
+      "offset": 2920388,
+      "size": 24796,
+      "box": [
+        43,
+        110,
+        191,
+        271
+      ]
+    },
+    {
+      "name": "homecharacter23",
+      "offset": 2945184,
+      "size": 24081,
+      "box": [
+        63,
+        98,
+        177,
+        278
+      ]
+    },
+    {
+      "name": "homecharacter24",
+      "offset": 2969265,
+      "size": 16012,
+      "box": [
+        60,
+        135,
+        186,
+        273
+      ]
+    },
+    {
+      "name": "homecharacter25",
+      "offset": 2985277,
+      "size": 21289,
+      "box": [
+        54,
+        102,
+        191,
+        278
+      ]
+    },
+    {
+      "name": "homecharacter26",
+      "offset": 3006566,
+      "size": 18501,
+      "box": [
+        62,
+        88,
+        177,
+        281
+      ]
+    },
+    {
+      "name": "homecharacter27",
+      "offset": 3025067,
+      "size": 12275,
+      "box": [
+        79,
+        136,
+        167,
+        273
+      ]
+    },
+    {
+      "name": "homecharacter28",
+      "offset": 3037342,
+      "size": 20480,
+      "box": [
+        51,
+        101,
+        182,
+        277
+      ]
+    },
+    {
+      "name": "homecharacter29",
+      "offset": 3057822,
+      "size": 23145,
+      "box": [
+        40,
+        93,
+        195,
+        276
+      ]
+    },
+    {
+      "name": "rewardfood0",
+      "offset": 3080967,
+      "size": 5342,
+      "box": [
+        91,
+        179,
+        159,
+        250
+      ]
+    },
+    {
+      "name": "rewardfood1",
+      "offset": 3086309,
+      "size": 7002,
+      "box": [
+        85,
+        183,
+        165,
+        251
+      ]
+    },
+    {
+      "name": "rewardfood2",
+      "offset": 3093311,
+      "size": 6722,
+      "box": [
+        82,
+        183,
+        164,
+        253
+      ]
+    },
+    {
+      "name": "rewardfood3",
+      "offset": 3100033,
+      "size": 10228,
+      "box": [
+        71,
+        180,
+        171,
+        257
+      ]
+    },
+    {
+      "name": "rewardfood4",
+      "offset": 3110261,
+      "size": 7482,
+      "box": [
+        76,
+        186,
+        166,
+        259
+      ]
+    },
+    {
+      "name": "rewardfood5",
+      "offset": 3117743,
+      "size": 7120,
+      "box": [
+        80,
+        183,
+        163,
+        254
+      ]
+    },
+    {
+      "name": "rewardfood6",
+      "offset": 3124863,
+      "size": 4969,
+      "box": [
+        91,
+        180,
+        155,
+        255
+      ]
+    },
+    {
+      "name": "rewardfood7",
+      "offset": 3129832,
+      "size": 7010,
+      "box": [
+        92,
+        183,
+        163,
+        258
+      ]
+    },
+    {
+      "name": "rewardfood8",
+      "offset": 3136842,
+      "size": 6563,
+      "box": [
+        91,
+        180,
+        153,
+        252
+      ]
+    },
+    {
+      "name": "rewardfood9",
+      "offset": 3143405,
+      "size": 7664,
+      "box": [
+        87,
+        178,
+        164,
+        252
+      ]
+    },
+    {
+      "name": "rewardfood10",
+      "offset": 3151069,
+      "size": 7429,
+      "box": [
+        84,
+        186,
+        169,
+        254
+      ]
+    },
+    {
+      "name": "rewardfood11",
+      "offset": 3158498,
+      "size": 7984,
+      "box": [
+        82,
+        183,
+        170,
+        255
+      ]
+    },
+    {
+      "name": "rewardfood12",
+      "offset": 3166482,
+      "size": 8545,
+      "box": [
+        85,
+        183,
+        162,
+        255
+      ]
+    },
+    {
+      "name": "rewardfood13",
+      "offset": 3175027,
+      "size": 6130,
+      "box": [
+        85,
+        187,
+        162,
+        256
+      ]
+    },
+    {
+      "name": "rewardfood14",
+      "offset": 3181157,
+      "size": 6854,
+      "box": [
+        87,
+        186,
+        167,
+        253
+      ]
+    },
+    {
+      "name": "rewardfood15",
+      "offset": 3188011,
+      "size": 5714,
+      "box": [
+        93,
+        183,
+        163,
+        246
+      ]
+    },
+    {
+      "name": "rewardfood16",
+      "offset": 3193725,
+      "size": 9557,
+      "box": [
+        82,
+        181,
+        166,
+        256
+      ]
+    },
+    {
+      "name": "rewardfood17",
+      "offset": 3203282,
+      "size": 8334,
+      "box": [
+        88,
+        184,
+        166,
+        255
+      ]
+    },
+    {
+      "name": "rewardfood18",
+      "offset": 3211616,
+      "size": 8061,
+      "box": [
+        91,
+        177,
+        160,
+        254
+      ]
+    },
+    {
+      "name": "rewardfood19",
+      "offset": 3219677,
+      "size": 6598,
+      "box": [
+        94,
+        184,
+        156,
+        253
+      ]
+    },
+    {
+      "name": "rewardfood20",
+      "offset": 3226275,
+      "size": 7799,
+      "box": [
+        78,
+        186,
+        169,
+        255
+      ]
+    },
+    {
+      "name": "rewardfood21",
+      "offset": 3234074,
+      "size": 4300,
+      "box": [
+        103,
+        179,
+        146,
+        255
+      ]
+    },
+    {
+      "name": "rewardfood22",
+      "offset": 3238374,
+      "size": 8366,
+      "box": [
+        80,
+        180,
+        164,
+        252
+      ]
+    },
+    {
+      "name": "rewardfood23",
+      "offset": 3246740,
+      "size": 7312,
+      "box": [
+        85,
+        179,
+        162,
+        251
+      ]
+    },
+    {
+      "name": "rewardfood24",
+      "offset": 3254052,
+      "size": 8728,
+      "box": [
+        87,
+        180,
+        162,
+        256
+      ]
+    },
+    {
+      "name": "rewardfood25",
+      "offset": 3262780,
+      "size": 7178,
+      "box": [
+        76,
+        195,
+        170,
+        257
+      ]
+    },
+    {
+      "name": "rewardfood26",
+      "offset": 3269958,
+      "size": 6333,
+      "box": [
+        92,
+        180,
+        153,
+        253
+      ]
+    },
+    {
+      "name": "rewardfood27",
+      "offset": 3276291,
+      "size": 4860,
+      "box": [
+        88,
+        181,
+        159,
+        253
+      ]
+    },
+    {
+      "name": "rewardfood28",
+      "offset": 3281151,
+      "size": 7198,
+      "box": [
+        83,
+        188,
+        165,
+        254
+      ]
+    },
+    {
+      "name": "rewardfood29",
+      "offset": 3288349,
+      "size": 4341,
+      "box": [
+        105,
+        181,
+        147,
+        258
+      ]
+    },
+    {
+      "name": "rewardfood30",
+      "offset": 3292690,
+      "size": 5594,
+      "box": [
+        93,
+        184,
+        159,
+        256
+      ]
+    },
+    {
+      "name": "letterNotification",
+      "offset": 3298284,
+      "size": 2689,
+      "box": [
+        153,
+        48,
+        231,
+        127
+      ]
+    },
+    {
+      "name": "tearSprite",
+      "offset": 3300973,
+      "size": 993,
+      "box": [
+        0,
+        0,
+        28,
+        37
+      ]
+    },
+    {
+      "name": "cry0",
+      "offset": 3301966,
+      "size": 8849,
+      "box": [
+        55,
+        111,
+        185,
+        220
+      ]
+    },
+    {
+      "name": "cry1",
+      "offset": 3310815,
+      "size": 10127,
+      "box": [
+        59,
+        98,
+        178,
+        215
+      ]
+    },
+    {
+      "name": "cry2",
+      "offset": 3320942,
+      "size": 19262,
+      "box": [
+        63,
+        54,
+        178,
+        207
+      ]
+    },
+    {
+      "name": "cry6",
+      "offset": 3340204,
+      "size": 5488,
+      "box": [
+        66,
+        119,
+        168,
+        217
+      ]
+    },
+    {
+      "name": "cry7",
+      "offset": 3345692,
+      "size": 9955,
+      "box": [
+        65,
+        90,
+        175,
+        210
+      ]
+    },
+    {
+      "name": "cry8",
+      "offset": 3355647,
+      "size": 12868,
+      "box": [
+        62,
+        57,
+        178,
+        212
+      ]
+    },
+    {
+      "name": "cry12",
+      "offset": 3368515,
+      "size": 7524,
+      "box": [
+        69,
+        125,
+        170,
+        222
+      ]
+    },
+    {
+      "name": "cry13",
+      "offset": 3376039,
+      "size": 13575,
+      "box": [
+        51,
+        84,
+        190,
+        217
+      ]
+    },
+    {
+      "name": "cry14",
+      "offset": 3389614,
+      "size": 17324,
+      "box": [
+        55,
+        60,
+        193,
+        212
+      ]
+    },
+    {
+      "name": "cry15",
+      "offset": 3406938,
+      "size": 6314,
+      "box": [
+        68,
+        129,
+        172,
+        216
+      ]
+    },
+    {
+      "name": "cry16",
+      "offset": 3413252,
+      "size": 14926,
+      "box": [
+        49,
+        86,
+        204,
+        220
+      ]
+    },
+    {
+      "name": "cry17",
+      "offset": 3428178,
+      "size": 12691,
+      "box": [
+        59,
+        57,
+        180,
+        215
+      ]
+    },
+    {
+      "name": "cry18",
+      "offset": 3440869,
+      "size": 5157,
+      "box": [
+        66,
+        123,
+        177,
+        235
+      ]
+    },
+    {
+      "name": "cry19",
+      "offset": 3446026,
+      "size": 11690,
+      "box": [
+        39,
+        64,
+        201,
+        239
+      ]
+    },
+    {
+      "name": "cry20",
+      "offset": 3457716,
+      "size": 14293,
+      "box": [
+        53,
+        65,
+        187,
+        227
+      ]
+    },
+    {
+      "name": "cry24",
+      "offset": 3472009,
+      "size": 5254,
+      "box": [
+        80,
+        127,
+        159,
+        214
+      ]
+    },
+    {
+      "name": "cry25",
+      "offset": 3477263,
+      "size": 9931,
+      "box": [
+        63,
+        93,
+        176,
+        215
+      ]
+    },
+    {
+      "name": "cry26",
+      "offset": 3487194,
+      "size": 11305,
+      "box": [
+        72,
+        54,
+        169,
+        209
+      ]
+    },
+    {
+      "name": "cry27",
+      "offset": 3498499,
+      "size": 6722,
+      "box": [
+        76,
+        97,
+        165,
+        212
+      ]
+    },
+    {
+      "name": "cry28",
+      "offset": 3505221,
+      "size": 11335,
+      "box": [
+        66,
+        79,
+        174,
+        216
+      ]
+    },
+    {
+      "name": "cry29",
+      "offset": 3516556,
+      "size": 14790,
+      "box": [
+        54,
+        57,
+        187,
+        211
+      ]
+    },
+    {
+      "name": "bite0frame0",
+      "offset": 3531346,
+      "size": 4364,
+      "box": [
+        92,
+        179,
+        159,
+        250
+      ]
+    },
+    {
+      "name": "bite0frame1",
+      "offset": 3535710,
+      "size": 2899,
+      "box": [
+        92,
+        183,
+        159,
+        250
+      ]
+    },
+    {
+      "name": "bite1frame0",
+      "offset": 3538609,
+      "size": 5612,
+      "box": [
+        87,
+        183,
+        166,
+        250
+      ]
+    },
+    {
+      "name": "bite1frame1",
+      "offset": 3544221,
+      "size": 4528,
+      "box": [
+        87,
+        183,
+        166,
+        250
+      ]
+    },
+    {
+      "name": "bite2frame0",
+      "offset": 3548749,
+      "size": 4906,
+      "box": [
+        91,
+        183,
+        164,
+        253
+      ]
+    },
+    {
+      "name": "bite2frame1",
+      "offset": 3553655,
+      "size": 3288,
+      "box": [
+        91,
+        204,
+        164,
+        253
+      ]
+    },
+    {
+      "name": "bite3frame0",
+      "offset": 3556943,
+      "size": 8299,
+      "box": [
+        73,
+        188,
+        171,
+        257
+      ]
+    },
+    {
+      "name": "bite4frame0",
+      "offset": 3565242,
+      "size": 6437,
+      "box": [
+        76,
+        186,
+        166,
+        258
+      ]
+    },
+    {
+      "name": "bite4frame1",
+      "offset": 3571679,
+      "size": 3796,
+      "box": [
+        76,
+        214,
+        156,
+        258
+      ]
+    },
+    {
+      "name": "bite5frame0",
+      "offset": 3575475,
+      "size": 5512,
+      "box": [
+        80,
+        190,
+        162,
+        254
+      ]
+    },
+    {
+      "name": "bite6frame0",
+      "offset": 3580987,
+      "size": 4226,
+      "box": [
+        91,
+        180,
+        155,
+        254
+      ]
+    },
+    {
+      "name": "bite7frame0",
+      "offset": 3585213,
+      "size": 6065,
+      "box": [
+        93,
+        183,
+        164,
+        258
+      ]
+    },
+    {
+      "name": "bite8frame0",
+      "offset": 3591278,
+      "size": 5188,
+      "box": [
+        91,
+        180,
+        153,
+        252
+      ]
+    },
+    {
+      "name": "bite9frame0",
+      "offset": 3596466,
+      "size": 6844,
+      "box": [
+        90,
+        179,
+        163,
+        252
+      ]
+    },
+    {
+      "name": "bite10frame0",
+      "offset": 3603310,
+      "size": 6619,
+      "box": [
+        84,
+        186,
+        169,
+        254
+      ]
+    },
+    {
+      "name": "bite11frame0",
+      "offset": 3609929,
+      "size": 7151,
+      "box": [
+        82,
+        184,
+        171,
+        255
+      ]
+    },
+    {
+      "name": "bite12frame0",
+      "offset": 3617080,
+      "size": 6543,
+      "box": [
+        87,
+        183,
+        162,
+        255
+      ]
+    },
+    {
+      "name": "bite13frame0",
+      "offset": 3623623,
+      "size": 5052,
+      "box": [
+        87,
+        187,
+        162,
+        256
+      ]
+    },
+    {
+      "name": "bite14frame0",
+      "offset": 3628675,
+      "size": 5833,
+      "box": [
+        89,
+        186,
+        166,
+        253
+      ]
+    },
+    {
+      "name": "bite15frame0",
+      "offset": 3634508,
+      "size": 4685,
+      "box": [
+        96,
+        183,
+        163,
+        246
+      ]
+    },
+    {
+      "name": "bite16frame0",
+      "offset": 3639193,
+      "size": 8156,
+      "box": [
+        81,
+        181,
+        166,
+        256
+      ]
+    },
+    {
+      "name": "bite16frame1",
+      "offset": 3647349,
+      "size": 5936,
+      "box": [
+        81,
+        211,
+        166,
+        256
+      ]
+    },
+    {
+      "name": "bite17frame0",
+      "offset": 3653285,
+      "size": 6758,
+      "box": [
+        88,
+        184,
+        166,
+        255
+      ]
+    },
+    {
+      "name": "bite17frame1",
+      "offset": 3660043,
+      "size": 4841,
+      "box": [
+        88,
+        209,
+        166,
+        255
+      ]
+    },
+    {
+      "name": "bite18frame0",
+      "offset": 3664884,
+      "size": 6813,
+      "box": [
+        91,
+        179,
+        160,
+        254
+      ]
+    },
+    {
+      "name": "bite18frame1",
+      "offset": 3671697,
+      "size": 4398,
+      "box": [
+        91,
+        179,
+        150,
+        254
+      ]
+    },
+    {
+      "name": "bite19frame0",
+      "offset": 3676095,
+      "size": 5105,
+      "box": [
+        93,
+        189,
+        155,
+        253
+      ]
+    },
+    {
+      "name": "bite19frame1",
+      "offset": 3681200,
+      "size": 3805,
+      "box": [
+        97,
+        189,
+        155,
+        253
+      ]
+    },
+    {
+      "name": "bite20frame0",
+      "offset": 3685005,
+      "size": 6146,
+      "box": [
+        79,
+        186,
+        169,
+        255
+      ]
+    },
+    {
+      "name": "bite20frame1",
+      "offset": 3691151,
+      "size": 4127,
+      "box": [
+        114,
+        186,
+        169,
+        243
+      ]
+    },
+    {
+      "name": "bite21frame0",
+      "offset": 3695278,
+      "size": 3521,
+      "box": [
+        103,
+        179,
+        145,
+        255
+      ]
+    },
+    {
+      "name": "bite22frame0",
+      "offset": 3698799,
+      "size": 7104,
+      "box": [
+        80,
+        180,
+        164,
+        252
+      ]
+    },
+    {
+      "name": "bite23frame0",
+      "offset": 3705903,
+      "size": 6242,
+      "box": [
+        88,
+        179,
+        163,
+        251
+      ]
+    },
+    {
+      "name": "bite24frame0",
+      "offset": 3712145,
+      "size": 7278,
+      "box": [
+        89,
+        180,
+        162,
+        256
+      ]
+    },
+    {
+      "name": "bite25frame0",
+      "offset": 3719423,
+      "size": 6073,
+      "box": [
+        76,
+        195,
+        170,
+        257
+      ]
+    },
+    {
+      "name": "bite26frame0",
+      "offset": 3725496,
+      "size": 4932,
+      "box": [
+        93,
+        182,
+        154,
+        253
+      ]
+    },
+    {
+      "name": "bite27frame0",
+      "offset": 3730428,
+      "size": 4234,
+      "box": [
+        88,
+        181,
+        159,
+        253
+      ]
+    },
+    {
+      "name": "bite28frame0",
+      "offset": 3734662,
+      "size": 5892,
+      "box": [
+        83,
+        188,
+        165,
+        254
+      ]
+    },
+    {
+      "name": "bite29frame0",
+      "offset": 3740554,
+      "size": 3411,
+      "box": [
+        105,
+        193,
+        146,
+        258
+      ]
+    },
+    {
+      "name": "bite30frame0",
+      "offset": 3743965,
+      "size": 5048,
+      "box": [
+        93,
+        184,
+        160,
+        256
+      ]
+    },
+    {
+      "name": "letter0frame0",
+      "offset": 3749013,
+      "size": 19535,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame1",
+      "offset": 3768548,
+      "size": 20747,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame2",
+      "offset": 3789295,
+      "size": 22452,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame3",
+      "offset": 3811747,
+      "size": 23520,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame4",
+      "offset": 3835267,
+      "size": 25638,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame5",
+      "offset": 3860905,
+      "size": 29117,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame6",
+      "offset": 3890022,
+      "size": 28778,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame7",
+      "offset": 3918800,
+      "size": 28760,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame8",
+      "offset": 3947560,
+      "size": 27757,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame9",
+      "offset": 3975317,
+      "size": 28934,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame10",
+      "offset": 4004251,
+      "size": 29352,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame11",
+      "offset": 4033603,
+      "size": 27994,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame12",
+      "offset": 4061597,
+      "size": 27934,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame13",
+      "offset": 4089531,
+      "size": 28797,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter0frame14",
+      "offset": 4118328,
+      "size": 30082,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame0",
+      "offset": 4148410,
+      "size": 19133,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame1",
+      "offset": 4167543,
+      "size": 19732,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame2",
+      "offset": 4187275,
+      "size": 21390,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame3",
+      "offset": 4208665,
+      "size": 22442,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame4",
+      "offset": 4231107,
+      "size": 24491,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame5",
+      "offset": 4255598,
+      "size": 27964,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame6",
+      "offset": 4283562,
+      "size": 27099,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame7",
+      "offset": 4310661,
+      "size": 27298,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame8",
+      "offset": 4337959,
+      "size": 25991,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame9",
+      "offset": 4363950,
+      "size": 26303,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame10",
+      "offset": 4390253,
+      "size": 26453,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame11",
+      "offset": 4416706,
+      "size": 24796,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame12",
+      "offset": 4441502,
+      "size": 24418,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame13",
+      "offset": 4465920,
+      "size": 24818,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter1frame14",
+      "offset": 4490738,
+      "size": 26129,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame0",
+      "offset": 4516867,
+      "size": 19060,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame1",
+      "offset": 4535927,
+      "size": 19734,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame2",
+      "offset": 4555661,
+      "size": 21334,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame3",
+      "offset": 4576995,
+      "size": 22438,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame4",
+      "offset": 4599433,
+      "size": 24468,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame5",
+      "offset": 4623901,
+      "size": 27924,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame6",
+      "offset": 4651825,
+      "size": 27052,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame7",
+      "offset": 4678877,
+      "size": 27171,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame8",
+      "offset": 4706048,
+      "size": 25985,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame9",
+      "offset": 4732033,
+      "size": 26095,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame10",
+      "offset": 4758128,
+      "size": 26243,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame11",
+      "offset": 4784371,
+      "size": 24352,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame12",
+      "offset": 4808723,
+      "size": 24069,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame13",
+      "offset": 4832792,
+      "size": 24318,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter2frame14",
+      "offset": 4857110,
+      "size": 25097,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame0",
+      "offset": 4882207,
+      "size": 19229,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame1",
+      "offset": 4901436,
+      "size": 20132,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame2",
+      "offset": 4921568,
+      "size": 21986,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame3",
+      "offset": 4943554,
+      "size": 22958,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame4",
+      "offset": 4966512,
+      "size": 25009,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame5",
+      "offset": 4991521,
+      "size": 28555,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame6",
+      "offset": 5020076,
+      "size": 28434,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame7",
+      "offset": 5048510,
+      "size": 27796,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame8",
+      "offset": 5076306,
+      "size": 27228,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame9",
+      "offset": 5103534,
+      "size": 27904,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame10",
+      "offset": 5131438,
+      "size": 28089,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame11",
+      "offset": 5159527,
+      "size": 27636,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame12",
+      "offset": 5187163,
+      "size": 27570,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame13",
+      "offset": 5214733,
+      "size": 28734,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter3frame14",
+      "offset": 5243467,
+      "size": 33622,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame0",
+      "offset": 5277089,
+      "size": 19108,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame1",
+      "offset": 5296197,
+      "size": 20341,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame2",
+      "offset": 5316538,
+      "size": 22532,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame3",
+      "offset": 5339070,
+      "size": 23494,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame4",
+      "offset": 5362564,
+      "size": 25534,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame5",
+      "offset": 5388098,
+      "size": 29161,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame6",
+      "offset": 5417259,
+      "size": 29342,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame7",
+      "offset": 5446601,
+      "size": 28760,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame8",
+      "offset": 5475361,
+      "size": 28005,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame9",
+      "offset": 5503366,
+      "size": 29063,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame10",
+      "offset": 5532429,
+      "size": 29668,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame11",
+      "offset": 5562097,
+      "size": 28999,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame12",
+      "offset": 5591096,
+      "size": 29137,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame13",
+      "offset": 5620233,
+      "size": 30545,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter4frame14",
+      "offset": 5650778,
+      "size": 26137,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame0",
+      "offset": 5676915,
+      "size": 19032,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame1",
+      "offset": 5695947,
+      "size": 20128,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame2",
+      "offset": 5716075,
+      "size": 22016,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame3",
+      "offset": 5738091,
+      "size": 23057,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame4",
+      "offset": 5761148,
+      "size": 25087,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame5",
+      "offset": 5786235,
+      "size": 28648,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame6",
+      "offset": 5814883,
+      "size": 28251,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame7",
+      "offset": 5843134,
+      "size": 28133,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame8",
+      "offset": 5871267,
+      "size": 27027,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame9",
+      "offset": 5898294,
+      "size": 27829,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame10",
+      "offset": 5926123,
+      "size": 28212,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame11",
+      "offset": 5954335,
+      "size": 26705,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame12",
+      "offset": 5981040,
+      "size": 26695,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame13",
+      "offset": 6007735,
+      "size": 27497,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter5frame14",
+      "offset": 6035232,
+      "size": 23397,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame0",
+      "offset": 6058629,
+      "size": 19241,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame1",
+      "offset": 6077870,
+      "size": 19926,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame2",
+      "offset": 6097796,
+      "size": 21473,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame3",
+      "offset": 6119269,
+      "size": 22504,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame4",
+      "offset": 6141773,
+      "size": 24561,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame5",
+      "offset": 6166334,
+      "size": 28067,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame6",
+      "offset": 6194401,
+      "size": 27211,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame7",
+      "offset": 6221612,
+      "size": 27323,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame8",
+      "offset": 6248935,
+      "size": 26073,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame9",
+      "offset": 6275008,
+      "size": 26206,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame10",
+      "offset": 6301214,
+      "size": 26357,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame11",
+      "offset": 6327571,
+      "size": 24470,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame12",
+      "offset": 6352041,
+      "size": 24134,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame13",
+      "offset": 6376175,
+      "size": 24444,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter6frame14",
+      "offset": 6400619,
+      "size": 25149,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame0",
+      "offset": 6425768,
+      "size": 18929,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame1",
+      "offset": 6444697,
+      "size": 19482,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame2",
+      "offset": 6464179,
+      "size": 21318,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame3",
+      "offset": 6485497,
+      "size": 22279,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame4",
+      "offset": 6507776,
+      "size": 24369,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame5",
+      "offset": 6532145,
+      "size": 27858,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame6",
+      "offset": 6560003,
+      "size": 27689,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame7",
+      "offset": 6587692,
+      "size": 26714,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame8",
+      "offset": 6614406,
+      "size": 25982,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame9",
+      "offset": 6640388,
+      "size": 25907,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame10",
+      "offset": 6666295,
+      "size": 26234,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame11",
+      "offset": 6692529,
+      "size": 25347,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame12",
+      "offset": 6717876,
+      "size": 25439,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame13",
+      "offset": 6743315,
+      "size": 26487,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter7frame14",
+      "offset": 6769802,
+      "size": 24775,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame0",
+      "offset": 6794577,
+      "size": 19015,
+      "box": [
+        8,
+        182,
+        232,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame1",
+      "offset": 6813592,
+      "size": 20373,
+      "box": [
+        8,
+        183,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame2",
+      "offset": 6833965,
+      "size": 22396,
+      "box": [
+        7,
+        175,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame3",
+      "offset": 6856361,
+      "size": 23348,
+      "box": [
+        8,
+        160,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame4",
+      "offset": 6879709,
+      "size": 25447,
+      "box": [
+        7,
+        139,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame5",
+      "offset": 6905156,
+      "size": 28991,
+      "box": [
+        7,
+        104,
+        233,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame6",
+      "offset": 6934147,
+      "size": 28626,
+      "box": [
+        9,
+        98,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame7",
+      "offset": 6962773,
+      "size": 28457,
+      "box": [
+        9,
+        105,
+        231,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame8",
+      "offset": 6991230,
+      "size": 27505,
+      "box": [
+        11,
+        109,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame9",
+      "offset": 7018735,
+      "size": 28408,
+      "box": [
+        10,
+        107,
+        230,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame10",
+      "offset": 7047143,
+      "size": 28890,
+      "box": [
+        11,
+        109,
+        229,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame11",
+      "offset": 7076033,
+      "size": 27100,
+      "box": [
+        12,
+        99,
+        228,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame12",
+      "offset": 7103133,
+      "size": 27257,
+      "box": [
+        13,
+        94,
+        226,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame13",
+      "offset": 7130390,
+      "size": 27981,
+      "box": [
+        14,
+        82,
+        227,
+        320
+      ]
+    },
+    {
+      "name": "letter8frame14",
+      "offset": 7158371,
+      "size": 23701,
+      "box": [
+        14,
+        56,
+        226,
+        320
+      ]
+    }
+  ]
+}

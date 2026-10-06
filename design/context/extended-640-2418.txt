@@ -1,0 +1,46 @@
+const imgImage267 = "https://www.figma.com/api/mcp/asset/b421e043-2a90-4e80-a9f9-2a61310d0aa7.png";
+const imgUnion = "https://www.figma.com/api/mcp/asset/46d65a11-3ca9-41b1-a64b-f2ac741d5b1f.svg";
+const imgSubtract = "https://www.figma.com/api/mcp/asset/81dbc4bf-775b-4cc9-9942-fe43815a1846.svg";
+const imgGroup545 = "https://www.figma.com/api/mcp/asset/5b32e9ee-d671-4858-be3c-0ac70eb2b38c.svg";
+
+export default function Component299() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="640:2418" data-name="299">
+      <div className="absolute h-[336px] left-0 top-0 w-[252px]" data-node-id="640:2457" data-name="image 267">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage267} />
+      </div>
+      <div className="absolute h-[206.25px] left-[13.1px] top-[141px] w-[218.9px]" data-node-id="640:2420" data-name="Union">
+        <div className="absolute inset-[-1.94%_-1.83%]">
+          <img alt="" className="block max-w-none size-full" src={imgUnion} />
+        </div>
+      </div>
+      <div className="absolute bg-[#cef7ff] h-[251px] left-[20px] top-[52px] w-[202px]" data-node-id="640:2423" />
+      <div className="absolute h-[128.7px] left-[13px] top-[218.55px] w-[218.9px]" data-node-id="640:2424" data-name="Subtract">
+        <div className="absolute inset-[-3.11%_-1.83%]">
+          <img alt="" className="block max-w-none size-full" src={imgSubtract} />
+        </div>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120px] text-[20px] text-black text-center top-[67px] whitespace-nowrap" data-node-id="640:2427" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>{`<병원 가기 4/5>`}</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120.5px] text-[15px] text-black text-center top-[105px] whitespace-nowrap" data-node-id="640:2428" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        전체 1/4
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120.5px] text-[26px] text-black text-center top-[160px] whitespace-nowrap" data-node-id="640:2429" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        7번 버스 타기
+      </p>
+      <div className="absolute bg-[#4d6a8e] h-[39px] left-[25px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="640:2430" />
+      <div className="absolute bg-[#4d6a8e] h-[39px] left-[132px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="640:2431" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[67.5px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="640:2432" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        포기
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[174.5px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="640:2433" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        완료
+      </p>
+      <div className="absolute h-[27px] left-0 top-0 w-[240px]" data-node-id="640:2434">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup545} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:SemiBold'] font-semibold leading-[normal] left-[8px] text-[16px] text-white top-[3px] whitespace-nowrap" data-node-id="640:2438" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+        AM 9:10
+      </p>
+    </div>
+  );
+}

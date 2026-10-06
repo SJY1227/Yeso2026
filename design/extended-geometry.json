@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "routineFrames": [
+    "105:1231",
+    "321:3371",
+    "425:8458",
+    "509:2693",
+    "483:4355",
+    "509:3011",
+    "483:4707",
+    "640:2698",
+    "640:2418",
+    "640:2816"
+  ],
+  "paperColors": [
+    "f6e2ff",
+    "f2edda",
+    "fdffdf",
+    "dfffdf",
+    "f0dfd9",
+    "ffee8d",
+    "cef7ff",
+    "a8fef2",
+    "cef7ff",
+    "ffe9e4"
+  ],
+  "buttonColors": [
+    "6b6969",
+    "272727",
+    "7c8e24",
+    "218c3a",
+    "ae8901",
+    "c16a00",
+    "009ac9",
+    "009389",
+    "4d6a8e",
+    "693b6f"
+  ],
+  "stageHomeSlot": {
+    "centerX": 120,
+    "baseline": 278,
+    "maxWidth": 180,
+    "heights": [
+      150,
+      175,
+      187
+    ],
+    "placement": "provisional, source aspect ratio retained"
+  },
+  "rewardSlot": {
+    "centerX": 124.5,
+    "bottom": 258,
+    "maxWidth": 103,
+    "maxHeight": 79
+  }
+}

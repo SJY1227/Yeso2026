@@ -1,0 +1,15 @@
+const imgImage131 = "https://www.figma.com/api/mcp/asset/8b412f07-866a-441d-ac54-2d49949792b7.png";
+
+export default function Component330() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="691:2417" data-name="330">
+      <div className="absolute contents left-[-7px] top-[-5px]" data-node-id="691:2418">
+        <div className="absolute h-[350px] left-[-7px] top-[-5px] w-[262px]" data-node-id="691:2419" data-name="image 328" />
+        <div className="absolute border border-black border-solid h-[141px] left-[72px] top-[65px] w-[96px]" data-node-id="691:2420" />
+      </div>
+      <div className="-translate-x-1/2 absolute h-[154px] left-[calc(50%+0.5px)] top-[57px] w-[133px]" data-node-id="691:2519" data-name="image 131">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="154" src={imgImage131} width="133" />
+      </div>
+    </div>
+  );
+}

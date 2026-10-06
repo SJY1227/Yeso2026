@@ -1,0 +1,60 @@
+const imgImage59 = "https://www.figma.com/api/mcp/asset/62a5a5f6-2c82-47fc-9a0f-908ae4031737.png";
+const imgPolygon17 = "https://www.figma.com/api/mcp/asset/61857561-9b04-4b97-9df9-2165932bf191.svg";
+const imgGroup545 = "https://www.figma.com/api/mcp/asset/c35ff4c6-90ad-414f-96ae-1017eb0afe85.svg";
+
+export default function Component16Ux() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="106:2574" data-name="16. 도감 UX">
+      <div className="absolute bg-[#f6e2ff] h-[258px] left-[8px] rounded-tl-[14px] rounded-tr-[14px] top-[62px] w-[224px]" data-node-id="106:2578" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium h-[35px] leading-[normal] left-[38.5px] text-[22px] text-black text-center top-[27px] w-[175px]" data-node-id="106:2579" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        도감
+      </p>
+      <div className="absolute flex h-[34px] items-center justify-center left-[200px] top-[193px] w-[38px]" data-node-id="106:2580">
+        <div className="flex-none rotate-90">
+          <div className="h-[38px] relative w-[34px]">
+            <div className="absolute bottom-1/4 left-[6.7%] right-[6.7%] top-0">
+              <img alt="" className="block max-w-none size-full" src={imgPolygon17} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[34px] items-center justify-center left-px top-[193px] w-[38px]" data-node-id="106:2581">
+        <div className="-scale-y-100 flex-none rotate-90">
+          <div className="h-[38px] relative w-[34px]">
+            <div className="absolute bottom-1/4 left-[6.7%] right-[6.7%] top-0">
+              <img alt="" className="block max-w-none size-full" src={imgPolygon17} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium h-[35px] leading-[normal] left-[208.5px] text-[22px] text-black text-center top-[27px] w-[175px]" data-node-id="106:2583" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        3/50
+      </p>
+      <div className="absolute h-[27px] left-0 top-0 w-[240px]" data-node-id="318:2075">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup545} />
+      </div>
+      <div className="absolute h-[184px] left-[41px] top-[91px] w-[160px]" data-node-id="322:2296" data-name="image 59">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage59} />
+      </div>
+      <div className="absolute bg-[#7f6889] h-[39px] left-[69px] rounded-[19.5px] top-[269px] w-[113px]" data-node-id="106:2599" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[125.5px] text-[20px] text-center text-white top-[275px] whitespace-nowrap" data-node-id="106:2600" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        다시 키우기
+      </p>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[calc(50%-22px)] text-[20px] text-black top-[67px] whitespace-nowrap" data-node-id="106:2582" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        몽실이
+      </p>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:SemiBold'] font-semibold leading-[normal] left-[8px] text-[16px] text-white top-[3px] whitespace-nowrap" data-node-id="413:2044" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+        AM 9:10
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

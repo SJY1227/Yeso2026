@@ -1,0 +1,61 @@
+const imgImage78 = "https://www.figma.com/api/mcp/asset/da961e33-e0fc-43e3-a426-ba699c217ba6.png";
+const imgUnion = "https://www.figma.com/api/mcp/asset/a454b975-841f-4921-a98e-5520285530c2.svg";
+const imgSubtract = "https://www.figma.com/api/mcp/asset/e47b4ac4-b842-407f-ba77-d071ca1f9be3.svg";
+const imgGroup545 = "https://www.figma.com/api/mcp/asset/67c6f94a-4b97-4755-b392-190cb5c3984e.svg";
+
+export default function Component91() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="102:2425" data-name="9-1">
+      <div className="absolute left-[-44px] size-[383px] top-[-22px]" data-node-id="325:8351" data-name="image 78">
+        <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgImage78} />
+      </div>
+      <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[120px] left-0 to-[rgba(0,0,0,0.61)] top-[200px] w-[240px]" data-node-id="325:8355" />
+      <div className="absolute h-[206.25px] left-[13.1px] top-[141px] w-[218.9px]" data-node-id="102:2429" data-name="Union">
+        <div className="absolute inset-[-1.94%_-1.83%]">
+          <img alt="" className="block max-w-none size-full" src={imgUnion} />
+        </div>
+      </div>
+      <div className="absolute bg-[#f6e2ff] h-[251px] left-[20px] top-[52px] w-[202px]" data-node-id="102:2432" />
+      <div className="absolute h-[128.7px] left-[12px] top-[218.55px] w-[218.9px]" data-node-id="102:2433" data-name="Subtract">
+        <div className="absolute inset-[-3.11%_-1.83%]">
+          <img alt="" className="block max-w-none size-full" src={imgSubtract} />
+        </div>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120px] text-[20px] text-black text-center top-[67px] whitespace-nowrap" data-node-id="102:2436" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>{`<병원 가기 2/6>`}</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120.5px] text-[15px] text-black text-center top-[105px] whitespace-nowrap" data-node-id="102:2437" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        전체 1/4
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120.5px] text-[26px] text-black text-center top-[160px] whitespace-nowrap" data-node-id="102:2438" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        7번 버스 타기
+      </p>
+      <div className="absolute bg-[#7f6889] h-[39px] left-[25px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="102:2439" />
+      <div className="absolute bg-[#7f6889] h-[39px] left-[132px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="102:2440" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[67.5px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="102:2441" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        포기
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[174px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="102:2442" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>{`>완료`}</p>
+      <div className="absolute backdrop-blur-[2px] bg-[rgba(255,255,255,0.33)] h-[292px] left-[-1px] top-[28px] w-[241px]" data-node-id="102:2469" />
+      <div className="absolute bg-[#7f6889] h-[121px] left-0 top-[206px] w-[240px]" data-node-id="102:2443" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120.5px] text-[#fff5e6] text-[24px] text-center top-[218px] whitespace-nowrap" data-node-id="102:2444" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        완료 하시겠습니까?
+      </p>
+      <div className="absolute bg-[#272727] h-[39px] left-[78px] rounded-[19.5px] top-[261px] w-[86px]" data-node-id="102:2445" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120px] text-[20px] text-center text-white top-[267px] whitespace-nowrap" data-node-id="102:2446" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>{`>확인`}</p>
+      <div className="absolute h-[27px] left-0 top-0 w-[240px]" data-node-id="316:1658">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup545} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:SemiBold'] font-semibold leading-[normal] left-[8px] text-[16px] text-white top-[3px] whitespace-nowrap" data-node-id="413:1927" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+        AM 9:10
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

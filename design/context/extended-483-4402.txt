@@ -1,0 +1,66 @@
+const img10 = "https://www.figma.com/api/mcp/asset/964a0f74-3ecc-4567-854f-758e28683d2e.png";
+const imgImage140 = "https://www.figma.com/api/mcp/asset/1c6af85d-7b69-4148-9f01-b7d5fdd64ed3.png";
+const imgUnion = "https://www.figma.com/api/mcp/asset/0ee60139-d449-4e0b-98a7-2bcb1d94e6fc.svg";
+const imgSubtract = "https://www.figma.com/api/mcp/asset/f737c6a4-c5eb-4019-9352-971e52f399d5.svg";
+const imgGroup545 = "https://www.figma.com/api/mcp/asset/91c20545-a3e6-48d0-834c-b31da413c871.svg";
+const imgGroup546 = "https://www.figma.com/api/mcp/asset/adae6c6c-7eb5-45d6-95cc-363770573ef4.svg";
+
+export default function Component10() {
+  return (
+    <div className="relative size-full" data-node-id="483:4402" data-name="10. 포기모션">
+      <div aria-hidden className="absolute inset-0 pointer-events-none">
+        <div className="absolute bg-white inset-0" />
+        <div className="absolute inset-0 overflow-hidden">
+          <img alt="" className="absolute h-[102.88%] left-[-16.69%] max-w-none top-0 w-[125.88%]" src={img10} />
+        </div>
+      </div>
+      <div className="absolute h-[206.25px] left-[13.1px] top-[141px] w-[218.9px]" data-node-id="483:4404" data-name="Union">
+        <div className="absolute inset-[-1.94%_-1.83%]">
+          <img alt="" className="block max-w-none size-full" src={imgUnion} />
+        </div>
+      </div>
+      <div className="absolute bg-[#f0e0d9] h-[251px] left-[20px] top-[52px] w-[202px]" data-node-id="483:4407" />
+      <div className="absolute h-[128.7px] left-[12px] top-[218.55px] w-[218.9px]" data-node-id="483:4408" data-name="Subtract">
+        <div className="absolute inset-[-3.11%_-1.83%]">
+          <img alt="" className="block max-w-none size-full" src={imgSubtract} />
+        </div>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120px] text-[20px] text-black text-center top-[67px] whitespace-nowrap" data-node-id="483:4411" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>{`<병원 가기 2/6>`}</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120.5px] text-[15px] text-black text-center top-[105px] whitespace-nowrap" data-node-id="483:4412" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        전체 1/4
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120.5px] text-[26px] text-black text-center top-[160px] whitespace-nowrap" data-node-id="483:4413" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        7번 버스 타기
+      </p>
+      <div className="absolute bg-[#ae8901] h-[39px] left-[25px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="483:4414" />
+      <div className="absolute bg-[#ae8901] h-[39px] left-[132px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="483:4415" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[67px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="483:4416" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>{`>포기`}</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[174.5px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="483:4417" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        완료
+      </p>
+      <div className="absolute backdrop-blur-[2px] bg-[rgba(255,255,255,0.33)] h-[292px] left-[-1px] top-[27px] w-[241px]" data-node-id="483:4418" />
+      <div className="absolute bg-[#ae8901] h-[121px] left-0 top-[199px] w-[240px]" data-node-id="483:4419" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120px] text-[24px] text-center text-white top-[211px] whitespace-nowrap" data-node-id="483:4420" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        진짜로...?
+      </p>
+      <div className="absolute bg-[#534100] h-[39px] left-[24px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="483:4421" />
+      <div className="absolute bg-[#534100] h-[39px] left-[131px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="483:4422" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[66.5px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="483:4423" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        취소
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[173px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="483:4424" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>{`>확인`}</p>
+      <div className="absolute h-[27px] left-0 top-0 w-[240px]" data-node-id="483:4425">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup545} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:SemiBold'] font-semibold leading-[normal] left-[8px] text-[16px] text-white top-[3px] whitespace-nowrap" data-node-id="483:4432" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+        AM 9:10
+      </p>
+      <div className="-translate-x-1/2 absolute h-[138px] left-[calc(50%+0.5px)] top-[71px] w-[125px]" data-node-id="506:2395" data-name="image 140">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage140} />
+      </div>
+      <div className="absolute h-[19px] left-[124px] top-[132px] w-[15.346px]" data-node-id="483:4429">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup546} />
+      </div>
+    </div>
+  );
+}

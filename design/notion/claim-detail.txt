@@ -1,0 +1,144 @@
+콘텐츠로 건너뛰기
+Notion 계정이 있는 모든 사용자가 이 페이지를 편집할 수 있습니다.
+편집하려면 가입 또는 로그인하세요.
+예소 개발자용
+/
+...
+/
+엔드포인트
+/
+기기 등록 (claim)
+기기 등록 (claim)
+카테고리
+디바이스API
+설명
+기기가 집 와이파이 접속 후 pairingCode 로 인증. 서버가 PENDING 행을 찾아 device_uid·paired_at 를 채우고 ACTIVE 로 전환 → 응답으로 deviceAccessUuid 발급
+Method
+POST
+URL
+/device-api/v1/claim
+param
+body: pairingCode, deviceUid, firmware
+기타
+인증 헤더 없음. 핫스팩 통신은 앱→기기 단방향. pairingCode 는 일회용·유효 10분, 사용 후 비움. token · secret 은 삭제됨
+사용자
+기기
+칸반보드
+기기 동기화 및 인증 API
+인증 헤더 없음. 기기가 집 와이파이에 접속한 뒤 최초 1회 호출합니다. 앱 /api/v1 과 인증 방식이 다릅니다(X-Device-Uuid).
+Request
+key
+	
+설명
+	
+value 타입
+	
+옵션
+	
+Nullable
+	
+예시
+
+
+pairingCode
+	
+앱이 핫스팟으로 전달한 일회용 코드
+	
+string
+	
+필수, 숫자 10자리
+	
+N
+	
+0482913057
+
+
+deviceUid
+	
+기기가 생성한 고유 식별자
+	
+string
+	
+필수
+	
+N
+	
+YESO-A1B2C3
+
+
+firmware
+	
+펌웨어 버전
+	
+string
+	
+필수
+	
+N
+	
+1.0.3
+Response  (200)
+key
+	
+설명
+	
+value 타입
+	
+옵션
+	
+Nullable
+	
+예시
+
+
+deviceId
+	
+기기 id
+	
+number
+	
+	
+N
+	
+55
+
+
+deviceAccessUuid
+	
+이후 모든 기기 요청의 X-Device-Uuid 헤더 값. 기기가 반드시 영속 저장. 잃어버리면 되찾을 경로가 없고 재페어링뿐입니다
+	
+string(uuid)
+	
+	
+N
+	
+7c9e4d21-8b3a-4f60-a1d5-2e8c0b7f3a94
+
+
+serverTime
+	
+서버 현재 시각. RTC 보정에 사용
+	
+timestamp
+	
+UTC
+	
+N
+	
+2026-09-01T08:35:12Z
+Example
+{
+  "success": true,
+  "data": {
+    "deviceId": 55,
+    "deviceAccessUuid": "7c9e4d21-8b3a-4f60-a1d5-2e8c0b7f3a94",
+    "serverTime": "2026-09-01T08:35:12Z"
+  },
+  "error": null
+}
+
+​
+token · secret 은 없어졌습니다. serverTime 은 추론 항목()으로, claim 직후 RTC 를 맞춰 첫 sync 전까지의 시각 오차를 줄이려고 넣었습니다.
+서버 처리 순서: 코드로 PENDING 행을 잠그고 조회 → 만료 검증(10분) → device_uid, paired_at 채우고 ACTIVE → 서버가 device_access_uuid 생성 → pairing_code 를 비움(일회용) → 반환
+Status
+전체보기

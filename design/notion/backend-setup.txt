@@ -1,0 +1,13 @@
+콘텐츠로 건너뛰기
+Notion 계정이 있는 모든 사용자가 이 페이지를 편집할 수 있습니다.
+편집하려면 가입 또는 로그인하세요.
+예소 개발자용
+/
+백엔드 초기세팅
+백엔드 초기세팅
+Spring Boot 4.1.1 / Java 21 / Gradle 9.7.1 / PostgreSQL 17
+Boot 4에서 스타터 이름이 여럿 바뀌었습니다. spring-boot-starter-web → -webmvc, spring-boot-starter-test → 기능별 -test 스타터 분리, -oauth2-resource-server → -security-oauth2-resource-server, Testcontainers 아티팩트도 전부 개명. 국내 블로그 자료 그대로 복붙하면 의존성 해석부터 깨집니다. 대조표를 문서 8장에 넣었습니다.
+PostgreSQL로 잡은 이유는 ERD가 jsonb를 쓰기 때문입니다. MySQL로 갈 거면 ERD의 타입부터 바꿔야 해서, 이건 팀에서 먼저 확정할 항목입니다.
+SecurityFilterChain을 2개로 나눠야 합니다. 앱(보호자 JWT)과 기기(claim으로 받은 opaque 토큰)는 인증 방식이 완전히 달라서요. device/deviceapi 패키지도 같은 이유로 분리했습니다.
+ERD에 "필요한가?"로 남아있던 기기 secret은 필요합니다 — /device-api/v1/token/refresh가 재페어링 없이 복구되는 유일한 경로라서요.
+Claude Artifact​

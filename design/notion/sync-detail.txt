@@ -1,0 +1,256 @@
+콘텐츠로 건너뛰기
+Notion 계정이 있는 모든 사용자가 이 페이지를 편집할 수 있습니다.
+편집하려면 가입 또는 로그인하세요.
+예소 개발자용
+/
+...
+/
+엔드포인트
+/
+기기 동기화 (push + pull)
+기기 동기화 (push + pull)
+카테고리
+디바이스API
+설명
+완료 기록·배터리 업로드와 하루치 루틴 다운로드를 한 번에 처리. 루틴은 만들지 않고 읽기만 함
+Method
+POST
+URL
+/device-api/v1/sync
+param
+header: X-Device-Uuid / body: battery, firmware, completions[], dates[]
+기타
+응답 serverTime 으로 RTC 보정. UPDATE 기반이라 멱등성 보장. 인증은 X-Device-Uuid. 완료로 추가된 할 일 1개당 캐릭터 exp +1 (응답에는 반영 안 됨)
+사용자
+기기
+칸반보드
+기기 동기화 및 인증 API
+인증: X-Device-Uuid 헤더 (claim 응답의 deviceAccessUuid). 완료 기록 · 배터리 업로드와 루틴 다운로드를 한 번에 처리합니다.
+이 엔드포인트는 루틴을 만들지 않고 읽기만 합니다.
+멱등: UPDATE 기반이라 네트워크 실패로 같은 completions 를 재전송해도 안전합니다. 이미 DONE 이던 할 일은 캐릭터 경험치를 다시 주지 않습니다.
+응답 serverTime 으로 기기 RTC 를 보정합니다.
+Request
+key
+	
+설명
+	
+value 타입
+	
+옵션
+	
+Nullable
+	
+예시
+
+
+battery
+	
+배터리 잔량
+	
+number
+	
+필수, 0~100
+	
+N
+	
+78
+
+
+firmware
+	
+펌웨어 버전. 바뀌면 서버가 갱신
+	
+string
+	
+필수
+	
+N
+	
+1.0.3
+
+
+completions
+	
+완료 기록. 없으면 null 이 아니라 빈 배열
+	
+array
+	
+필수
+	
+N
+	
+[ ]
+
+
+completions[].smallRoutineId
+	
+할 일 id
+	
+number
+	
+필수
+	
+N
+	
+901
+
+
+completions[].status
+	
+완료 여부. 이 두 값 외에는 요청 전체가 400
+	
+enum
+	
+DONE / PENDING
+	
+N
+	
+DONE
+
+
+completions[].completedAt
+	
+DONE 일 때의 완료 시각. PENDING 이면 비움
+	
+timestamp
+	
+UTC
+	
+Y
+	
+2026-09-01T07:42:00Z
+
+
+dates
+	
+받아올 루틴 날짜 목록.  최대 길이 미확정(3일 제안)
+	
+array of date
+	
+필수, yyyy-MM-dd
+	
+N
+	
+["2026-09-01", "2026-09-02"]
+네 필수 항목(battery · firmware · completions · dates) 중 하나라도 빠지면 400 입니다. 빠진 채 200 을 주면 기기는 반영됐다고 믿는데 서버는 아무것도 안 한 상태가 되기 때문입니다.
+Response  (200)
+key
+	
+설명
+	
+value 타입
+	
+옵션
+	
+Nullable
+	
+예시
+
+
+serverTime
+	
+서버 현재 시각. RTC 보정
+	
+timestamp
+	
+UTC
+	
+N
+	
+2026-09-01T08:35:12Z
+
+
+accepted
+	
+반영된 완료 기록 수.  추론 항목. 이미 삭제된 smallRoutineId 는 무시하고 넘어가는 쪽
+	
+number
+	
+	
+N
+	
+2
+
+
+routines[].date
+	
+날짜
+	
+date
+	
+	
+N
+	
+2026-09-01
+
+
+routines[].bigRoutines[]
+	
+그 날짜의 빅루틴. 시작 시각이 이른 순(앱 캘린더와 같은 순서). 필드: bigRoutineId, seriesId, title, startTime, endTime, sortOrder, smallRoutines[]
+	
+array
+	
+	
+N
+	
+
+
+...smallRoutines[]
+	
+할 일. 필드: smallRoutineId, seriesId, title, sortOrder, status(PENDING / DONE), completedAt(null 가능)
+	
+array
+	
+	
+N
+	
+Example
+{
+  "success": true,
+  "data": {
+    "serverTime": "2026-09-01T08:35:12Z",
+    "accepted": 1,
+    "routines": [
+      {
+        "date": "2026-09-01",
+        "bigRoutines": [
+          {
+            "bigRoutineId": 300,
+            "seriesId": "9f1c2e40-5d4e-4a91-b7c3-9e0f1a2b3c4d",
+            "title": "아침 준비",
+            "startTime": "07:30",
+            "endTime": "08:30",
+            "sortOrder": 1,
+            "smallRoutines": [
+              { "smallRoutineId": 901, "seriesId": "3a7b1c20-0000-4000-8000-000000000001", "title": "세수하기", "sortOrder": 1, "status": "DONE", "completedAt": "2026-09-01T07:42:00Z" },
+              { "smallRoutineId": 903, "seriesId": "3a7b1c20-0000-4000-8000-000000000002", "title": "양치하기", "sortOrder": 2, "status": "PENDING", "completedAt": null }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "error": null
+}
+
+​
+Status
+status
+	
+response content
+
+
+200
+	
+동기화 성공
+
+
+400
+	
+INVALID_INPUT (battery 가 0~100 밖 · dates 상한 초과 · status 가 DONE/PENDING 아님 · 필수 항목 누락)
+
+
+401
+	
+DEVICE_UNAUTHORIZED (헤더 없음 · 무효). 자체 복구 경로가 없으므로 기기는 재페어링을 안내해야 합니다
+전체보기

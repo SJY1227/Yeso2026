@@ -1,0 +1,77 @@
+const img20260903554091 = "https://www.figma.com/api/mcp/asset/4819a150-d3f7-403e-9180-049da68c3f72.png";
+const imgVector43 = "https://www.figma.com/api/mcp/asset/acd757b1-89ca-4dd5-ba29-18e89b796dad.svg";
+const imgVector44 = "https://www.figma.com/api/mcp/asset/22a42ce5-1a52-4115-9ac8-3a2140c8bdfb.svg";
+const imgVector45 = "https://www.figma.com/api/mcp/asset/e6fb1929-f683-4038-9aa9-1269455bf742.svg";
+const imgPolygon22 = "https://www.figma.com/api/mcp/asset/489b23e6-6522-42d3-88e7-d848482329c7.svg";
+const imgGroup545 = "https://www.figma.com/api/mcp/asset/da3b7790-8211-4112-a6bf-9c85c1558456.svg";
+
+export default function Component286() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="321:3272" data-name="286">
+      <div className="absolute h-[320px] left-0 top-0 w-[240px]" data-node-id="324:4205" data-name="스크린샷 2026-09-03 오후 5.54.09 1">
+        <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={img20260903554091} />
+      </div>
+      <div className="absolute bg-[#f2edda] h-[229px] left-[20px] top-[52px] w-[202px]" data-node-id="321:3273" />
+      <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[0] left-[120.5px] text-[24px] text-black text-center top-[65px] whitespace-nowrap" data-node-id="321:3274" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        <p className="leading-[normal] mb-0">9:00</p>
+        <p className="leading-[normal]">오전 루틴 시작!</p>
+      </div>
+      <div className="[word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[0] left-[45px] text-[24px] text-black top-[156px] whitespace-nowrap" data-node-id="321:3275" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        <p className="leading-[normal] mb-0">씻기</p>
+        <p className="leading-[normal] mb-0">아침먹기</p>
+        <p className="leading-[normal]">옷갈아입기</p>
+      </div>
+      <div className="absolute h-[21.394px] left-[172.95px] top-[157.2px] w-[15.74px]" data-node-id="321:3276">
+        <div className="absolute inset-[-11.69%_-15.89%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector43} />
+        </div>
+      </div>
+      <div className="absolute h-[25.16px] left-[168.37px] top-[185.8px] w-[23.502px]" data-node-id="321:3277">
+        <div className="absolute inset-[-9.93%_-10.64%_-9.94%_-10.64%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector44} />
+        </div>
+      </div>
+      <div className="absolute h-[19.233px] left-[170.94px] top-[224.74px] w-[24.526px]" data-node-id="321:3278">
+        <div className="absolute inset-[-13%_-10.2%_-13.01%_-10.19%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector45} />
+        </div>
+      </div>
+      <div className="absolute flex h-[34px] items-center justify-center left-[202px] top-[148px] w-[38px]" data-node-id="321:3279">
+        <div className="flex-none rotate-90">
+          <div className="h-[38px] relative w-[34px]">
+            <div className="absolute bottom-1/4 left-[6.7%] right-[6.7%] top-0">
+              <img alt="" className="block max-w-none size-full" src={imgPolygon22} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[34px] items-center justify-center left-[3px] top-[148px] w-[38px]" data-node-id="321:3280">
+        <div className="-scale-y-100 flex-none rotate-90">
+          <div className="h-[38px] relative w-[34px]">
+            <div className="absolute bottom-1/4 left-[6.7%] right-[6.7%] top-0">
+              <img alt="" className="block max-w-none size-full" src={imgPolygon22} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[27px] left-0 top-0 w-[240px]" data-node-id="321:3281">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup545} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:SemiBold'] font-semibold leading-[normal] left-[8px] text-[16px] text-white top-[3px] whitespace-nowrap" data-node-id="413:4035" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+        AM 9:10
+      </p>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

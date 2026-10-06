@@ -1,0 +1,371 @@
+{
+  "schema": 1,
+  "source": "Figma + user 2026-10-04: ten species, three stages",
+  "characters": [
+    {
+      "key": "sheep",
+      "name": "몽실이",
+      "home": "104:894",
+      "stages": [
+        "554:2487",
+        "554:2488",
+        "554:2442"
+      ],
+      "panel": "f6e2ff",
+      "button": "7f6889",
+      "accent": "d591f2",
+      "track": "ffffff",
+      "id": 0,
+      "bg": [
+        "imgImage78",
+        0,
+        0,
+        240,
+        320
+      ],
+      "char": [
+        "imgImage68",
+        24,
+        58,
+        177,
+        237
+      ]
+    },
+    {
+      "key": "red-robot",
+      "name": "또비",
+      "home": "321:1777",
+      "stages": [
+        "674:2631",
+        "674:2634",
+        "554:2441"
+      ],
+      "panel": "f2edda",
+      "button": "6a6a6a",
+      "accent": "0ed9f7",
+      "track": "ffffff",
+      "id": 1,
+      "bg": [
+        "img20260903554091",
+        0,
+        0,
+        240,
+        320
+      ],
+      "char": [
+        "imgImage72",
+        44,
+        71,
+        154,
+        206
+      ]
+    },
+    {
+      "key": "horned",
+      "name": "메에",
+      "home": "425:8379",
+      "locked": "425:8409",
+      "stages": [
+        "554:2485",
+        "554:2486",
+        "554:2445"
+      ],
+      "panel": "d8e4a9",
+      "button": "7c8e24",
+      "accent": "c1ec00",
+      "bg": [
+        "imgImage1",
+        0,
+        -13.984,
+        282,
+        361.984
+      ],
+      "char": [
+        "imgImage138",
+        43,
+        94,
+        140,
+        187,
+        4.28
+      ],
+      "id": 2,
+      "track": "454545",
+      "lockedSlot": [
+        "imgImage149",
+        41.787000000000006,
+        74,
+        141.393,
+        189.335,
+        4.3
+      ]
+    },
+    {
+      "key": "green-robot",
+      "name": "저스티스",
+      "home": "509:2630",
+      "locked": "509:2660",
+      "stages": [
+        "677:2637",
+        "677:2640",
+        "554:2443"
+      ],
+      "panel": "c2eeba",
+      "button": "218c3a",
+      "accent": "0cf966",
+      "bg": [
+        "imgImage198",
+        0,
+        0,
+        240,
+        320
+      ],
+      "char": [
+        "imgImage175",
+        46,
+        94,
+        147,
+        188
+      ],
+      "id": 3,
+      "track": "454545",
+      "lockedSlot": [
+        "imgImage179",
+        47,
+        81,
+        145,
+        186,
+        0
+      ]
+    },
+    {
+      "key": "cat",
+      "name": "냐요미",
+      "home": "483:4292",
+      "locked": "483:4322",
+      "stages": [
+        "554:2483",
+        "554:2484",
+        "554:2455"
+      ],
+      "panel": "f0e0d9",
+      "button": "ae8901",
+      "accent": "fbff00",
+      "bg": [
+        "imgImage160",
+        -40.056,
+        7,
+        302.112,
+        322.0144
+      ],
+      "char": [
+        "imgImage140",
+        33,
+        92,
+        174,
+        192
+      ],
+      "id": 4,
+      "track": "454545",
+      "lockedSlot": [
+        "imgImage169",
+        36,
+        84,
+        168,
+        185,
+        0
+      ]
+    },
+    {
+      "key": "dog",
+      "name": "맘뭉이",
+      "home": "509:2948",
+      "locked": "509:2979",
+      "stages": [
+        "554:2481",
+        "554:2482",
+        "554:2444"
+      ],
+      "panel": "ffee8d",
+      "button": "c16a00",
+      "accent": "fbff00",
+      "bg": [
+        "imgImage194",
+        -144.2448,
+        0,
+        429.7242,
+        322
+      ],
+      "char": [
+        "imgImage178",
+        50,
+        92,
+        147,
+        192
+      ],
+      "id": 5,
+      "track": "454545",
+      "lockedSlot": [
+        "imgImage181",
+        48,
+        85,
+        143,
+        187,
+        0
+      ]
+    },
+    {
+      "key": "seal",
+      "name": "물범",
+      "namePending": true,
+      "home": "483:4646",
+      "locked": "483:4675",
+      "stages": [
+        "554:2453",
+        "554:2454",
+        "554:2449"
+      ],
+      "panel": "cef7ff",
+      "button": "009ac9",
+      "accent": "b0efff",
+      "bg": [
+        "imgImage110",
+        -98.2096,
+        -0.16,
+        399.7944,
+        320.128
+      ],
+      "char": [
+        "imgImage168",
+        45,
+        116,
+        144,
+        175
+      ],
+      "id": 6,
+      "track": "454545",
+      "lockedSlot": [
+        "imgImage169",
+        49,
+        107,
+        142,
+        172,
+        0
+      ]
+    },
+    {
+      "key": "blue-robot",
+      "name": "파랑 로봇",
+      "namePending": true,
+      "home": "640:2633",
+      "locked": "671:2584",
+      "stages": [
+        "677:2643",
+        "677:2646",
+        "554:2446"
+      ],
+      "panel": "76ecdb",
+      "button": "009389",
+      "accent": "1cffd9",
+      "bg": [
+        "imgImage328",
+        -7,
+        -5,
+        262,
+        350
+      ],
+      "char": [
+        "imgImage329",
+        60,
+        94,
+        130,
+        195
+      ],
+      "id": 7,
+      "track": "454545",
+      "lockedSlot": [
+        "imgImage331",
+        66,
+        91,
+        116,
+        174,
+        0
+      ]
+    },
+    {
+      "key": "bear",
+      "name": "북극곰",
+      "home": "640:2382",
+      "locked": "640:2586",
+      "stages": [
+        "554:2451",
+        "554:2452",
+        "554:2450"
+      ],
+      "panel": "a2bad7",
+      "button": "33b7ff",
+      "accent": "c9e1f7",
+      "bg": [
+        "imgImage267",
+        0,
+        0,
+        252,
+        336
+      ],
+      "char": [
+        "imgImage268",
+        56,
+        98,
+        126.744,
+        201
+      ],
+      "id": 8,
+      "track": "454545",
+      "lockedSlot": [
+        "imgImage153",
+        66,
+        94,
+        108,
+        172,
+        0
+      ]
+    },
+    {
+      "key": "rabbit",
+      "name": "깡충이",
+      "home": "640:2796",
+      "locked": "671:2397",
+      "stages": [
+        "554:2456",
+        "554:2457",
+        "554:2447"
+      ],
+      "panel": "ffc8c7",
+      "button": "f272d0",
+      "accent": "f272d0",
+      "bg": [
+        "imgImage307",
+        -9,
+        0,
+        265,
+        354
+      ],
+      "char": [
+        "imgImage308",
+        38,
+        103,
+        167,
+        193
+      ],
+      "id": 9,
+      "track": "454545",
+      "lockedSlot": [
+        "imgImage327",
+        42,
+        88,
+        156,
+        181,
+        0
+      ]
+    }
+  ]
+}

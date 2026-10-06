@@ -1,0 +1,65 @@
+const imgImage68 = "https://www.figma.com/api/mcp/asset/7ca04b21-3edc-41cf-bfe8-d1858cb9306d.png";
+const imgGroup355 = "https://www.figma.com/api/mcp/asset/055c4c91-9a58-432c-abe6-661ff855e9b9.svg";
+const imgUnion = "https://www.figma.com/api/mcp/asset/048954cd-0055-40c1-a126-c29a0aca3cea.svg";
+const imgGroup545 = "https://www.figma.com/api/mcp/asset/00d696e9-336f-4054-a3e3-8c9b2ce580de.svg";
+
+export default function Component161() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="106:2196" data-name="16.1 도감 진입">
+      <div className="absolute h-[219px] left-[38px] top-[68px] w-[163px]" data-node-id="322:2277" data-name="image 68">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage68} />
+      </div>
+      <div className="absolute contents left-[41px] top-[267px]" data-node-id="106:2207">
+        <div className="absolute contents left-[41px] top-[267px]" data-node-id="106:2208">
+          <div className="absolute contents left-[41px] top-[291px]" data-node-id="106:2209">
+            <div className="absolute bg-[#f6e2ff] h-[8px] left-[47px] rounded-[2px] top-[291px] w-[157px]" data-node-id="106:2210" />
+            <div className="absolute bg-[#505050] h-[8px] left-[41px] rounded-[2px] top-[291px] w-[9px]" data-node-id="106:2211" />
+          </div>
+          <div className="absolute contents left-[76px] top-[267px]" data-node-id="106:2212">
+            <div className="absolute bg-[#505050] h-[14px] left-[76px] rounded-[2px] top-[267px] w-[15px]" data-node-id="106:2213" />
+            <div className="absolute bg-[#505050] h-[14px] left-[94px] rounded-[2px] top-[267px] w-[15px]" data-node-id="106:2214" />
+            <div className="absolute bg-[#505050] h-[14px] left-[112px] rounded-[2px] top-[267px] w-[15px]" data-node-id="106:2215" />
+            <div className="absolute bg-[#f6e2ff] h-[14px] left-[130px] rounded-[2px] top-[267px] w-[15px]" data-node-id="106:2216" />
+            <div className="absolute bg-[#f6e2ff] h-[14px] left-[148px] rounded-[2px] top-[267px] w-[15px]" data-node-id="106:2217" />
+          </div>
+        </div>
+        <div className="absolute h-[12.103px] left-[129.55px] top-[267.72px] w-[15.027px]" data-node-id="106:2218">
+          <div className="absolute inset-[-8.26%_-6.66%]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup355} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#7f6889] h-[121px] left-0 top-[199px] w-[240px]" data-node-id="106:2221" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[120.5px] text-[#fff5e6] text-[24px] text-center top-[211px] whitespace-nowrap" data-node-id="106:2222" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        도감을 선택해주세요!
+      </p>
+      <div className="absolute bg-[#2f2f2f] h-[39px] left-[24px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="106:2223" />
+      <div className="absolute bg-[#2f2f2f] h-[39px] left-[131px] rounded-[19.5px] top-[254px] w-[86px]" data-node-id="106:2224" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[66px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="106:2225" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>{`>캐릭터`}</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium leading-[normal] left-[173.5px] text-[20px] text-center text-white top-[260px] whitespace-nowrap" data-node-id="106:2226" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        먹이
+      </p>
+      <div className="absolute h-[61px] left-[16px] top-[43px] w-[207px]" data-node-id="106:2229" data-name="Union">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium h-[35px] leading-[normal] left-[119.5px] text-[22px] text-black text-center top-[50px] w-[175px]" data-node-id="106:2232" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        좋은 하루 보내~
+      </p>
+      <div className="absolute h-[27px] left-0 top-0 w-[240px]" data-node-id="318:2063">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup545} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:SemiBold'] font-semibold leading-[normal] left-[8px] text-[16px] text-white top-[3px] whitespace-nowrap" data-node-id="413:2073" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+        AM 9:10
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

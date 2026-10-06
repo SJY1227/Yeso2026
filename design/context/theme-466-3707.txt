@@ -1,0 +1,34 @@
+<section id="466:3707" name="색상" x="7655" y="16731" width="2111" height="1346">
+  <text id="466:3712" name="연노랑 핑크 하늘 연두 연보라 검정 흰" x="786" y="475" width="1151" height="73" />
+  <rounded-rectangle id="466:3713" name="image 82" x="26" y="15" width="1115" height="379" />
+  <rounded-rectangle id="466:3714" name="image 83" x="26" y="400" width="682" height="150" />
+  <rounded-rectangle id="466:3715" name="image 84" x="1141" y="15" width="909" height="416" />
+  <frame id="466:3716" name="Group 555" x="786" y="573.85546875" width="908.994873046875" height="132.38607788085938">
+    <rounded-rectangle id="466:3717" name="Rectangle 34629408" x="786" y="573.8556776493788" width="908.994873046875" height="132.38607788085938" />
+    <ellipse id="466:3718" name="Ellipse 194" x="1299.9697265625" y="599.15234375" width="106.9405746459961" height="82.63589477539062" />
+    <ellipse id="466:3719" name="Ellipse 195" x="815.4638671875" y="599.15234375" width="106.9405746459961" height="82.63589477539062" />
+    <ellipse id="466:3720" name="Ellipse 196" x="936.5899047851562" y="599.1523818969727" width="106.9405746459961" height="82.63589477539062" />
+    <ellipse id="466:3721" name="Ellipse 197" x="1057.716796875" y="599.15234375" width="106.9405746459961" height="82.63589477539062" />
+    <ellipse id="466:3722" name="Ellipse 198" x="1178.84375" y="599.15234375" width="106.9405746459961" height="82.63589477539062" />
+    <ellipse id="466:3723" name="Ellipse 199" x="1421.0966796875" y="599.15234375" width="106.9405746459961" height="82.63589477539062" />
+    <ellipse id="466:3724" name="Ellipse 200" x="1542.22265625" y="599.15234375" width="106.9405746459961" height="82.63589477539062" />
+  </frame>
+  <text id="466:3725" name="또비" x="1438" y="724" width="74" height="54" />
+  <text id="466:3726" name="몽실이" x="1296" y="724" width="111" height="54" />
+  <text id="466:3727" name="맘뭉이" x="815" y="724" width="111" height="54" />
+  <text id="466:3728" name="할루하" x="1076" y="724" width="111" height="54" />
+  <text id="466:3729" name="호요" x="1076" y="778" width="74" height="54" />
+  <text id="466:3730" name="고양이" x="815" y="778" width="111" height="54" />
+  <text id="466:3731" name="북극곰" x="1547" y="724" width="111" height="54" />
+  <text id="466:3732" name="깡충이" x="934" y="724" width="111" height="54" />
+  <text id="466:3733" name="저티" x="1203" y="724" width="74" height="54" />
+  <text id="500:2117" name="메에" x="1203" y="778" width="74" height="54" />
+  <rounded-rectangle id="666:2258" name="스크린샷 2026-09-15 오후 3.20.00 1" x="83" y="983" width="244" height="235" />
+  <rounded-rectangle id="666:2259" name="스크린샷 2026-09-15 오후 3.20.28 1" x="1171" y="975" width="247" height="243" />
+  <rounded-rectangle id="666:2260" name="스크린샷 2026-09-15 오후 3.20.46 1" x="615" y="981" width="248" height="240" />
+  <rounded-rectangle id="666:2261" name="스크린샷 2026-09-15 오후 3.20.55 1" x="353" y="979" width="240" height="235" />
+  <rounded-rectangle id="666:2264" name="스크린샷 2026-09-15 오후 3.22.49 1" x="894" y="985" width="246" height="245" />
+  <rounded-rectangle id="666:2262" name="스크린샷 2026-09-15 오후 3.21.24 1" x="1694" y="969" width="243" height="245" />
+  <rounded-rectangle id="666:2263" name="스크린샷 2026-09-15 오후 3.21.35 1" x="1447" y="970" width="247" height="244" />
+</section>
+IMPORTANT: The user has selected a section node, so you have received a sparse metadata response. You MUST call get_design_context on the nodes or their sublayers individually based on their IDs to implement the design.

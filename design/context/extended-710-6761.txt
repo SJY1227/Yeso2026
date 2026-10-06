@@ -1,0 +1,15 @@
+const imgImage156 = "https://www.figma.com/api/mcp/asset/5af4433d-e072-447e-8cbc-6a61d162efe5.png";
+
+export default function Component() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="710:6761" data-name="몽실 눈물">
+      <div className="absolute contents left-[-7px] top-[-5px]" data-node-id="710:6762">
+        <div className="absolute h-[350px] left-[-7px] top-[-5px] w-[262px]" data-node-id="710:6763" data-name="image 328" />
+        <div className="absolute border border-black border-solid h-[141px] left-[72px] top-[65px] w-[96px]" data-node-id="710:6764" />
+      </div>
+      <div className="absolute h-[152px] left-[55px] top-[60px] w-[138px]" data-node-id="713:2258" data-name="image 156">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="152" src={imgImage156} width="138" />
+      </div>
+    </div>
+  );
+}

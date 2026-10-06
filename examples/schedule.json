@@ -1,0 +1,12 @@
+{
+  "revision": 1,
+  "runs": [{
+    "id": 1,
+    "title": "병원 가기",
+    "startsAt": "2030-01-01T09:00:00+09:00",
+    "endsAt": "2030-01-01T10:00:00+09:00",
+    "deadlineRule": "deadline-wins",
+    "warningLeadSeconds": 300,
+    "steps": [{"id": 11, "title": "7번 버스 타기"}, {"id": 12, "title": "접수하기"}]
+  }]
+}

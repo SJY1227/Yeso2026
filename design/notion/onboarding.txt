@@ -1,0 +1,46 @@
+콘텐츠로 건너뛰기
+Notion 계정이 있는 모든 사용자가 이 페이지를 편집할 수 있습니다.
+편집하려면 가입 또는 로그인하세요.
+예소 개발자용
+/
+온보딩 & 페어링 전체 흐름
+온보딩 & 페어링 전체 흐름
+ 최종 수정 2026-10-03. 로그인이 소셜 → 이메일 · 비밀번호로, 인증이 JWT · 기기 토큰 → 만료 없는 UUID 로 바뀐 내용을 반영했습니다. 엔드포인트별 요청/응답은 
+API 기본 명세서 의 각 행에 있습니다.
+0. 앱 -> 서버: 온보딩 1차. POST /api/v1/auth/signup { email, password }
+               => accessUuid 발급, 가입과 동시에 로그인 상태
+               => 응답 user.name 이 null 이므로 앱은 성명 입력 화면으로 분기
+                  PATCH /api/v1/users/me { name } 로 보호자 성명 입력
+               (이미 가입했다면 POST /api/v1/auth/login. 호출마다 accessUuid 를 새로 발급하고 이전 값은 무효)
+               ※ 이후 앱의 모든 요청은 X-Access-Uuid 헤더에 이 값을 담는다. 만료가 없어 갱신 호출이 없다.
+
+1. 앱 → 서버 : 온보딩 2차.
+              POST /api/v1/children { name, birthDate, relationship }
+              POST /api/v1/devices/pairing { childId, nickname }
+              → pairingCode(숫자 10자리 문자열) + deviceId 수신, PENDING 행 생성
+              ※ 기기 N대 지원(자녀당 최대 10대): 자녀당 PENDING 행이 여러 개일 수 있어
+                deviceId로 이번에 만든 행을 특정 (이후 상태 폴링에 사용)
+
+2. 앱 → 기기 : 온보딩 3차. (핫스팟) 와이파이 SSID/PW + pairingCode
+              ※ 단방향, 기기는 응답만. 사람이 코드를 입력하지 않으므로 10자리여도 불편 없음
+
+3. 기기 → 서버 : POST /device-api/v1/claim { pairingCode, deviceUid, firmware }   (인증 헤더 없음)
+                → 서버가 pairingCode로 PENDING 행을 잠그고 조회
+                → 만료(발급 후 10분) 검증
+                → device_uid, paired_at 채우고 ACTIVE, pairing_code 비움(일회용)
+                → 서버가 device_access_uuid 를 새로 만들어 저장
+                → 응답으로 { deviceId, deviceAccessUuid, serverTime } 반환
+                ※ deviceAccessUuid 는 기기가 반드시 영속 저장 (잃으면 되찾을 경로가 없다)
+                ※ 이미 쓴 코드는 없는 코드와 같이 404 PAIRING_CODE_NOT_FOUND, 만료는 410
+
+4. 앱 → 서버 : GET /api/v1/devices/{deviceId} 폴링
+              → status 가 PENDING → ACTIVE 로 바뀌면 온보딩 완료
+              ※ 타임아웃 10분(코드 만료와 같은 값). 폴링 주기는 미확정 (2초 제안)
+              ※ 타임아웃되면 페어링 재시도 화면으로
+
+5. 이후 기기 → 서버 : X-Device-Uuid: <deviceAccessUuid> 로 POST /device-api/v1/sync
+                     → 401 DEVICE_UNAUTHORIZED 수신 시 자체 복구 경로 없음. 사용자에게 재페어링 안내
+
+※ 토큰 재발급(POST /device-api/v1/token/refresh)과 secret 은 삭제되었다.
+
+​

@@ -1,0 +1,952 @@
+<section id="355:5170" name="🔴 캐릭터별 디바이스 화면 전체(최종)" x="10093" y="21557" width="14030" height="4343">
+  <frame id="640:2418" name="299" x="3823" y="2312" width="240" height="320">
+    <rounded-rectangle id="640:2457" name="image 267" x="0" y="0" width="252" height="336" />
+    <boolean-operation id="640:2420" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="640:2423" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="640:2424" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="640:2427" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="640:2428" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="640:2429" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="640:2430" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="640:2431" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="640:2432" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="640:2433" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="640:2434" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2438" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="675:33659" name="306" x="5743" y="2312" width="240" height="320">
+    <rounded-rectangle id="675:33660" name="image 267" x="0" y="0" width="252" height="336" />
+    <rounded-rectangle id="675:33657" name="image 6347610" x="0" y="27" width="241" height="306" />
+    <text id="675:33668" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="675:33669" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="675:33670" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="675:33671" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="675:33672" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="675:33673" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="675:33674" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="675:33675" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="675:33679" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="640:2816" name="301" x="3823" y="2929" width="240" height="320">
+    <rounded-rectangle id="640:2837" name="image 307" x="-9" y="0" width="265" height="354" />
+    <boolean-operation id="640:2818" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="640:2821" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="640:2822" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="640:2825" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="640:2826" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="640:2827" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="640:2828" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="640:2829" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="640:2830" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="640:2831" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="640:2832" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2836" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="640:2865" name="302" x="4075" y="2929" width="240" height="320">
+    <rounded-rectangle id="640:2866" name="image 307" x="-9" y="0" width="265" height="354" />
+    <boolean-operation id="640:2867" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="640:2870" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="640:2871" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="640:2874" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="640:2875" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="640:2876" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <frame id="640:2881" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2885" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="640:2886" name="Rectangle 34629297" x="0" y="27" width="241" height="292" />
+    <rounded-rectangle id="640:2887" name="Rectangle 34629295" x="0" y="206" width="240" height="121" />
+    <text id="640:2888" name="완료 하시겠습니까?" x="24" y="218" width="193" height="33" />
+    <rounded-rectangle id="640:2889" name="Rectangle 34629296" x="78" y="261" width="86" height="39" />
+    <text id="640:2890" name="&gt;확인" x="96" y="267" width="48" height="27" />
+  </frame>
+  <frame id="671:2449" name="303" x="5335" y="2926" width="240" height="320">
+    <rounded-rectangle id="671:2450" name="image 307" x="-9" y="0" width="265" height="354" />
+    <boolean-operation id="671:2451" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="671:2454" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="671:2455" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="671:2458" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="671:2459" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="671:2460" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <frame id="671:2461" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="671:2465" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="671:2466" name="Rectangle 34629297" x="0" y="27" width="241" height="292" />
+    <rounded-rectangle id="671:2467" name="Rectangle 34629295" x="0" y="206" width="240" height="121" />
+    <text id="671:2468" name="진짜로...?" x="72" y="218" width="96" height="33" />
+    <rounded-rectangle id="671:2469" name="Rectangle 34629296" x="78" y="261" width="86" height="39" />
+    <text id="671:2470" name="&gt;확인" x="96" y="267" width="48" height="27" />
+    <rounded-rectangle id="671:2471" name="image 308" x="47" y="58" width="138" height="160" />
+    <rounded-rectangle id="671:2473" name="눈물 모션1 2" x="102" y="112" width="31" height="41" />
+  </frame>
+  <frame id="483:4646" name="4.1 하루 시작 기본 화면" x="3557" y="1038" width="240" height="320">
+    <rounded-rectangle id="483:4796" name="image 110" x="-1" y="0" width="249" height="320" />
+    <rounded-rectangle id="509:2620" name="Rectangle 34629421" x="-5" y="249" width="245" height="100" />
+    <vector id="483:4647" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="483:4648" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="483:4651" name="좋은 하루 보내~" x="32" y="50" width="175" height="35" />
+    <frame id="483:4652" name="Group 543" x="0" y="0" width="240" height="27" />
+    <frame id="483:4656" name="Group 352" x="39" y="291" width="163" height="8" />
+    <text id="483:4659" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:2608" name="image 168" x="45" y="116" width="144" height="175" />
+  </frame>
+  <frame id="640:2633" name="4.1 하루 시작 기본 화면" x="3551" y="1675" width="240" height="320">
+    <rounded-rectangle id="671:2477" name="image 328" x="-7" y="-5" width="262" height="350" />
+    <rounded-rectangle id="671:2478" name="image 329" x="60" y="94" width="130" height="195" />
+    <vector id="640:2636" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="640:2637" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="640:2640" name="좋은 하루 보내~" x="32" y="50" width="175" height="35" />
+    <frame id="640:2641" name="Group 543" x="0" y="0" width="240" height="27" />
+    <frame id="640:2645" name="Group 352" x="39" y="291" width="163" height="8" />
+    <text id="640:2648" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="671:2524" name="4.1 하루 시작 기본 화면" x="4559" y="1675" width="240" height="320">
+    <rounded-rectangle id="671:2525" name="image 328" x="-7" y="-5" width="262" height="350" />
+    <rounded-rectangle id="671:2526" name="image 329" x="60" y="94" width="130" height="195" />
+    <vector id="671:2527" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="671:2528" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="671:2531" name="잘먹었어!" x="32" y="50" width="175" height="35" />
+    <frame id="671:2532" name="Group 543" x="0" y="0" width="240" height="27" />
+    <text id="671:2539" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="671:2540" name="Group 561" x="42" y="279" width="157" height="19" />
+  </frame>
+  <rounded-rectangle id="425:8578" name="image . 1" x="744" y="457" width="362" height="465" />
+  <rounded-rectangle id="633:2344" name="image . 2" x="9292" y="2788" width="648" height="832" />
+  <frame id="425:8379" name="4.1 하루 시작 기본 화면" x="744" y="968" width="240" height="320">
+    <rounded-rectangle id="504:2314" name="image . 1" x="0" y="0" width="240" height="320" />
+    <vector id="425:8381" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="425:8382" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="425:8385" name="좋은 하루 보내~" x="32" y="50" width="175" height="35" />
+    <frame id="425:8386" name="Group 543" x="0" y="0" width="240" height="27" />
+    <frame id="425:8390" name="Group 352" x="39" y="291" width="163" height="8" />
+    <text id="425:8393" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="504:2313" name="image 138" x="56.94407272338867" y="94" width="153.55430981516838" height="196.9188014268875" />
+  </frame>
+  <text id="509:3131" name="메에" x="176" y="509" width="175" height="35" />
+  <text id="509:3132" name="저스티스" x="175" y="1449" width="267" height="64" />
+  <text id="511:3435" name="냐요미" x="200" y="2385" width="267" height="64" />
+  <text id="511:3436" name="맘뭉이" x="200" y="3300" width="267" height="64" />
+  <frame id="509:2630" name="4.1 하루 시작 기본 화면" x="744" y="1909" width="240" height="320">
+    <rounded-rectangle id="511:3426" name="image 198" x="0" y="0" width="240" height="320" />
+    <vector id="509:2632" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="509:2633" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="509:2636" name="좋은 하루 보내~" x="32" y="50" width="175" height="35" />
+    <frame id="509:2637" name="Group 543" x="0" y="0" width="240" height="27" />
+    <frame id="509:2641" name="Group 352" x="39" y="291" width="163" height="8" />
+    <text id="509:2644" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:3105" name="image 175" x="46" y="94" width="147" height="188" />
+  </frame>
+  <rounded-rectangle id="509:3134" name="image 183" x="718" y="1471" width="304" height="405" />
+  <rounded-rectangle id="509:3135" name="image 184" x="1040" y="1471" width="304" height="405" />
+  <rounded-rectangle id="509:3137" name="image 186" x="1362" y="1471" width="304" height="405" />
+  <rounded-rectangle id="508:2109" name="image 191" x="2022" y="1471" width="304" height="405" />
+  <rounded-rectangle id="510:3139" name="image 190" x="1700" y="1471" width="304" height="405" />
+  <frame id="483:4292" name="4.1 하루 시작 기본 화면" x="744" y="2827" width="240" height="320">
+    <rounded-rectangle id="503:2091" name="image 160" x="0" y="7" width="240" height="313" />
+    <vector id="483:4294" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="483:4295" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="483:4298" name="좋은 하루 보내~" x="32" y="50" width="175" height="35" />
+    <frame id="483:4299" name="Group 543" x="0" y="0" width="240" height="27" />
+    <frame id="483:4303" name="Group 352" x="39" y="291" width="163" height="8" />
+    <text id="483:4306" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="504:2349" name="image 140" x="33" y="92" width="174" height="192" />
+  </frame>
+  <rounded-rectangle id="509:2443" name="image 160" x="744" y="2393" width="362" height="386" />
+  <rounded-rectangle id="633:2342" name="image 263" x="8612" y="2787" width="648" height="838" />
+  <frame id="509:2948" name="4.1 하루 시작 기본 화면" x="744" y="3742" width="240" height="320">
+    <rounded-rectangle id="511:3143" name="image 194" x="-6" y="0" width="249" height="322" />
+    <rounded-rectangle id="509:2949" name="image 160" x="0" y="7" width="240" height="313" />
+    <vector id="509:2950" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="509:2951" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="509:2954" name="좋은 하루 보내~" x="32" y="50" width="175" height="35" />
+    <frame id="509:2955" name="Group 543" x="0" y="0" width="240" height="27" />
+    <frame id="509:2959" name="Group 352" x="39" y="291" width="163" height="8" />
+    <text id="509:2962" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:3117" name="image 178" x="50" y="92" width="147" height="192" />
+  </frame>
+  <frame id="483:4308" name="14. 캐릭터 진화 UX" x="2004" y="2827" width="240" height="320">
+    <star id="483:4309" name="Star 1" x="-63" y="0" width="358" height="335" />
+    <frame id="483:4310" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4314" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="483:4316" name="Group 561" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="504:2352" name="image 140" x="34" y="56" width="174" height="192" />
+    <rounded-rectangle id="506:2399" name="Rectangle 34629305" x="44" y="281" width="153" height="15" />
+    <star id="506:2354" name="Star 2" x="-63" y="0" width="358" height="335" />
+  </frame>
+  <frame id="425:8395" name="14. 캐릭터 진화 UX" x="2004" y="968" width="240" height="320">
+    <star id="425:8396" name="Star 1" x="-63" y="0" width="358" height="335" />
+    <frame id="425:8404" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="425:8408" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="504:2330" name="image 138" x="56.99973678588867" y="65" width="153.55430981516838" height="196.9188014268875" />
+    <frame id="506:2398" name="Group 591" x="42" y="279" width="157" height="19" />
+    <star id="504:2332" name="Star 2" x="-63" y="7" width="358" height="335" />
+  </frame>
+  <frame id="640:2382" name="4.1 하루 시작 기본 화면" x="3573" y="2312" width="240" height="320">
+    <rounded-rectangle id="640:2398" name="image 267" x="0" y="0" width="252" height="336" />
+    <rounded-rectangle id="640:2399" name="image 268" x="56" y="98" width="126.74368286132812" height="201" />
+    <rounded-rectangle id="640:2383" name="image 110" x="-1" y="0" width="249" height="320" />
+    <vector id="640:2384" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="640:2385" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="640:2388" name="좋은 하루 보내~" x="32" y="50" width="175" height="35" />
+    <frame id="640:2389" name="Group 543" x="0" y="0" width="240" height="27" />
+    <frame id="640:2393" name="Group 352" x="39" y="291" width="163" height="8" />
+    <text id="640:2396" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="640:2796" name="4.1 하루 시작 기본 화면" x="3573" y="2929" width="240" height="320">
+    <rounded-rectangle id="640:2813" name="image 307" x="-9" y="0" width="265" height="354" />
+    <rounded-rectangle id="640:2814" name="image 308" x="38" y="103" width="167" height="193" />
+    <rounded-rectangle id="640:2799" name="image 110" x="-1" y="0" width="249" height="320" />
+    <vector id="640:2800" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="640:2801" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="640:2804" name="좋은 하루 보내~" x="32" y="50" width="175" height="35" />
+    <frame id="640:2805" name="Group 543" x="0" y="0" width="240" height="27" />
+    <frame id="640:2809" name="Group 352" x="39" y="291" width="163" height="8" />
+    <text id="640:2812" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="671:2338" name="4.1 하루 시작 기본 화면" x="4579" y="2927" width="240" height="320">
+    <rounded-rectangle id="671:2339" name="image 307" x="-9" y="0" width="265" height="354" />
+    <rounded-rectangle id="671:2340" name="image 308" x="38" y="103" width="167" height="193" />
+    <rounded-rectangle id="671:2341" name="image 110" x="-1" y="0" width="249" height="320" />
+    <vector id="671:2342" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="671:2343" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="671:2346" name="잘먹었어!" x="32" y="50" width="175" height="35" />
+    <frame id="671:2347" name="Group 543" x="0" y="0" width="240" height="27" />
+    <text id="671:2354" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="671:2355" name="Group 561" x="42" y="279" width="157" height="19" />
+  </frame>
+  <frame id="640:2515" name="4.1 하루 시작 기본 화면" x="4579" y="2312" width="240" height="320">
+    <rounded-rectangle id="640:2516" name="image 267" x="0" y="0" width="252" height="336" />
+    <rounded-rectangle id="640:2517" name="image 268" x="56" y="98" width="126.74368286132812" height="201" />
+    <rounded-rectangle id="640:2518" name="image 110" x="-1" y="0" width="249" height="320" />
+    <vector id="640:2519" name="Rectangle 34629287" x="0" y="0" width="240" height="27" />
+    <boolean-operation id="640:2520" name="Union" x="16" y="43" width="207" height="61" />
+    <frame id="640:2524" name="Group 543" x="0" y="0" width="240" height="27" />
+    <text id="640:2531" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <text id="640:2532" name="잘먹었어!" x="32" y="50" width="175" height="35" />
+    <frame id="640:2541" name="Group 561" x="42" y="279" width="157" height="19" />
+  </frame>
+  <frame id="509:2965" name="14. 캐릭터 진화 UX" x="2004" y="3742" width="240" height="320">
+    <star id="509:2966" name="Star 1" x="-63" y="0" width="358" height="335" />
+    <frame id="509:2972" name="Group 561" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="509:2977" name="Rectangle 34629305" x="44" y="281" width="153" height="15" />
+    <rounded-rectangle id="509:3126" name="image 178" x="42" y="64" width="147" height="192" />
+    <star id="509:3127" name="Star 2" x="-63" y="0" width="358" height="335" />
+    <frame id="509:2967" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2971" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="483:4322" name="16. 도감 UX" x="2256" y="2827" width="240" height="320">
+    <rounded-rectangle id="483:4323" name="Rectangle 34629310" x="8" y="62" width="224" height="258" />
+    <text id="483:4324" name="도감" x="-49" y="27" width="175" height="35" />
+    <regular-polygon id="483:4325" name="Polygon 17" x="238" y="193" width="38" height="34" />
+    <regular-polygon id="483:4326" name="Polygon 18" x="1" y="193" width="38" height="34" />
+    <text id="483:4327" name="6/50" x="116" y="27" width="175" height="35" />
+    <rounded-rectangle id="483:4328" name="Rectangle 34629294" x="69" y="269" width="113" height="39" />
+    <text id="483:4329" name="🔒" x="117" y="279" width="20" height="20" />
+    <frame id="483:4330" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4334" name="???" x="107" y="67" width="26" height="27" />
+    <text id="483:4336" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:2610" name="image 169" x="36" y="84" width="168" height="185" />
+  </frame>
+  <frame id="509:2645" name="14. 캐릭터 진화 UX" x="2004" y="1909" width="240" height="320">
+    <star id="509:2646" name="Star 1" x="-63" y="0" width="358" height="335" />
+    <frame id="509:2647" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2651" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="509:2653" name="Group 591" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="509:3110" name="image 175" x="42" y="53" width="147" height="188" />
+    <star id="509:3111" name="Star 2" x="-63" y="0" width="358" height="335" />
+  </frame>
+  <frame id="425:8409" name="16. 도감 UX" x="2256" y="968" width="240" height="320">
+    <rounded-rectangle id="425:8410" name="Rectangle 34629310" x="8" y="62" width="224" height="258" />
+    <text id="425:8411" name="도감" x="-49" y="27" width="175" height="35" />
+    <regular-polygon id="425:8412" name="Polygon 17" x="238" y="193" width="38" height="34" />
+    <regular-polygon id="425:8413" name="Polygon 18" x="1" y="193" width="38" height="34" />
+    <text id="425:8414" name="6/50" x="116" y="27" width="175" height="35" />
+    <rounded-rectangle id="425:8415" name="Rectangle 34629294" x="69" y="269" width="113" height="39" />
+    <text id="425:8416" name="🔒" x="116" y="279" width="20" height="20" />
+    <frame id="425:8417" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="425:8421" name="???" x="107" y="67" width="26" height="27" />
+    <text id="425:8423" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:2609" name="image 149" x="55.9997673034668" y="74" width="155.20618339063003" height="199.41360651309515" />
+  </frame>
+  <frame id="483:4661" name="14. 캐릭터 진화 UX" x="4817" y="1038" width="240" height="320">
+    <star id="483:4662" name="Star 1" x="-63" y="0" width="358" height="335" />
+    <frame id="483:4663" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4667" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="483:4668" name="Group 561" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="509:2615" name="image 168" x="44" y="64" width="144" height="175" />
+    <rounded-rectangle id="509:2624" name="Rectangle 34629305" x="44" y="281" width="153" height="15" />
+    <star id="509:2616" name="Star 2" x="-63" y="0" width="358" height="335" />
+  </frame>
+  <frame id="671:2560" name="14. 캐릭터 진화 UX" x="4811" y="1675" width="240" height="320">
+    <star id="671:2561" name="Star 1" x="-63" y="0" width="358" height="335" />
+    <rounded-rectangle id="671:2575" name="image 329" x="56" y="41" width="130" height="195" />
+    <star id="671:2573" name="Star 2" x="-58" y="3" width="358" height="335" />
+    <frame id="671:2574" name="Group 1948757114" x="0" y="0" width="240" height="27">
+      <frame id="671:2562" name="Group 545" x="0" y="0" width="240" height="27" />
+      <text id="671:2566" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    </frame>
+    <frame id="671:2577" name="Group 561" x="42" y="279" width="157" height="19" />
+  </frame>
+  <frame id="483:4337" name="12.2 먹이주기" x="1746" y="2827" width="240" height="320" />
+  <frame id="509:2979" name="16. 도감 UX" x="2256" y="3742" width="240" height="320">
+    <rounded-rectangle id="509:2980" name="Rectangle 34629310" x="8" y="62" width="224" height="258" />
+    <text id="509:2981" name="도감" x="-49" y="27" width="175" height="35" />
+    <regular-polygon id="509:2982" name="Polygon 17" x="238" y="193" width="38" height="34" />
+    <regular-polygon id="509:2983" name="Polygon 18" x="1" y="193" width="38" height="34" />
+    <text id="509:2984" name="6/50" x="116" y="27" width="175" height="35" />
+    <rounded-rectangle id="509:2985" name="Rectangle 34629294" x="69" y="269" width="113" height="39" />
+    <text id="509:2986" name="🔒" x="117" y="279" width="20" height="20" />
+    <frame id="509:2987" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2991" name="???" x="107" y="67" width="26" height="27" />
+    <text id="509:2992" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:3130" name="image 181" x="48" y="85" width="143" height="187" />
+  </frame>
+  <frame id="640:2561" name="14. 캐릭터 진화 UX" x="4831" y="2312" width="240" height="320">
+    <star id="640:2562" name="Star 1" x="-63" y="0" width="358" height="335" />
+    <frame id="640:2575" name="Group 561" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="640:2582" name="image 268" x="52" y="59" width="126.74368286132812" height="201" />
+    <star id="640:2584" name="Star 2" x="-63" y="0" width="358" height="335" />
+    <frame id="640:2563" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2567" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="671:2382" name="14. 캐릭터 진화 UX" x="4829" y="2927" width="240" height="320">
+    <star id="671:2383" name="Star 1" x="-63" y="0" width="358" height="335" />
+    <rounded-rectangle id="671:2439" name="image 308" x="30" y="71" width="167" height="193" />
+    <star id="671:2391" name="Star 2" x="-63" y="3" width="358" height="335" />
+    <frame id="671:2441" name="Group 561" x="42" y="279" width="157" height="19" />
+    <frame id="671:2392" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="671:2396" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="425:8424" name="12.2 먹이주기" x="1752" y="968" width="240" height="320">
+    <rounded-rectangle id="504:2318" name="image . 1" x="0" y="0" width="240" height="320" />
+    <boolean-operation id="425:8426" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="425:8429" name="잘먹었어!" x="32" y="50" width="175" height="35" />
+    <frame id="425:8430" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="425:8434" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="425:8435" name="Group 561" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="504:2329" name="image 138" x="51.9443359375" y="87.041015625" width="153.55430981516838" height="196.9188014268875" />
+  </frame>
+  <frame id="509:2660" name="16. 도감 UX" x="2256" y="1909" width="240" height="320">
+    <rounded-rectangle id="509:2661" name="Rectangle 34629310" x="8" y="62" width="224" height="258" />
+    <text id="509:2662" name="도감" x="-49" y="27" width="175" height="35" />
+    <regular-polygon id="509:2663" name="Polygon 17" x="238" y="193" width="38" height="34" />
+    <regular-polygon id="509:2664" name="Polygon 18" x="1" y="193" width="38" height="34" />
+    <text id="509:2665" name="6/50" x="116" y="27" width="175" height="35" />
+    <rounded-rectangle id="509:2666" name="Rectangle 34629294" x="69" y="269" width="113" height="39" />
+    <text id="509:2667" name="🔒" x="117" y="279" width="20" height="20" />
+    <frame id="509:2668" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2672" name="???" x="107" y="67" width="26" height="27" />
+    <text id="509:2673" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:3115" name="image 179" x="47" y="81" width="145" height="186" />
+  </frame>
+  <frame id="483:4355" name="294" x="996" y="2827" width="240" height="320" />
+  <frame id="509:2994" name="12.2 먹이주기" x="1746" y="3742" width="240" height="320">
+    <rounded-rectangle id="511:3423" name="image 194" x="-6" y="0" width="249" height="322" />
+    <boolean-operation id="509:2995" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="509:2998" name="잘먹었어!" x="32" y="50" width="175" height="35" />
+    <frame id="509:2999" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:3003" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="509:3005" name="Group 561" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="509:3120" name="image 178" x="50" y="92" width="147" height="192" />
+  </frame>
+  <frame id="483:4675" name="16. 도감 UX" x="5069" y="1038" width="240" height="320">
+    <rounded-rectangle id="483:4676" name="Rectangle 34629310" x="8" y="62" width="224" height="258" />
+    <text id="483:4677" name="도감" x="-49" y="27" width="175" height="35" />
+    <regular-polygon id="483:4678" name="Polygon 17" x="238" y="193" width="38" height="34" />
+    <regular-polygon id="483:4679" name="Polygon 18" x="1" y="193" width="38" height="34" />
+    <text id="483:4680" name="6/50" x="116" y="27" width="175" height="35" />
+    <rounded-rectangle id="483:4681" name="Rectangle 34629294" x="69" y="269" width="113" height="39" />
+    <text id="483:4682" name="🔒" x="117" y="279" width="20" height="20" />
+    <frame id="483:4683" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4687" name="???" x="107" y="67" width="26" height="27" />
+    <text id="483:4689" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:2611" name="image 169" x="49" y="107" width="142" height="172" />
+  </frame>
+  <frame id="671:2584" name="16. 도감 UX" x="5063" y="1675" width="240" height="320">
+    <rounded-rectangle id="671:2585" name="Rectangle 34629310" x="8" y="62" width="224" height="258" />
+    <text id="671:2586" name="도감" x="-49" y="27" width="175" height="35" />
+    <regular-polygon id="671:2587" name="Polygon 17" x="238" y="193" width="38" height="34" />
+    <regular-polygon id="671:2588" name="Polygon 18" x="1" y="193" width="38" height="34" />
+    <text id="671:2589" name="6/50" x="116" y="27" width="175" height="35" />
+    <frame id="671:2592" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="671:2596" name="???" x="107" y="67" width="26" height="27" />
+    <text id="671:2597" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="671:2599" name="image 331" x="66" y="91" width="116" height="174" />
+    <rounded-rectangle id="671:2590" name="Rectangle 34629294" x="69" y="269" width="113" height="39" />
+    <text id="671:2591" name="🔒" x="116" y="279" width="20" height="20" />
+  </frame>
+  <frame id="425:8458" name="293" x="996" y="968" width="240" height="320">
+    <rounded-rectangle id="504:2317" name="image . 1" x="0" y="0" width="240" height="320" />
+    <rounded-rectangle id="483:4277" name="image . 2" x="0" y="0" width="240" height="320" />
+    <boolean-operation id="425:8460" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="425:8463" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="425:8464" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="425:8467" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="425:8468" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="425:8469" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="425:8470" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="425:8471" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="425:8472" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="425:8473" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="425:8474" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="425:8478" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="483:4376" name="9-1" x="1248" y="2827" width="240" height="320" />
+  <frame id="640:2586" name="16. 도감 UX" x="5083" y="2312" width="240" height="320">
+    <rounded-rectangle id="640:2587" name="Rectangle 34629310" x="8" y="62" width="224" height="258" />
+    <text id="640:2588" name="도감" x="-49" y="27" width="175" height="35" />
+    <regular-polygon id="640:2589" name="Polygon 17" x="238" y="193" width="38" height="34" />
+    <regular-polygon id="640:2590" name="Polygon 18" x="1" y="193" width="38" height="34" />
+    <text id="640:2591" name="6/50" x="116" y="27" width="175" height="35" />
+    <frame id="640:2594" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2598" name="???" x="107" y="67" width="26" height="27" />
+    <text id="640:2600" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="640:2601" name="image 153" x="66" y="94" width="108" height="172" />
+    <rounded-rectangle id="640:2592" name="Rectangle 34629294" x="69" y="269" width="113" height="39" />
+    <text id="640:2593" name="🔒" x="117" y="279" width="20" height="20" />
+  </frame>
+  <frame id="671:2397" name="16. 도감 UX" x="5081" y="2926" width="240" height="320">
+    <rounded-rectangle id="671:2398" name="Rectangle 34629310" x="8" y="62" width="224" height="258" />
+    <text id="671:2399" name="도감" x="-49" y="27" width="175" height="35" />
+    <regular-polygon id="671:2400" name="Polygon 17" x="238" y="193" width="38" height="34" />
+    <regular-polygon id="671:2401" name="Polygon 18" x="1" y="193" width="38" height="34" />
+    <text id="671:2402" name="6/50" x="116" y="27" width="175" height="35" />
+    <frame id="671:2403" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="671:2407" name="???" x="107" y="67" width="26" height="27" />
+    <text id="671:2408" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="671:2448" name="image 327" x="42" y="88" width="156" height="181" />
+    <rounded-rectangle id="671:2410" name="Rectangle 34629294" x="69" y="269" width="113" height="39" />
+    <text id="671:2411" name="🔒" x="117" y="279" width="20" height="20" />
+  </frame>
+  <frame id="509:2675" name="12.2 먹이주기" x="1752" y="1909" width="240" height="320">
+    <rounded-rectangle id="511:3430" name="image 198" x="0" y="0" width="240" height="320" />
+    <boolean-operation id="509:2677" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="509:2680" name="잘먹었어!" x="32" y="50" width="175" height="35" />
+    <frame id="509:2681" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2685" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="509:2686" name="Group 561" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="509:3108" name="image 175" x="46" y="94" width="147" height="188" />
+  </frame>
+  <frame id="483:4402" name="10. 포기모션" x="2508" y="2827" width="240" height="320" />
+  <frame id="509:3011" name="298" x="996" y="3742" width="240" height="320">
+    <rounded-rectangle id="511:3149" name="image 194" x="-6" y="0" width="249" height="322" />
+    <boolean-operation id="509:3012" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="509:3015" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="509:3016" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="509:3019" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="509:3020" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="509:3021" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="509:3022" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="509:3023" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="509:3024" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="509:3025" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="509:3026" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:3030" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="425:8479" name="9-1" x="1248" y="968" width="240" height="320">
+    <rounded-rectangle id="504:2316" name="image . 1" x="0" y="0" width="240" height="320" />
+    <boolean-operation id="425:8481" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="425:8484" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="425:8485" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="425:8488" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="425:8489" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="425:8490" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="425:8491" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="425:8492" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="425:8493" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="425:8494" name="&gt;완료" x="150" y="260" width="48" height="27" />
+    <rounded-rectangle id="425:8495" name="Rectangle 34629297" x="-1" y="25" width="241" height="292" />
+    <rounded-rectangle id="425:8496" name="Rectangle 34629295" x="0" y="206" width="240" height="121" />
+    <text id="425:8497" name="완료 하시겠습니까?" x="24" y="218" width="193" height="33" />
+    <rounded-rectangle id="425:8498" name="Rectangle 34629296" x="78" y="261" width="86" height="39" />
+    <text id="425:8499" name="&gt;확인" x="96" y="267" width="48" height="27" />
+    <frame id="425:8500" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="425:8504" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="483:4690" name="12.2 먹이주기" x="4565" y="1038" width="240" height="320">
+    <rounded-rectangle id="483:4803" name="image 110" x="-1" y="0" width="249" height="320" />
+    <rounded-rectangle id="509:2622" name="Rectangle 34629421" x="-5" y="249" width="245" height="100" />
+    <boolean-operation id="483:4691" name="Union" x="16" y="43" width="207" height="61" />
+    <text id="483:4694" name="잘먹었어!" x="32" y="50" width="175" height="35" />
+    <frame id="483:4695" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4699" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <frame id="483:4700" name="Group 561" x="42" y="279" width="157" height="19" />
+    <rounded-rectangle id="509:2613" name="image 168" x="45" y="116" width="144" height="175" />
+  </frame>
+  <frame id="509:3031" name="9-1" x="1248" y="3742" width="240" height="320">
+    <rounded-rectangle id="511:3151" name="image 194" x="-6" y="0" width="249" height="322" />
+    <boolean-operation id="509:3032" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="509:3035" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="509:3036" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="509:3039" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="509:3040" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="509:3041" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="509:3042" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="509:3043" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="509:3044" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="509:3045" name="&gt;완료" x="150" y="260" width="48" height="27" />
+    <rounded-rectangle id="509:3046" name="Rectangle 34629297" x="-1" y="28" width="241" height="292" />
+    <rounded-rectangle id="509:3047" name="Rectangle 34629295" x="0" y="206" width="240" height="121" />
+    <text id="509:3048" name="완료 하시겠습니까?" x="24" y="218" width="193" height="33" />
+    <rounded-rectangle id="509:3049" name="Rectangle 34629296" x="78" y="261" width="86" height="39" />
+    <text id="509:3050" name="&gt;확인" x="96" y="267" width="48" height="27" />
+    <frame id="509:3051" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:3055" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="509:2693" name="297" x="996" y="1909" width="240" height="320">
+    <rounded-rectangle id="511:3429" name="image 198" x="0" y="0" width="240" height="320" />
+    <rounded-rectangle id="509:2695" name="image . 2" x="0" y="0" width="240" height="320" />
+    <boolean-operation id="509:2696" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="509:2699" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="509:2700" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="509:2703" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="509:2704" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="509:2705" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="509:2706" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="509:2707" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="509:2708" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="509:2709" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="509:2710" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2714" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="425:8545" name="10. 포기모션" x="2508" y="968" width="240" height="320">
+    <rounded-rectangle id="504:2315" name="image . 1" x="0" y="0" width="240" height="320" />
+    <boolean-operation id="425:8547" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="425:8550" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="425:8551" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="425:8554" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="425:8555" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="425:8556" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="425:8557" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="425:8558" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="425:8559" name="&gt;포기" x="43" y="260" width="48" height="27" />
+    <text id="425:8560" name="완료" x="156" y="260" width="37" height="27" />
+    <rounded-rectangle id="425:8561" name="Rectangle 34629297" x="-1" y="22" width="241" height="292" />
+    <rounded-rectangle id="425:8563" name="Rectangle 34629295" x="0" y="199" width="240" height="121" />
+    <text id="425:8564" name="진짜로...?" x="72" y="211" width="96" height="33" />
+    <rounded-rectangle id="425:8565" name="Rectangle 34629298" x="24" y="254" width="86" height="39" />
+    <rounded-rectangle id="425:8566" name="Rectangle 34629299" x="131" y="254" width="86" height="39" />
+    <text id="425:8567" name="취소" x="48" y="260" width="37" height="27" />
+    <text id="425:8568" name="&gt;확인" x="149" y="260" width="48" height="27" />
+    <frame id="425:8569" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="425:8576" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="504:2334" name="image 138" x="71.7113265991211" y="60" width="117.68663538285364" height="151.24573842285827" />
+    <frame id="483:4461" name="Group 547" x="124.0003890991211" y="128" width="15.34615421295166" height="18.999549865722656" />
+  </frame>
+  <frame id="509:3056" name="10. 포기모션" x="2508" y="3742" width="240" height="320">
+    <rounded-rectangle id="511:3422" name="image 194" x="-6" y="0" width="249" height="322" />
+    <boolean-operation id="509:3057" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="509:3060" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="509:3061" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="509:3064" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="509:3065" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="509:3066" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="509:3067" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="509:3068" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="509:3069" name="&gt;포기" x="43" y="260" width="48" height="27" />
+    <text id="509:3070" name="완료" x="156" y="260" width="37" height="27" />
+    <rounded-rectangle id="509:3071" name="Rectangle 34629297" x="-1" y="27" width="241" height="292" />
+    <rounded-rectangle id="509:3072" name="Rectangle 34629295" x="0" y="199" width="240" height="121" />
+    <text id="509:3073" name="진짜로...?" x="72" y="211" width="96" height="33" />
+    <rounded-rectangle id="509:3074" name="Rectangle 34629298" x="24" y="254" width="86" height="39" />
+    <rounded-rectangle id="509:3075" name="Rectangle 34629299" x="131" y="254" width="86" height="39" />
+    <text id="509:3076" name="취소" x="48" y="260" width="37" height="27" />
+    <text id="509:3077" name="&gt;확인" x="149" y="260" width="48" height="27" />
+    <frame id="509:3078" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:3082" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:3124" name="image 178" x="72" y="81" width="98" height="128" />
+    <frame id="509:3084" name="Group 546" x="124" y="132" width="15.34615421295166" height="18.999549865722656" />
+  </frame>
+  <frame id="483:4707" name="295" x="3809" y="1038" width="240" height="320">
+    <rounded-rectangle id="483:4799" name="image 110" x="-1" y="0" width="249" height="320" />
+    <boolean-operation id="483:4708" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="483:4711" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="483:4712" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="483:4715" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="483:4716" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="483:4717" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="483:4718" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="483:4719" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="483:4720" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="483:4721" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="483:4722" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4726" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="640:2698" name="300" x="3803" y="1675" width="240" height="320">
+    <rounded-rectangle id="671:2481" name="image 328" x="-7" y="-5" width="262" height="350" />
+    <boolean-operation id="640:2700" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="640:2703" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="640:2704" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="640:2707" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="640:2708" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="640:2709" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="640:2710" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="640:2711" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="640:2712" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="640:2713" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="640:2714" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2718" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="671:2483" name="304" x="4055" y="1675" width="240" height="320">
+    <rounded-rectangle id="671:2484" name="image 328" x="-7" y="-5" width="262" height="350" />
+    <boolean-operation id="671:2485" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="671:2488" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="671:2489" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="671:2492" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="671:2493" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="671:2494" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="671:2495" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="671:2496" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="671:2497" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="671:2498" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="671:2499" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="671:2503" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="671:2504" name="Rectangle 34629297" x="-1" y="25" width="241" height="292" />
+    <rounded-rectangle id="671:2505" name="Rectangle 34629295" x="0" y="203" width="240" height="121" />
+    <text id="671:2506" name="완료 하시겠습니까?" x="24" y="215" width="193" height="33" />
+    <rounded-rectangle id="671:2507" name="Rectangle 34629296" x="78" y="258" width="86" height="39" />
+    <text id="671:2508" name="&gt;확인" x="96" y="264" width="48" height="27" />
+  </frame>
+  <frame id="671:2600" name="305" x="5321" y="1675" width="240" height="320">
+    <rounded-rectangle id="671:2601" name="image 328" x="-7" y="-5" width="262" height="350" />
+    <boolean-operation id="671:2602" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="671:2605" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="671:2606" name="Subtract" x="13" y="218.55078125" width="218.900390625" height="128.7001953125" />
+    <text id="671:2609" name="&lt;병원 가기 4/5&gt;" x="53" y="67" width="134" height="27" />
+    <text id="671:2610" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="671:2611" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="671:2612" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="671:2613" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="671:2614" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="671:2615" name="완료" x="156" y="260" width="37" height="27" />
+    <frame id="671:2616" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="671:2620" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="671:2621" name="Rectangle 34629297" x="-1" y="25" width="241" height="292" />
+    <rounded-rectangle id="671:2622" name="Rectangle 34629295" x="0" y="203" width="240" height="121" />
+    <text id="671:2623" name="진짜로...?" x="72" y="215" width="96" height="33" />
+    <rounded-rectangle id="671:2624" name="Rectangle 34629296" x="78" y="258" width="86" height="39" />
+    <text id="671:2625" name="&gt;확인" x="96" y="264" width="48" height="27" />
+    <rounded-rectangle id="671:2626" name="image 329" x="71" y="55" width="102" height="154" />
+    <rounded-rectangle id="671:2628" name="눈물 모션1 2" x="113" y="100" width="31" height="41" />
+  </frame>
+  <frame id="509:2715" name="9-1" x="1248" y="1909" width="240" height="320">
+    <rounded-rectangle id="511:3428" name="image 198" x="0" y="0" width="240" height="320" />
+    <boolean-operation id="509:2717" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="509:2720" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="509:2721" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="509:2724" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="509:2725" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="509:2726" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="509:2727" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="509:2728" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="509:2729" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="509:2730" name="&gt;완료" x="150" y="260" width="48" height="27" />
+    <rounded-rectangle id="509:2731" name="Rectangle 34629297" x="-1" y="25" width="241" height="292" />
+    <rounded-rectangle id="509:2732" name="Rectangle 34629295" x="0" y="206" width="240" height="121" />
+    <text id="509:2733" name="완료 하시겠습니까?" x="24" y="218" width="193" height="33" />
+    <rounded-rectangle id="509:2734" name="Rectangle 34629296" x="78" y="261" width="86" height="39" />
+    <text id="509:2735" name="&gt;확인" x="96" y="267" width="48" height="27" />
+    <frame id="509:2736" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2740" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="483:4727" name="9-1" x="4061" y="1038" width="240" height="320">
+    <rounded-rectangle id="483:4801" name="image 110" x="-1" y="0" width="249" height="320" />
+    <boolean-operation id="483:4728" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="483:4731" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="483:4732" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="483:4735" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="483:4736" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="483:4737" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="483:4738" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="483:4739" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="483:4740" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="483:4741" name="&gt;완료" x="150" y="260" width="48" height="27" />
+    <rounded-rectangle id="483:4742" name="Rectangle 34629297" x="-1" y="28" width="241" height="292" />
+    <rounded-rectangle id="483:4743" name="Rectangle 34629295" x="0" y="206" width="240" height="121" />
+    <text id="483:4744" name="완료 하시겠습니까?" x="24" y="218" width="193" height="33" />
+    <rounded-rectangle id="483:4745" name="Rectangle 34629296" x="78" y="261" width="86" height="39" />
+    <text id="483:4746" name="&gt;확인" x="96" y="267" width="48" height="27" />
+    <frame id="483:4747" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4751" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="640:2460" name="9-1" x="4075" y="2312" width="240" height="320">
+    <rounded-rectangle id="640:2486" name="image 267" x="0" y="0" width="252" height="336" />
+    <boolean-operation id="640:2462" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="640:2465" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="640:2466" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="640:2469" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="640:2470" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="640:2471" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="640:2472" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="640:2473" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="640:2474" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="640:2475" name="&gt;완료" x="150" y="260" width="48" height="27" />
+    <rounded-rectangle id="640:2476" name="Rectangle 34629297" x="-1" y="28" width="241" height="292" />
+    <rounded-rectangle id="640:2477" name="Rectangle 34629295" x="0" y="206" width="240" height="121" />
+    <text id="640:2478" name="완료 하시겠습니까?" x="24" y="218" width="193" height="33" />
+    <rounded-rectangle id="640:2479" name="Rectangle 34629296" x="78" y="261" width="86" height="39" />
+    <text id="640:2480" name="&gt;확인" x="96" y="267" width="48" height="27" />
+    <frame id="640:2481" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2485" name="AM 9:10" x="8" y="3" width="62" height="22" />
+  </frame>
+  <frame id="640:2603" name="9-1" x="5335" y="2312" width="240" height="320">
+    <rounded-rectangle id="640:2604" name="image 267" x="0" y="0" width="252" height="336" />
+    <boolean-operation id="640:2605" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="640:2608" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="640:2609" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="640:2612" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="640:2613" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="640:2614" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="640:2615" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="640:2616" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="640:2617" name="포기" x="49" y="260" width="37" height="27" />
+    <text id="640:2618" name="&gt;완료" x="150" y="260" width="48" height="27" />
+    <rounded-rectangle id="640:2619" name="Rectangle 34629297" x="-1" y="28" width="241" height="292" />
+    <rounded-rectangle id="640:2620" name="Rectangle 34629295" x="0" y="206" width="240" height="121" />
+    <text id="640:2621" name="진짜로...?" x="72" y="218" width="96" height="33" />
+    <rounded-rectangle id="640:2622" name="Rectangle 34629296" x="78" y="261" width="86" height="39" />
+    <text id="640:2623" name="&gt;확인" x="96" y="267" width="48" height="27" />
+    <frame id="640:2624" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2628" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="640:2629" name="image 268" x="68" y="62" width="98" height="156" />
+  </frame>
+  <frame id="509:2741" name="10. 포기모션" x="2508" y="1909" width="240" height="320">
+    <rounded-rectangle id="511:3427" name="image 198" x="0" y="0" width="240" height="320" />
+    <boolean-operation id="509:2743" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="509:2746" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="509:2747" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="509:2750" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="509:2751" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="509:2752" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="509:2753" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="509:2754" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="509:2755" name="&gt;포기" x="43" y="260" width="48" height="27" />
+    <text id="509:2756" name="완료" x="156" y="260" width="37" height="27" />
+    <rounded-rectangle id="509:2757" name="Rectangle 34629297" x="0" y="25" width="241" height="292" />
+    <rounded-rectangle id="509:2758" name="Rectangle 34629295" x="0" y="199" width="240" height="121" />
+    <text id="509:2759" name="진짜로...?" x="72" y="211" width="96" height="33" />
+    <rounded-rectangle id="509:2760" name="Rectangle 34629298" x="24" y="254" width="86" height="39" />
+    <rounded-rectangle id="509:2761" name="Rectangle 34629299" x="131" y="254" width="86" height="39" />
+    <text id="509:2762" name="취소" x="48" y="260" width="37" height="27" />
+    <text id="509:2763" name="&gt;확인" x="149" y="260" width="48" height="27" />
+    <frame id="509:2764" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2768" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:3113" name="image 175" x="62" y="62" width="114" height="146" />
+    <frame id="509:2770" name="Group 547" x="124" y="121" width="15.34615421295166" height="18.999549865722656" />
+  </frame>
+  <frame id="483:4447" name="12.1 작은 루틴 완료마다 먹이 제공" x="1500" y="2827" width="240" height="320">
+    <star id="483:4448" name="Star 1" x="-65" y="0" width="358" height="335" />
+    <frame id="483:4449" name="Group 345" x="59" y="81" width="121.46097564697266" height="198.92608642578125" />
+    <text id="483:4451" name="새우" x="92" y="214" width="59" height="44" />
+    <rounded-rectangle id="483:4452" name="Rectangle 34629294" x="79" y="261" width="86" height="39" />
+    <text id="483:4453" name="&gt;확인" x="95" y="267" width="48" height="27" />
+    <frame id="483:4454" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4458" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="483:4459" name="새우 1" x="30" y="89" width="179" height="141" />
+    <vector id="509:2626" name="Vector" x="176" y="5" width="22" height="17" />
+    <vector id="509:2627" name="Vector" x="230" y="7" width="26" height="13" />
+  </frame>
+  <frame id="483:4752" name="10. 포기모션" x="5321" y="1038" width="240" height="320">
+    <rounded-rectangle id="483:4805" name="image 110" x="-1" y="0" width="249" height="320" />
+    <boolean-operation id="483:4753" name="Union" x="13.099609375" y="141" width="218.900390625" height="206.25" />
+    <rounded-rectangle id="483:4756" name="Rectangle 34629292" x="20" y="52" width="202" height="251" />
+    <boolean-operation id="483:4757" name="Subtract" x="12" y="218.5498046875" width="218.900390625" height="128.7001953125" />
+    <text id="483:4760" name="&lt;병원 가기 2/6&gt;" x="53" y="67" width="134" height="27" />
+    <text id="483:4761" name="전체 1/4" x="94" y="105" width="53" height="20" />
+    <text id="483:4762" name="7번 버스 타기" x="47" y="160" width="147" height="35" />
+    <rounded-rectangle id="483:4763" name="Rectangle 34629293" x="25" y="254" width="86" height="39" />
+    <rounded-rectangle id="483:4764" name="Rectangle 34629294" x="132" y="254" width="86" height="39" />
+    <text id="483:4765" name="&gt;포기" x="43" y="260" width="48" height="27" />
+    <text id="483:4766" name="완료" x="156" y="260" width="37" height="27" />
+    <rounded-rectangle id="483:4767" name="Rectangle 34629297" x="-1" y="27" width="241" height="292" />
+    <rounded-rectangle id="483:4768" name="Rectangle 34629295" x="0" y="199" width="240" height="121" />
+    <text id="483:4769" name="진짜로...?" x="72" y="211" width="96" height="33" />
+    <rounded-rectangle id="483:4770" name="Rectangle 34629298" x="24" y="254" width="86" height="39" />
+    <rounded-rectangle id="483:4771" name="Rectangle 34629299" x="131" y="254" width="86" height="39" />
+    <text id="483:4772" name="취소" x="48" y="260" width="37" height="27" />
+    <text id="483:4773" name="&gt;확인" x="149" y="260" width="48" height="27" />
+    <frame id="483:4774" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4778" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:2618" name="image 169" x="61" y="94" width="109" height="132" />
+    <frame id="483:4780" name="Group 546" x="117" y="151" width="15.34615421295166" height="18.999549865722656" />
+  </frame>
+  <rounded-rectangle id="425:8752" name="22 1" x="13471" y="103" width="431" height="288" />
+  <rounded-rectangle id="425:8761" name="image 90" x="13470" y="411" width="432" height="345" />
+  <rounded-rectangle id="425:8766" name="image 92" x="13470" y="777" width="432" height="345" />
+  <rounded-rectangle id="425:8788" name="image 107" x="13470" y="1142" width="432" height="519" />
+  <frame id="483:4261" name="12.1 작은 루틴 완료마다 먹이 제공" x="1500" y="968" width="240" height="320">
+    <star id="483:4262" name="Star 1" x="-65" y="0" width="358" height="335" />
+    <frame id="483:4263" name="Group 345" x="59" y="81" width="121.46097564697266" height="198.92608642578125" />
+    <text id="483:4265" name="당고" x="92" y="214" width="59" height="44" />
+    <rounded-rectangle id="483:4266" name="Rectangle 34629294" x="79" y="261" width="86" height="39" />
+    <text id="483:4267" name="&gt;확인" x="95" y="267" width="48" height="27" />
+    <frame id="483:4268" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4272" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="483:4273" name="당고 1" x="20" y="72" width="188" height="176" />
+  </frame>
+  <rounded-rectangle id="426:8791" name="image 108" x="13470" y="1681" width="432" height="346" />
+  <frame id="509:3087" name="12.1 작은 루틴 완료마다 먹이 제공" x="1500" y="3742" width="240" height="320">
+    <star id="509:3088" name="Star 1" x="-65" y="0" width="358" height="335" />
+    <frame id="509:3089" name="Group 345" x="59" y="81" width="121.46097564697266" height="198.92608642578125" />
+    <text id="509:3091" name="새우" x="92" y="214" width="59" height="44" />
+    <rounded-rectangle id="509:3092" name="Rectangle 34629294" x="79" y="261" width="86" height="39" />
+    <text id="509:3093" name="&gt;확인" x="95" y="267" width="48" height="27" />
+    <frame id="509:3094" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:3098" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:3099" name="새우 1" x="30" y="89" width="179" height="141" />
+    <vector id="509:3100" name="Vector" x="176" y="5" width="22" height="17" />
+    <vector id="509:3101" name="Vector" x="230" y="7" width="26" height="13" />
+  </frame>
+  <rounded-rectangle id="426:8794" name="image 109" x="13470" y="2047" width="432" height="346" />
+  <rounded-rectangle id="426:8801" name="image 112" x="3955" y="486" width="581" height="465" />
+  <rounded-rectangle id="426:8797" name="image 110" x="3557" y="486" width="362" height="465" />
+  <rounded-rectangle id="633:2338" name="image 259" x="7250" y="2787" width="652" height="838" />
+  <rounded-rectangle id="426:8816" name="image 117" x="13471" y="2413" width="431" height="324" />
+  <frame id="509:2773" name="12.1 작은 루틴 완료마다 먹이 제공" x="1500" y="1909" width="240" height="320">
+    <star id="509:2774" name="Star 1" x="-65" y="0" width="358" height="335" />
+    <frame id="509:2775" name="Group 345" x="59" y="81" width="121.46097564697266" height="198.92608642578125" />
+    <text id="509:2777" name="당고" x="92" y="214" width="59" height="44" />
+    <rounded-rectangle id="509:2778" name="Rectangle 34629294" x="79" y="261" width="86" height="39" />
+    <text id="509:2779" name="&gt;확인" x="95" y="267" width="48" height="27" />
+    <frame id="509:2780" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="509:2784" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="509:2785" name="당고 1" x="20" y="72" width="188" height="176" />
+  </frame>
+  <frame id="483:4631" name="12.1 작은 루틴 완료마다 먹이 제공" x="4313" y="1038" width="240" height="320">
+    <star id="483:4632" name="Star 1" x="-65" y="0" width="358" height="335" />
+    <frame id="483:4633" name="Group 345" x="59" y="81" width="121.46097564697266" height="198.92608642578125" />
+    <text id="483:4635" name="솜사탕" x="77" y="214" width="89" height="44" />
+    <rounded-rectangle id="483:4636" name="Rectangle 34629294" x="79" y="261" width="86" height="39" />
+    <text id="483:4637" name="&gt;확인" x="95" y="267" width="48" height="27" />
+    <frame id="483:4638" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="483:4642" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="483:4643" name="솜사탕 1" x="30" y="74" width="178" height="171" />
+  </frame>
+  <rounded-rectangle id="504:2294" name="image 86" x="1821" y="126" width="221" height="286" />
+  <rounded-rectangle id="503:2078" name="image 144" x="4342" y="126" width="221" height="286" />
+  <rounded-rectangle id="504:2312" name="image 137" x="803" y="527" width="243" height="325" />
+  <rounded-rectangle id="633:2345" name="image 265" x="9438" y="3021" width="354" height="474" />
+  <rounded-rectangle id="504:2295" name="image 87" x="333" y="115" width="244" height="323" />
+  <rounded-rectangle id="503:2079" name="image 145" x="2854" y="115" width="244" height="323" />
+  <rounded-rectangle id="504:2296" name="image 122" x="2044" y="103" width="251" height="323" />
+  <rounded-rectangle id="509:2947" name="image 175" x="787" y="1598" width="179" height="230" />
+  <rounded-rectangle id="509:3136" name="image 185" x="1102" y="1598" width="179" height="230" />
+  <rounded-rectangle id="510:3140" name="image 193" x="1762" y="1598" width="179" height="230" />
+  <rounded-rectangle id="509:3138" name="image 187" x="1432" y="1598" width="179" height="230" />
+  <rounded-rectangle id="508:2110" name="image 192" x="2092" y="1598" width="179" height="230" />
+  <rounded-rectangle id="503:2080" name="image 146" x="4565" y="103" width="251" height="323" />
+  <rounded-rectangle id="504:2297" name="image 123" x="822" y="107" width="253" height="331" />
+  <rounded-rectangle id="506:2403" name="Rectangle 34629417" x="200" y="2449" width="484" height="698" />
+  <rounded-rectangle id="503:2081" name="image 147" x="3343" y="107" width="253" height="331" />
+  <rounded-rectangle id="503:2082" name="image 148" x="3559" y="115" width="283" height="311" />
+  <rounded-rectangle id="504:2299" name="image 126" x="1320" y="101" width="243" height="325" />
+  <rounded-rectangle id="503:2083" name="image 149" x="3841" y="101" width="243" height="325" />
+  <rounded-rectangle id="509:2441" name="image 162" x="248" y="2500" width="386" height="517" />
+  <rounded-rectangle id="504:2300" name="image 130" x="2297" y="90" width="223" height="336" />
+  <rounded-rectangle id="509:2606" name="image 140" x="820" y="2485" width="209" height="231" />
+  <rounded-rectangle id="633:2343" name="image 264" x="8726" y="3001" width="454" height="501" />
+  <rounded-rectangle id="503:2084" name="image 150" x="4818" y="90" width="223" height="336" />
+  <rounded-rectangle id="504:2301" name="image 131" x="1552" y="115" width="269" height="311" />
+  <rounded-rectangle id="507:2421" name="Rectangle 34629418" x="200" y="586" width="484" height="698" />
+  <rounded-rectangle id="509:3102" name="Rectangle 34629422" x="200" y="3364" width="484" height="698" />
+  <rounded-rectangle id="509:2438" name="image 161" x="248" y="637" width="388" height="516" />
+  <rounded-rectangle id="503:2085" name="image 151" x="4073" y="115" width="269" height="311" />
+  <rounded-rectangle id="504:2302" name="image 133" x="577" y="150" width="245" height="297" />
+  <rounded-rectangle id="509:2607" name="image 168" x="3619" y="594" width="245" height="297" />
+  <rounded-rectangle id="633:2339" name="image 260" x="7389" y="3047" width="387" height="470" />
+  <rounded-rectangle id="509:3103" name="image 177" x="248" y="3415" width="386" height="517" />
+  <rounded-rectangle id="503:2086" name="image 152" x="3098" y="150" width="245" height="297" />
+  <rounded-rectangle id="503:2087" name="image 153" x="2655" y="131" width="186" height="295" />
+  <rounded-rectangle id="506:2356" name="image 154" x="145" y="125" width="186" height="295" />
+  <rounded-rectangle id="506:2380" name="image 156" x="1041" y="115" width="293" height="323" />
+  <frame id="506:2377" name="Group 590" x="5121" y="150" width="908.994873046875" height="258.14453125">
+    <frame id="506:2357" name="Group 589" x="5121" y="150" width="908.994873046875" height="132.38607788085938">
+      <rounded-rectangle id="506:2358" name="Rectangle 34629408" x="5121" y="150.00020889937878" width="908.994873046875" height="132.38607788085938" />
+      <ellipse id="506:2359" name="Ellipse 194" x="5634.9697265625" y="175.296875" width="106.9405746459961" height="82.63589477539062" />
+      <ellipse id="506:2360" name="Ellipse 195" x="5150.4638671875" y="175.296875" width="106.9405746459961" height="82.63589477539062" />
+      <ellipse id="506:2401" name="Ellipse 201" x="5150.4638671875" y="175.296875" width="106.9405746459961" height="82.63589477539062" />
+      <ellipse id="506:2361" name="Ellipse 196" x="5271.589904785156" y="175.29691314697266" width="106.9405746459961" height="82.63589477539062" />
+      <ellipse id="506:2362" name="Ellipse 197" x="5392.716796875" y="175.296875" width="106.9405746459961" height="82.63589477539062" />
+      <ellipse id="506:2363" name="Ellipse 198" x="5513.84375" y="175.296875" width="106.9405746459961" height="82.63589477539062" />
+      <ellipse id="506:2364" name="Ellipse 199" x="5756.0966796875" y="175.296875" width="106.9405746459961" height="82.63589477539062" />
+      <ellipse id="506:2365" name="Ellipse 200" x="5877.22265625" y="175.296875" width="106.9405746459961" height="82.63589477539062" />
+    </frame>
+    <text id="506:2366" name="또비" x="5773" y="300.14453125" width="74" height="54" />
+    <text id="506:2367" name="몽실이" x="5631" y="300.14453125" width="111" height="54" />
+    <text id="506:2368" name="맘뭉이" x="5150" y="300.14453125" width="111" height="54" />
+    <text id="506:2369" name="할루하" x="5411" y="300.14453125" width="111" height="54" />
+    <text id="506:2370" name="호요" x="5411" y="354.14453125" width="74" height="54" />
+    <text id="506:2371" name="고양이" x="5150" y="354.14453125" width="111" height="54" />
+    <text id="506:2372" name="북극곰" x="5882" y="300.14453125" width="111" height="54" />
+    <text id="506:2373" name="깡충이" x="5269" y="300.14453125" width="111" height="54" />
+    <text id="506:2374" name="저티" x="5538" y="300.14453125" width="74" height="54" />
+    <text id="506:2375" name="메에" x="5538" y="354.14453125" width="74" height="54" />
+  </frame>
+  <rounded-rectangle id="509:2444" name="Rectangle 34629419" x="3098" y="719" width="394" height="568" />
+  <rounded-rectangle id="671:2479" name="Rectangle 34629425" x="3098" y="1429" width="394" height="568" />
+  <rounded-rectangle id="640:2790" name="Rectangle 34629423" x="3098" y="2069" width="394" height="568" />
+  <rounded-rectangle id="671:2474" name="Rectangle 34629424" x="3098" y="2703" width="394" height="568" />
+  <rounded-rectangle id="509:2788" name="Rectangle 34629421" x="200" y="1527" width="484" height="698" />
+  <rounded-rectangle id="509:2789" name="image 171" x="248" y="1578" width="388" height="516" />
+  <rounded-rectangle id="509:2445" name="image 163" x="3137" y="761" width="314" height="420" />
+  <rounded-rectangle id="671:2480" name="image 330" x="3156" y="1496" width="288" height="385" />
+  <rounded-rectangle id="508:2095" name="image 180" x="12819" y="3446" width="332" height="442" />
+  <rounded-rectangle id="508:2101" name="image 182" x="13569" y="3445" width="333" height="444" />
+  <rounded-rectangle id="508:2107" name="image 189" x="13470" y="2757" width="432" height="324" />
+  <rounded-rectangle id="511:3141" name="image 194" x="918" y="3270" width="299" height="387" />
+  <rounded-rectangle id="633:2340" name="image 261" x="7933" y="2787" width="648" height="838" />
+  <rounded-rectangle id="509:3116" name="image 178" x="941" y="3313" width="253" height="331" />
+  <rounded-rectangle id="633:2341" name="image 262" x="8054" y="2987" width="406" height="530" />
+  <rounded-rectangle id="511:3147" name="image 196" x="2343" y="1467" width="306" height="409" />
+  <rounded-rectangle id="511:3148" name="image 197" x="2406" y="1605" width="179" height="230" />
+  <vector id="355:5171" name="Vector" x="9270.73828125" y="30" width="7" height="12" />
+  <rounded-rectangle id="508:2104" name="image 188" x="13470" y="3101" width="432" height="324" />
+  <rounded-rectangle id="633:2314" name="image 246" x="12841" y="115" width="629" height="838" />
+  <rounded-rectangle id="633:2324" name="image 255" x="12997" y="342" width="317" height="503" />
+  <rounded-rectangle id="633:2333" name="image 78" x="6590" y="2787" width="629" height="838" />
+  <rounded-rectangle id="633:2317" name="image 248" x="6703" y="2999" width="402" height="532" />
+  <rounded-rectangle id="633:2335" name="image 257" x="5931" y="2788" width="628" height="837" />
+  <rounded-rectangle id="633:2337" name="image 258" x="6087" y="2995" width="317" height="502" />
+  <rounded-rectangle id="633:2347" name="image 266" x="9972" y="2788" width="624" height="832" />
+  <rounded-rectangle id="633:2322" name="image 253" x="10083" y="3030" width="393" height="455" />
+  <rounded-rectangle id="641:2350" name="image 301" x="12686" y="1262" width="628" height="838" />
+  <rounded-rectangle id="641:2353" name="스크린샷 2026-09-03 오후 5.54.09 1" x="10628" y="2787" width="628" height="838" />
+  <rounded-rectangle id="633:2316" name="image 247" x="10739" y="3020" width="358" height="464" />
+  <rounded-rectangle id="641:2357" name="image 302" x="11287" y="2789" width="618" height="824" />
+  <rounded-rectangle id="641:2358" name="image 303" x="11416" y="2991" width="384" height="493" />
+  <frame id="640:2501" name="12.1 작은 루틴 완료마다 먹이 제공" x="4327" y="2312" width="240" height="320">
+    <star id="640:2502" name="Star 1" x="-65" y="0" width="358" height="335" />
+    <frame id="640:2503" name="Group 345" x="59" y="81" width="121.46097564697266" height="198.92608642578125" />
+    <rounded-rectangle id="640:2505" name="Rectangle 34629294" x="79" y="261" width="86" height="39" />
+    <text id="640:2506" name="&gt;확인" x="95" y="267" width="48" height="27" />
+    <frame id="640:2507" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2511" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="640:2512" name="바닐라 아이스크림 1" x="107.66986846923828" y="35" width="190.3878324452453" height="218.16398479273994" />
+    <text id="640:2513" name="바닐라" x="77" y="214" width="89" height="44" />
+  </frame>
+  <rounded-rectangle id="640:2631" name="눈물 모션1 2" x="5455" y="2416" width="31" height="41" />
+  <rounded-rectangle id="641:2388" name="image 305" x="11936" y="2787" width="620" height="826" />
+  <rounded-rectangle id="633:2321" name="image 252" x="12095" y="3020" width="306" height="460" />
+  <rounded-rectangle id="640:2792" name="image 306" x="3156" y="2143" width="277" height="369" />
+  <rounded-rectangle id="671:2475" name="image 327" x="3156" y="2777" width="277" height="369" />
+  <frame id="640:2892" name="12.1 작은 루틴 완료마다 먹이 제공" x="4327" y="2929" width="240" height="320">
+    <star id="640:2893" name="Star 1" x="-65" y="0" width="358" height="335" />
+    <frame id="640:2894" name="Group 345" x="59" y="81" width="121.46097564697266" height="198.92608642578125" />
+    <text id="640:2896" name="당고" x="92" y="214" width="59" height="44" />
+    <rounded-rectangle id="640:2897" name="Rectangle 34629294" x="79" y="261" width="86" height="39" />
+    <text id="640:2898" name="&gt;확인" x="95" y="267" width="48" height="27" />
+    <frame id="640:2899" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="640:2903" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="640:2904" name="당고 1" x="20" y="72" width="188" height="176" />
+  </frame>
+  <rounded-rectangle id="641:2391" name="image 326" x="11936" y="1876" width="620" height="825" />
+  <rounded-rectangle id="508:2112" name="image 195" x="13195" y="3445" width="333" height="444" />
+  <frame id="671:2510" name="12.1 작은 루틴 완료마다 먹이 제공" x="4307" y="1675" width="240" height="320">
+    <star id="671:2511" name="Star 1" x="-65" y="0" width="358" height="335" />
+    <frame id="671:2512" name="Group 345" x="59" y="81" width="121.46097564697266" height="198.92608642578125" />
+    <text id="671:2514" name="키위" x="92" y="214" width="59" height="44" />
+    <rounded-rectangle id="671:2515" name="Rectangle 34629294" x="79" y="261" width="86" height="39" />
+    <text id="671:2516" name="&gt;확인" x="95" y="267" width="48" height="27" />
+    <frame id="671:2517" name="Group 545" x="0" y="0" width="240" height="27" />
+    <text id="671:2521" name="AM 9:10" x="8" y="3" width="62" height="22" />
+    <rounded-rectangle id="671:2522" name="키위 1" x="30" y="81" width="168" height="139" />
+  </frame>
+</section>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

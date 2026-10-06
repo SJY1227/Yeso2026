@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "640:2912",
+      "species": 0,
+      "stage": 3,
+      "file": "body-0-3.png",
+      "url": "https://www.figma.com/api/mcp/asset/c8aa9eb3-bcd4-46ca-b8b7-99b2fc385861.png",
+      "kind": "individual sprite export",
+      "bytes": 30026,
+      "sha256": "caaf9a520a3f9b2cdb10bb74d62bf6dc7fa37b0006018ab8b6ae4d71cca294cf"
+    },
+    {
+      "id": "710:6719",
+      "species": 5,
+      "stage": 3,
+      "file": "body-5-3.png",
+      "url": "https://www.figma.com/api/mcp/asset/878d6b3d-7dea-4e0c-b23d-75cbce336939.png",
+      "kind": "individual sprite export",
+      "bytes": 20454,
+      "sha256": "9af712313969e92deb44d512fd7d8962c302e1e213f74e68462a3c188acec62a"
+    },
+    {
+      "id": "713:2258",
+      "species": 4,
+      "stage": 3,
+      "file": "body-4-3.png",
+      "url": "https://www.figma.com/api/mcp/asset/b07409b4-eb9b-4053-85c7-84db52279ec1.png",
+      "kind": "individual sprite export",
+      "bytes": 27143,
+      "sha256": "494e0a6a6027a2add6b98de4a45020bd712d73a5f85907df8481fef2939611d7"
+    },
+    {
+      "id": "713:2399",
+      "species": 2,
+      "stage": 3,
+      "file": "body-2-3.png",
+      "url": "https://www.figma.com/api/mcp/asset/d0259438-5bdb-41a8-aadf-dbe596a399be.png",
+      "kind": "individual sprite export",
+      "bytes": 20300,
+      "sha256": "137c36a310cf0d4c2cf4f94bb7c4889e4def8532b044613f69f342376a0d3063"
+    },
+    {
+      "id": "691:2519",
+      "species": 9,
+      "stage": 3,
+      "file": "body-9-3.png",
+      "url": "https://www.figma.com/api/mcp/asset/1eda43c0-4f7d-41a5-89c1-b15439f83ec5.png",
+      "kind": "individual sprite export",
+      "bytes": 23877,
+      "sha256": "e35dd7229e367310667962d5e1ad8b590f00227e41470946d88815760161ef5b"
+    },
+    {
+      "id": "691:2674",
+      "species": 8,
+      "stage": 3,
+      "file": "body-8-3.png",
+      "url": "https://www.figma.com/api/mcp/asset/1917cdbe-839d-4c17-8de7-dec6c50febd9.png",
+      "kind": "individual sprite export",
+      "bytes": 17931,
+      "sha256": "ae4a8dd16bd9e7ad7ce4e286454d7461611ce779611c0708e32d485a5468d874"
+    },
+    {
+      "id": "710:6577",
+      "species": 6,
+      "stage": 3,
+      "file": "body-6-3.png",
+      "url": "https://www.figma.com/api/mcp/asset/9f2f6245-0368-4f0c-a4ab-ec9b7a24a71c.png",
+      "kind": "individual sprite export",
+      "bytes": 23450,
+      "sha256": "6b0bb0d0c53673b419953f7941967cb23247cc67e0d1b1f7e02d48a88fa38e0a"
+    },
+    {
+      "id": "640:2956",
+      "species": 0,
+      "stage": 2,
+      "file": "body-0-2.png",
+      "url": "https://www.figma.com/api/mcp/asset/e641288c-cca0-4659-b5d8-39ac642370dd.png",
+      "kind": "individual sprite export",
+      "bytes": 16880,
+      "sha256": "dd4e48b32a5e926eae8bf9fb2118072ef92fae6e787ca7d114754aa8d6a7d926"
+    },
+    {
+      "id": "710:6732",
+      "species": 5,
+      "stage": 2,
+      "file": "body-5-2.png",
+      "url": "https://www.figma.com/api/mcp/asset/35a24ad6-5422-4256-9ad6-5bfef86b46ce.png",
+      "kind": "individual sprite export",
+      "bytes": 23782,
+      "sha256": "c13f8e40d4723d3243a10c598fc8ebec43b4d36795b2fa3bf8c069e557e75b34"
+    },
+    {
+      "id": "713:2271",
+      "species": 4,
+      "stage": 2,
+      "file": "body-4-2.png",
+      "url": "https://www.figma.com/api/mcp/asset/2e24c991-f816-444a-98f1-e4dabf4c9ac0.png",
+      "kind": "individual sprite export",
+      "bytes": 21095,
+      "sha256": "2ccb5a3541e0fd41a966c3fdc3346e60432e6f2ba432a4c65c9afcd860ea86a2"
+    },
+    {
+      "id": "713:2414",
+      "species": 2,
+      "stage": 2,
+      "file": "body-2-2.png",
+      "url": "https://www.figma.com/api/mcp/asset/8caf7054-5400-4685-bf4d-32990e2e48b8.png",
+      "kind": "individual sprite export",
+      "bytes": 16027,
+      "sha256": "05e6c734e5e2e63d4dc5faea8508aae81baf47646daa48d373a921b9da9d3658"
+    },
+    {
+      "id": "691:2546",
+      "species": 9,
+      "stage": 2,
+      "file": "body-9-2.png",
+      "url": "https://www.figma.com/api/mcp/asset/9944ae45-0181-4f84-9651-fa5b04dd3fdd.png",
+      "kind": "individual sprite export",
+      "bytes": 18299,
+      "sha256": "613637f2e592be6fce9044f6641e2e7fced6dbdf8b91c48f035c5712c865388f"
+    },
+    {
+      "id": "691:2689",
+      "species": 8,
+      "stage": 2,
+      "file": "body-8-2.png",
+      "url": "https://www.figma.com/api/mcp/asset/ff27ba09-563a-4256-a287-d9e789de03d6.png",
+      "kind": "individual sprite export",
+      "bytes": 15326,
+      "sha256": "a3d179455b74a6dd47b13ef55c3f591535a1aaffa6210db61a88b68a198e69c3"
+    },
+    {
+      "id": "710:6588",
+      "species": 6,
+      "stage": 2,
+      "file": "body-6-2.png",
+      "url": "https://www.figma.com/api/mcp/asset/adb6ddf6-b766-4499-9dcb-0854966c1175.png",
+      "kind": "individual sprite export",
+      "bytes": 18405,
+      "sha256": "7a6c2648a49aa65c171c97e972b5f0d2878dcfaa7ad5868291ffb1b5be75a502"
+    },
+    {
+      "id": "640:2955",
+      "species": 0,
+      "stage": 1,
+      "file": "body-0-1.png",
+      "url": "https://www.figma.com/api/mcp/asset/26633583-c1d6-408d-abf2-21d982733771.png",
+      "kind": "individual sprite export",
+      "bytes": 14644,
+      "sha256": "aac6ebe85e25d13df1a6d22aa0ad2b485569496fcc3d0918610e36e427807087"
+    },
+    {
+      "id": "710:6748",
+      "species": 5,
+      "stage": 1,
+      "file": "body-5-1.png",
+      "url": "https://www.figma.com/api/mcp/asset/fef15623-b314-4293-a6e6-c65e6aae58e8.png",
+      "kind": "individual sprite export",
+      "bytes": 10352,
+      "sha256": "e2c3e68b039f3f8fa27b55b606a3aaf80dbdf948e40924bc77e44c8c77524db6"
+    },
+    {
+      "id": "713:2284",
+      "species": 4,
+      "stage": 1,
+      "file": "body-4-1.png",
+      "url": "https://www.figma.com/api/mcp/asset/0d55502a-1bf5-456f-a19a-a9b43701f722.png",
+      "kind": "individual sprite export",
+      "bytes": 12170,
+      "sha256": "c9e5400d20923a91ad768ba53535babb1395ea7ec636fa403ac8cbbe0b2a469f"
+    },
+    {
+      "id": "713:2429",
+      "species": 2,
+      "stage": 1,
+      "file": "body-2-1.png",
+      "url": "https://www.figma.com/api/mcp/asset/66ddfa3a-c3e3-40e1-8fa4-c36203895a52.png",
+      "kind": "individual sprite export",
+      "bytes": 8954,
+      "sha256": "215bdc27325ba5e73f72d9edae55aff3e2526c76734aa25e45054bb106572d4f"
+    },
+    {
+      "id": "691:2559",
+      "species": 9,
+      "stage": 1,
+      "file": "body-9-1.png",
+      "url": "https://www.figma.com/api/mcp/asset/65139def-1c88-4e32-b9c7-e1d263fd3217.png",
+      "kind": "individual sprite export",
+      "bytes": 10879,
+      "sha256": "12d5da06c15b5e4956f193482d088cc8e1104100c8e55ec6c4ff0a77a583eaaf"
+    },
+    {
+      "id": "691:2710",
+      "species": 8,
+      "stage": 1,
+      "file": "body-8-1.png",
+      "url": "https://www.figma.com/api/mcp/asset/8b40e8b6-436a-4bc4-b841-acbe7b6c20cd.png",
+      "kind": "individual sprite export",
+      "bytes": 8545,
+      "sha256": "e4a176534766f0719af2aa15561d2c428aa821fd1bdeef3e10896f8b2fa51657"
+    },
+    {
+      "id": "710:6601",
+      "species": 6,
+      "stage": 1,
+      "file": "body-6-1.png",
+      "url": "https://www.figma.com/api/mcp/asset/b45c8c4b-c41a-4b9e-b873-44da81e58f21.png",
+      "kind": "individual sprite export",
+      "bytes": 7886,
+      "sha256": "3603b3f4c04ce0adb764195652d07448ab25fa7fbfaa17004cc4202817727997"
+    },
+    {
+      "id": "640:3000",
+      "file": "tear.png",
+      "url": "https://www.figma.com/api/mcp/asset/0e536265-a485-4fc0-9a7f-ceb5a1ab9fc0.png",
+      "kind": "individual sprite export",
+      "bytes": 1126,
+      "sha256": "269106df7c8dd0c67432088281e38365c0c4aee9991411ea8ed22dfefb77c2f4"
+    }
+  ]
+}

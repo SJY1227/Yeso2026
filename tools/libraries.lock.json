@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Adafruit_GFX_Library",
+    "version": "1.12.6",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GFX_Library-1.12.6.zip",
+    "sha256": "7d4dc7a7522716d2c88a3b1b9b13521d33cfeeae9ebffa42c2dba0559696a997"
+  },
+  {
+    "name": "Adafruit_ST7735_and_ST7789_Library",
+    "version": "1.11.0",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_ST7735_and_ST7789_Library-1.11.0.zip",
+    "sha256": "caaccddae871e6a46d8a711b63ad07ffc80344bfcbd3218a24c061e5e0e869ad"
+  },
+  {
+    "name": "Adafruit_BusIO",
+    "version": "1.17.4",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_BusIO-1.17.4.zip",
+    "sha256": "c7bab1b6c6eee64b50964c8e149b795719a01f1d9dfcdcef170b35daa696349b"
+  }
+]

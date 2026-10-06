@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "744:2259",
+      "file": "744-2259.png",
+      "url": "https://www.figma.com/api/mcp/asset/3c628c3e-7f35-4071-9346-0b3a162e7a28.png",
+      "bytes": 2951932,
+      "sha256": "7fc25fad55ba1306eb583cb604c396efe5d12fc8448dcd90378c6f660b70009c"
+    },
+    {
+      "id": "744:2264",
+      "file": "744-2264.png",
+      "url": "https://www.figma.com/api/mcp/asset/b7a1fd7b-6fa6-4aaa-a403-7f98b4c6b277.png",
+      "bytes": 2908775,
+      "sha256": "f25b5c857c98afa8e45778f328598e8d5af0de0c40be1406655e676ec42354f2"
+    },
+    {
+      "id": "744:2260",
+      "file": "744-2260.png",
+      "url": "https://www.figma.com/api/mcp/asset/7f6c22b8-77e9-4505-a642-31b8d3f79612.png",
+      "bytes": 2924042,
+      "sha256": "78e5356409b0ac0d23e024bb24c029fad90836c756429ba0393937851c4e942e"
+    },
+    {
+      "id": "744:2261",
+      "file": "744-2261.png",
+      "url": "https://www.figma.com/api/mcp/asset/1b8fdf02-95f3-4b32-9281-fbfc90e3af6f.png",
+      "bytes": 2870698,
+      "sha256": "be8ec18b751e931ecc35d72a995af274b9377c9684c1a692795566453aac39dc"
+    },
+    {
+      "id": "744:2262",
+      "file": "744-2262.png",
+      "url": "https://www.figma.com/api/mcp/asset/7cfdd235-6e98-4bde-9af3-cd5fa15c1455.png",
+      "bytes": 2842510,
+      "sha256": "18d6e59e2af1a01dfdf9d08a58fc9dc15f39112d2dec23ef8b06347aa9feef72"
+    },
+    {
+      "id": "744:2263",
+      "file": "744-2263.png",
+      "url": "https://www.figma.com/api/mcp/asset/44a594c3-2edc-4527-98c3-b024181a1093.png",
+      "bytes": 2834413,
+      "sha256": "0b6f28dabf13739ba2ecd26b0408c8e83fcaa296d40a066e61eeabda73f821b5"
+    },
+    {
+      "id": "744:2265",
+      "file": "744-2265.png",
+      "url": "https://www.figma.com/api/mcp/asset/f09f3a55-bd25-43f2-829d-3e389e149212.png",
+      "bytes": 2915927,
+      "sha256": "b7012d42c78e863f183f10f04cd87d0c079f1712db80750f6301d40ba3726df2"
+    },
+    {
+      "id": "744:2266",
+      "file": "744-2266.png",
+      "url": "https://www.figma.com/api/mcp/asset/f2275e88-13ac-4826-b553-1c1ce0503a23.png",
+      "bytes": 2878607,
+      "sha256": "8ce419d2236fbbefaf8554a18b930551bf49b5df5ef1282e1c34a9456e240311"
+    },
+    {
+      "id": "744:2267",
+      "file": "744-2267.png",
+      "url": "https://www.figma.com/api/mcp/asset/5ca07402-e2ce-438c-a3d8-c17e256e9785.png",
+      "bytes": 2960613,
+      "sha256": "5b747035165ebf0fc9e56eac78e40a6bcba9a8905d030426dec1c050ea6dd909"
+    }
+  ]
+}

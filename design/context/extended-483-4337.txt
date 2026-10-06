@@ -1,0 +1,42 @@
+const img122 = "https://www.figma.com/api/mcp/asset/f8b0dee7-f70f-4791-abc3-6380a6d36f80.png";
+const imgImage140 = "https://www.figma.com/api/mcp/asset/bb19e4df-26eb-447b-ba4c-d193e038141e.png";
+const imgUnion = "https://www.figma.com/api/mcp/asset/e87f210d-b106-4e4d-8f2c-78c947aef2a3.svg";
+const imgGroup545 = "https://www.figma.com/api/mcp/asset/3e792d9c-924f-448a-a7d3-afabfb61ebbb.svg";
+
+export default function Component122() {
+  return (
+    <div className="relative size-full" data-node-id="483:4337" data-name="12.2 먹이주기">
+      <div aria-hidden className="absolute inset-0 pointer-events-none">
+        <div className="absolute bg-white inset-0" />
+        <div className="absolute inset-0 overflow-hidden">
+          <img alt="" className="absolute h-[102.88%] left-[-16.69%] max-w-none top-0 w-[125.88%]" src={img122} />
+        </div>
+      </div>
+      <div className="absolute h-[61px] left-[16px] top-[43px] w-[207px]" data-node-id="483:4339" data-name="Union">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans:Display_Medium'] font-medium h-[35px] leading-[normal] left-[119.5px] text-[22px] text-black text-center top-[50px] w-[175px]" data-node-id="483:4342" style={{ fontVariationSettings: '"CTGR" 100, "wdth" 100' }}>
+        잘먹었어!
+      </p>
+      <div className="absolute h-[27px] left-0 top-0 w-[240px]" data-node-id="483:4343">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup545} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans:SemiBold'] font-semibold leading-[normal] left-[8px] text-[16px] text-white top-[3px] whitespace-nowrap" data-node-id="483:4347" style={{ fontVariationSettings: '"CTGR" 0, "wdth" 100' }}>
+        AM 9:10
+      </p>
+      <div className="absolute h-[192px] left-[33px] top-[92px] w-[174px]" data-node-id="504:2350" data-name="image 140">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage140} />
+      </div>
+      <div className="absolute contents left-[42px] top-[279px]" data-node-id="483:4348">
+        <div className="absolute contents left-[42px] top-[279px]" data-node-id="483:4349">
+          <div className="absolute contents left-[42px] top-[279px]" data-node-id="483:4350">
+            <div className="absolute bg-white h-[19px] left-[42px] rounded-[9.5px] top-[279px] w-[157px]" data-node-id="483:4351" />
+          </div>
+        </div>
+        <div className="absolute contents left-[44px] top-[281px]" data-node-id="483:4352">
+          <div className="absolute h-[15px] left-[44px] rounded-[10px] top-[281px] w-[101px]" data-node-id="483:4353" style={{ backgroundImage: "linear-gradient(90deg, rgb(59, 38, 30) 0%, rgb(183, 182, 200) 12.5%, rgb(59, 38, 30) 21.154%, rgb(206, 194, 185) 34.615%, rgb(122, 90, 72) 57.692%, rgb(250, 248, 244) 87.981%, rgb(248, 224, 174) 100%)" }} />
+        </div>
+      </div>
+    </div>
+  );
+}

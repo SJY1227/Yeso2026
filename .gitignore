@@ -1,0 +1,16 @@
+.tools/
+build/
+tmp/
+__pycache__/
+*.pyc
+design/previews/*.ppm
+design/previews/**/*.ppm
+.local/
+
+# Machine-local dependencies and credentials
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+!.env.*.example

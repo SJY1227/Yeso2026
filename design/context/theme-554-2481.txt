@@ -1,0 +1,18 @@
+const imgImage220 = "https://www.figma.com/api/mcp/asset/d3e9f35e-6e05-4c89-acb2-07cd4e6c6a86.png";
+
+export default function Image220() {
+  return (
+    <div className="relative size-full" data-node-id="554:2481" data-name="image 220">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="174" src={imgImage220} width="206" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

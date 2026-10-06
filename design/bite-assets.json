@@ -1,0 +1,333 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "481:3845",
+      "url": "https://www.figma.com/api/mcp/asset/7d517e85-e1c1-44ba-a28f-12310ecc9459.png",
+      "file": "481-3845.png",
+      "kind": "individual bite art",
+      "bytes": 57382,
+      "sha256": "750e82f5dd4323f83a814d0a8b84b37d74891c25b308380d6b852697918453d1"
+    },
+    {
+      "id": "481:3865",
+      "url": "https://www.figma.com/api/mcp/asset/1c388f64-3925-4da6-a133-968aed5d621f.png",
+      "file": "481-3865.png",
+      "kind": "individual bite art",
+      "bytes": 65322,
+      "sha256": "bf71ff9478a130ee45488987bcbd6654f8a5d550cdc54f1833844abe2df73e9a"
+    },
+    {
+      "id": "481:3866",
+      "url": "https://www.figma.com/api/mcp/asset/52334a82-8ac0-40f0-a546-84d0951bb2a5.png",
+      "file": "481-3866.png",
+      "kind": "individual bite art",
+      "bytes": 102106,
+      "sha256": "18d1534a33d2d559570374491a68f6b022b1d8c75b26625c1f7ca6c78db74e8b"
+    },
+    {
+      "id": "481:3867",
+      "url": "https://www.figma.com/api/mcp/asset/b3f54874-aaf9-4964-888e-1c421e30bc5f.png",
+      "file": "481-3867.png",
+      "kind": "individual bite art",
+      "bytes": 94752,
+      "sha256": "606cc865f7e0af72a3c019db350e8bdc316435d9d62f92111cec16d78f896ebf"
+    },
+    {
+      "id": "481:3868",
+      "url": "https://www.figma.com/api/mcp/asset/37f9defe-2d18-45fc-89d5-59fc0a52a1da.png",
+      "file": "481-3868.png",
+      "kind": "individual bite art",
+      "bytes": 65238,
+      "sha256": "d9033d66238082a182aab9f0d4805e5db5c7b92d15e849c7b324e03121bb91ab"
+    },
+    {
+      "id": "481:3869",
+      "url": "https://www.figma.com/api/mcp/asset/d206e584-5c0d-46aa-b09c-26f4f95a626a.png",
+      "file": "481-3869.png",
+      "kind": "individual bite art",
+      "bytes": 77653,
+      "sha256": "a9eef77984b4d4932e960a82e5b3ca51cca2605b4c69b6f0584b00447b02f581"
+    },
+    {
+      "id": "481:3870",
+      "url": "https://www.figma.com/api/mcp/asset/96d9be64-334b-4e9c-b648-3765563504eb.png",
+      "file": "481-3870.png",
+      "kind": "individual bite art",
+      "bytes": 75120,
+      "sha256": "bb7f5e69f50b15cde5785d1f4938aeecaf4acb11d8a97ceef79ea452ae552de9"
+    },
+    {
+      "id": "481:3871",
+      "url": "https://www.figma.com/api/mcp/asset/1f15e980-eaa2-4b4d-b63c-3a559109aa41.png",
+      "file": "481-3871.png",
+      "kind": "individual bite art",
+      "bytes": 89797,
+      "sha256": "6342dbce462757a77bee946be474a85f689d132745a9d82688e927ae825fec19"
+    },
+    {
+      "id": "481:3872",
+      "url": "https://www.figma.com/api/mcp/asset/1708c172-8c55-46f6-8c7c-27508b0798aa.png",
+      "file": "481-3872.png",
+      "kind": "individual bite art",
+      "bytes": 60531,
+      "sha256": "b3a0ea6ccf75b5ac961c2669f9ebe23dd8f6b3db9d78df3d0ff3797af301ff7c"
+    },
+    {
+      "id": "481:3873",
+      "url": "https://www.figma.com/api/mcp/asset/7b52ff68-1f52-4764-ae69-59c1bbebd5d6.png",
+      "file": "481-3873.png",
+      "kind": "individual bite art",
+      "bytes": 70411,
+      "sha256": "aeff522eaf60d73592e416dcffd473fec276f99bd6665bcc2f3d490e916dce85"
+    },
+    {
+      "id": "481:3874",
+      "url": "https://www.figma.com/api/mcp/asset/b59ca4bf-bb16-4fdf-891c-3f2fa302aedf.png",
+      "file": "481-3874.png",
+      "kind": "individual bite art",
+      "bytes": 72638,
+      "sha256": "f6ab48b40ce206ce6b6d8ccd5cab8573470fafe513edd77e1fc74c7efb93ccbc"
+    },
+    {
+      "id": "481:3875",
+      "url": "https://www.figma.com/api/mcp/asset/b60e0dac-f09c-4666-9301-b988062bbb9c.png",
+      "file": "481-3875.png",
+      "kind": "individual bite art",
+      "bytes": 60195,
+      "sha256": "4047d89dd34153b600b82deb51d355392a68c90596435c8bff904147bfe62dc1"
+    },
+    {
+      "id": "481:3876",
+      "url": "https://www.figma.com/api/mcp/asset/af008f71-3fa2-4937-a87c-bcd9bf53970f.png",
+      "file": "481-3876.png",
+      "kind": "individual bite art",
+      "bytes": 49436,
+      "sha256": "2185a64f12a2d5a9c67a06c69ecca8d6e74bbc716027f4ac48f437a9e304736e"
+    },
+    {
+      "id": "481:3877",
+      "url": "https://www.figma.com/api/mcp/asset/d1b510dc-09b5-4fd9-9bb0-a4de56234f0b.png",
+      "file": "481-3877.png",
+      "kind": "individual bite art",
+      "bytes": 67501,
+      "sha256": "d5957ad5add92d07e358d9059759bf87f8dd86ddbeecb865d7377d7e9f59086d"
+    },
+    {
+      "id": "481:3878",
+      "url": "https://www.figma.com/api/mcp/asset/f267b8e6-9132-437f-b849-5f4494a4d25c.png",
+      "file": "481-3878.png",
+      "kind": "individual bite art",
+      "bytes": 64891,
+      "sha256": "f873dcaf03d6656fa8dffb1dd578e88c519b0a0c16f2aeaa400d0d5947dd69dd"
+    },
+    {
+      "id": "481:3879",
+      "url": "https://www.figma.com/api/mcp/asset/f01a2a06-3763-46fc-96d1-4637150bbebf.png",
+      "file": "481-3879.png",
+      "kind": "individual bite art",
+      "bytes": 46028,
+      "sha256": "9576989b00b68771ef8d0e3c4474ba5ba3696f12f2ba3d320027a2a6d732abc8"
+    },
+    {
+      "id": "481:3846",
+      "url": "https://www.figma.com/api/mcp/asset/f7945120-751d-428c-a875-a8e5923fd189.png",
+      "file": "481-3846.png",
+      "kind": "individual bite art",
+      "bytes": 100146,
+      "sha256": "a70469c3616cfeafa1af5a85b0dddaf48c37ade50b694f4a8fb1e3a7541fc703"
+    },
+    {
+      "id": "481:3847",
+      "url": "https://www.figma.com/api/mcp/asset/98d23152-9510-4ae8-87bf-2b4dc855a242.png",
+      "file": "481-3847.png",
+      "kind": "individual bite art",
+      "bytes": 60402,
+      "sha256": "3168789dd783ea9c9309898bd0c515a2f7246d597145a4f24e78690876f43f47"
+    },
+    {
+      "id": "481:3848",
+      "url": "https://www.figma.com/api/mcp/asset/d42ec79a-3de5-4eeb-a86f-524a0e789c7c.png",
+      "file": "481-3848.png",
+      "kind": "individual bite art",
+      "bytes": 91054,
+      "sha256": "cbdfb3bbb8efec64edc4a1a98b5240b9973008bd511bd923cefa72403c9671dc"
+    },
+    {
+      "id": "481:3849",
+      "url": "https://www.figma.com/api/mcp/asset/39870065-d5dc-4f02-b7cb-bab75d85a3cd.png",
+      "file": "481-3849.png",
+      "kind": "individual bite art",
+      "bytes": 49086,
+      "sha256": "57f911e7a2818d48478e00023fd1d139c012269b8cfd8e49fa62342d8e9ad973"
+    },
+    {
+      "id": "481:3850",
+      "url": "https://www.figma.com/api/mcp/asset/844821a3-9bb0-4995-9368-5274a125d6dd.png",
+      "file": "481-3850.png",
+      "kind": "individual bite art",
+      "bytes": 103791,
+      "sha256": "51b84d32f5a9636d176236872eabb2a0e01b940b36b26e607670a8e7a93022c6"
+    },
+    {
+      "id": "481:3851",
+      "url": "https://www.figma.com/api/mcp/asset/868ce88b-5df9-4121-a143-848ff974ba4e.png",
+      "file": "481-3851.png",
+      "kind": "individual bite art",
+      "bytes": 97267,
+      "sha256": "3c20a7d42845ff26be7b30d6c76801e904228d5c30e5d2d39d62b208d9ed83b3"
+    },
+    {
+      "id": "481:3852",
+      "url": "https://www.figma.com/api/mcp/asset/6457b4f2-5ad3-43a7-9147-b9e9da223b49.png",
+      "file": "481-3852.png",
+      "kind": "individual bite art",
+      "bytes": 88294,
+      "sha256": "041933078b5463c6eb8b3a46e204cd7688a6677617f2076e349c77753a4a7935"
+    },
+    {
+      "id": "481:3853",
+      "url": "https://www.figma.com/api/mcp/asset/e9fb564f-87a2-44e0-84f7-fe981c6dfcd2.png",
+      "file": "481-3853.png",
+      "kind": "individual bite art",
+      "bytes": 77234,
+      "sha256": "b9511ab454e7242b81b8e54019dfb531e1ebe49ea5eadb67377dc05f36e4fcea"
+    },
+    {
+      "id": "481:3854",
+      "url": "https://www.figma.com/api/mcp/asset/a892ab36-9e54-4a21-b61a-ee759c0f1a84.png",
+      "file": "481-3854.png",
+      "kind": "individual bite art",
+      "bytes": 70718,
+      "sha256": "dbf25f6ca22052c40c7c64561dab51fe2ba4648cef64ed20e3fdb8c809c7299a"
+    },
+    {
+      "id": "481:3855",
+      "url": "https://www.figma.com/api/mcp/asset/137093c0-16ab-4458-bd6a-3eaa5643919f.png",
+      "file": "481-3855.png",
+      "kind": "individual bite art",
+      "bytes": 72007,
+      "sha256": "5a060aa5ced930d6f34ae0a95282b88389dad16d375ab2e05bcabdd15e42c36e"
+    },
+    {
+      "id": "481:3860",
+      "url": "https://www.figma.com/api/mcp/asset/0815234c-7be8-4fbc-9530-c59c2e95cb5d.png",
+      "file": "481-3860.png",
+      "kind": "individual bite art",
+      "bytes": 54072,
+      "sha256": "7f93916410657b2048a4393e35a8fedf146f41d4d24834677b308a9a886ad53b"
+    },
+    {
+      "id": "481:3861",
+      "url": "https://www.figma.com/api/mcp/asset/d4a37c4f-6952-4f1e-966d-4c5390870102.png",
+      "file": "481-3861.png",
+      "kind": "individual bite art",
+      "bytes": 67291,
+      "sha256": "a23c780b7266c05bd5db044f5e929aacf35f820d184b8c896da158f5c8f94f52"
+    },
+    {
+      "id": "481:3862",
+      "url": "https://www.figma.com/api/mcp/asset/b0a0f9e1-4ba0-4efc-88d8-940278e594f0.png",
+      "file": "481-3862.png",
+      "kind": "individual bite art",
+      "bytes": 78859,
+      "sha256": "e170d98eed06e1fc2430400d422be0b9de72df5d24af6cf76749abaf09c6725c"
+    },
+    {
+      "id": "481:3863",
+      "url": "https://www.figma.com/api/mcp/asset/9db8f119-ebb9-4084-9775-7dafacd26c70.png",
+      "file": "481-3863.png",
+      "kind": "individual bite art",
+      "bytes": 87659,
+      "sha256": "fef516d78a750cf2abac72fdb62e5c44f6aa27611d22b35d74e9a89001d3347d"
+    },
+    {
+      "id": "481:3864",
+      "url": "https://www.figma.com/api/mcp/asset/94d4d4ad-c8ab-4833-befd-320105a50e3d.png",
+      "file": "481-3864.png",
+      "kind": "individual bite art",
+      "bytes": 75001,
+      "sha256": "46bb6392a6d87407c30da196eb82caedf03ea4af0b6a7491e2db8e5308635b87"
+    },
+    {
+      "id": "481:3992",
+      "url": "https://www.figma.com/api/mcp/asset/552af330-e0fd-4cab-bd6b-8234e2c1b3f6.png",
+      "file": "481-3992.png",
+      "kind": "individual bite art",
+      "bytes": 37059,
+      "sha256": "6b4770127cf4cc8984dacf8188af22d90f13df0a888b2689b74a1a1a79fabfc2"
+    },
+    {
+      "id": "481:3993",
+      "url": "https://www.figma.com/api/mcp/asset/8d5cf5db-189e-4ec8-992a-63cc75163cf4.png",
+      "file": "481-3993.png",
+      "kind": "individual bite art",
+      "bytes": 71495,
+      "sha256": "1e356106c7633f85188337cc02255fd8aa62f5a4ba7ee79fb0ca2202f780d754"
+    },
+    {
+      "id": "481:3994",
+      "url": "https://www.figma.com/api/mcp/asset/1c91e350-4688-4a20-b0cc-7e0ad4b86400.png",
+      "file": "481-3994.png",
+      "kind": "individual bite art",
+      "bytes": 44233,
+      "sha256": "fa93cbdcc1063425001e0e6c5563697509c6d16c38633c05bc7e7ffdd3106ea0"
+    },
+    {
+      "id": "481:3995",
+      "url": "https://www.figma.com/api/mcp/asset/542a8db4-e42a-4983-ac00-dbecf943df53.png",
+      "file": "481-3995.png",
+      "kind": "individual bite art",
+      "bytes": 65070,
+      "sha256": "5e6a4189837512107b28e0d296034be172bad209c27e4d71f342fc6d93166012"
+    },
+    {
+      "id": "481:3996",
+      "url": "https://www.figma.com/api/mcp/asset/de82e74b-66f1-4090-9b68-fd64d3886725.png",
+      "file": "481-3996.png",
+      "kind": "individual bite art",
+      "bytes": 31790,
+      "sha256": "651c4c6a3b02f18fa5e6cb831e4dcc28d81affa14bb7173dbd2f1a324c255cac"
+    },
+    {
+      "id": "481:3997",
+      "url": "https://www.figma.com/api/mcp/asset/4d628021-2047-4bf6-9817-4bd046676a47.png",
+      "file": "481-3997.png",
+      "kind": "individual bite art",
+      "bytes": 61759,
+      "sha256": "deb9019d872b9369002d11b7d37a2ea4d89c0f587ba2bb6c051b06798019af91"
+    },
+    {
+      "id": "481:3998",
+      "error": "You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1614167151347222325/all-projects?upgrade=mcp_rate_limit_paywall"
+    },
+    {
+      "id": "481:3999",
+      "url": "https://www.figma.com/api/mcp/asset/75b716c2-bcb6-4692-a24f-027660e64eb4.png",
+      "file": "481-3999.png",
+      "kind": "individual bite art",
+      "bytes": 61640,
+      "sha256": "15b17c05630fd16161cfbd1080fafe366eb41f8ce762fd111775a2544650c50b"
+    },
+    {
+      "id": "481:4000",
+      "url": "https://www.figma.com/api/mcp/asset/79662436-22c6-4346-b67c-886c738571c3.png",
+      "file": "481-4000.png",
+      "kind": "individual bite art",
+      "bytes": 46375,
+      "sha256": "4bd4e4eae88103703c38e503d8bced01645cfe77fc995bf7fc47076f9bce4035"
+    },
+    {
+      "id": "481:4001",
+      "url": "https://www.figma.com/api/mcp/asset/09c2e07e-aab6-4e3b-9c72-7e6014aa6ad6.png",
+      "file": "481-4001.png",
+      "kind": "individual bite art",
+      "bytes": 48566,
+      "sha256": "f556f23211841127c01c5285c2bfe48f067e0253966449b67503aa8e5460a81d"
+    },
+    {
+      "id": "481:4002",
+      "error": "You've reached the Figma MCP tool call limit on the Education plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1614167151347222325/all-projects?upgrade=mcp_rate_limit_paywall"
+    }
+  ]
+}

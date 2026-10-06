@@ -1,0 +1,878 @@
+콘텐츠로 건너뛰기
+Notion 계정이 있는 모든 사용자가 이 페이지를 편집할 수 있습니다.
+편집하려면 가입 또는 로그인하세요.
+예소 개발자용
+/
+API 기본 명세서
+API 기본 명세서 
+에러 코드
+code
+	
+HTTP
+	
+message
+	
+비고
+
+
+INVALID_INPUT
+	
+400
+	
+입력값이 올바르지 않습니다.
+	
+공통
+
+
+UNAUTHORIZED
+	
+401
+	
+로그인이 필요합니다.
+	
+앱용 헤더 없음·값 불일치
+
+
+FORBIDDEN
+	
+403
+	
+접근 권한이 없습니다.
+	
+공통
+
+
+NOT_FOUND
+	
+404
+	
+요청한 리소스를 찾을 수 없습니다.
+	
+공통
+
+
+METHOD_NOT_ALLOWED
+	
+405
+	
+허용되지 않은 요청 방식입니다.
+	
+공통
+
+
+INTERNAL_ERROR
+	
+500
+	
+일시적인 오류가 발생했습니다.
+	
+공통
+
+
+AUTH_EMAIL_ALREADY_EXISTS
+	
+409
+	
+이미 가입된 이메일입니다.
+	
+signup
+
+
+AUTH_INVALID_EMAIL_FORMAT
+	
+400
+	
+이메일 형식이 올바르지 않습니다.
+	
+signup
+
+
+AUTH_INVALID_CREDENTIALS
+	
+401
+	
+이메일 또는 비밀번호가 올바르지 않습니다.
+	
+login. 이메일 없음과 비밀번호 틀림은 같은 응답
+
+
+USER_NOT_FOUND
+	
+404
+	
+사용자를 찾을 수 없습니다.
+	
+users/me
+
+
+USER_ALREADY_WITHDRAWN
+	
+409
+	
+이미 탈퇴한 계정입니다.
+	
+users/me
+
+
+CHILD_NOT_FOUND
+	
+404
+	
+자녀를 찾을 수 없습니다.
+	
+
+
+CHILD_FORBIDDEN
+	
+403
+	
+해당 자녀에 대한 권한이 없습니다.
+	
+
+
+CHILD_LIMIT_EXCEEDED
+	
+409
+	
+등록 가능한 자녀 수를 초과했습니다.
+	
+보호자당 10명
+
+
+DEVICE_NOT_FOUND
+	
+404
+	
+기기를 찾을 수 없습니다.
+	
+
+
+DEVICE_FORBIDDEN
+	
+403
+	
+해당 기기에 대한 권한이 없습니다.
+	
+
+
+DEVICE_LIMIT_EXCEEDED
+	
+409
+	
+자녀당 등록 가능한 기기 수를 초과했습니다.
+	
+자녀당 10대
+
+
+PAIRING_CODE_NOT_FOUND
+	
+404
+	
+유효하지 않은 페어링 코드입니다.
+	
+claim. 이미 사용한 코드도 이 응답
+
+
+PAIRING_CODE_EXPIRED
+	
+410
+	
+페어링 코드가 만료되었습니다.
+	
+발급 후 10분
+
+
+PAIRING_CODE_ALREADY_USED
+	
+409
+	
+이미 사용된 페어링 코드입니다.
+	
+ 현재 서버가 내보내지 않음 (사용 후 코드를 비우므로 구분 불가)
+
+
+DEVICE_UID_ALREADY_PAIRED
+	
+409
+	
+이미 다른 계정에 연결된 기기입니다.
+	
+claim
+
+
+DEVICE_UNAUTHORIZED
+	
+401
+	
+기기 인증에 실패했습니다.
+	
+기기 전용. 자체 복구 경로가 없어 재페어링 안내
+
+
+BIG_ROUTINE_NOT_FOUND
+	
+404
+	
+루틴을 찾을 수 없습니다.
+	
+
+
+SMALL_ROUTINE_NOT_FOUND
+	
+404
+	
+할 일을 찾을 수 없습니다.
+	
+
+
+ROUTINE_TEMPLATE_NOT_FOUND
+	
+404
+	
+저장해둔 루틴 양식을 찾을 수 없습니다.
+	
+
+
+ROUTINE_INVALID_TIME_RANGE
+	
+400
+	
+종료 시각이 시작 시각보다 빠를 수 없습니다.
+	
+
+
+ROUTINE_INVALID_DATE_RANGE
+	
+400
+	
+종료일이 시작일보다 빠를 수 없습니다.
+	
+
+
+ROUTINE_DATE_RANGE_TOO_LONG
+	
+400
+	
+한 번에 등록할 수 있는 기간을 초과했습니다.
+	
+ 상한 미확정
+
+
+ROUTINE_INVALID_REPEAT_RULE
+	
+400
+	
+반복 설정이 올바르지 않습니다.
+	
+
+
+ROUTINE_TOO_MANY_DATES
+	
+400
+	
+한 번에 지정할 수 있는 날짜 수를 초과했습니다.
+	
+DATES 최대 12개
+
+
+ROUTINE_ORDER_MISMATCH
+	
+400
+	
+정렬 대상이 올바르지 않습니다.
+	
+
+
+CHARACTER_NOT_FOUND
+	
+404
+	
+캐릭터를 찾을 수 없습니다.
+	
+커뮤니티 코드 7개(POST_* · COMMENT_* · LIKE_*)는 구현 제외라 서버에 없습니다.
+이번 최신화에서 바뀐 것 (2026-09-04 기준 48개 → 46개)
+변화
+	
+엔드포인트
+	
+이유
+
+
+ 삭제
+	
+POST /auth/social-login
+	
+이메일 · 비밀번호 로그인으로 전환
+
+
+ 삭제
+	
+POST /auth/refresh
+	
+만료 없는 UUID 방식이라 재발급 대상 없음
+
+
+ 삭제
+	
+GET /children/{childId}/routines
+	
+캘린더가 한 달치 상세를 통째로 반환
+
+
+ 삭제
+	
+POST /device-api/v1/token/refresh
+	
+기기 토큰 · secret 체계 삭제
+
+
+ 신설
+	
+POST /auth/signup · POST /auth/login
+	
+회원가입 · 로그인
+
+
+ 변경
+	
+stats 3종
+	
+from/to 자유 기간 → period (DAY · WEEK · MONTH)
+
+
+ 변경
+	
+빅루틴 생성
+	
+repeatType (RANGE · WEEKLY · DATES) 로 반복을 직접 지정, 즉시 생성
+
+
+ 변경
+	
+routine-templates
+	
+"고정 반복 원본" → "저장해둔 양식". 자동 생성 없음, is_active 삭제
+
+
+ 변경
+	
+claim · sync
+	
+token · secret → deviceAccessUuid 하나. sync 는 루틴을 만들지 않고 읽기만 함
+삭제된 4개 행은 아래 DB 에  삭제됨 으로 표시만 남겼습니다. 불필요하면 행을 지워도 됩니다.
+온보딩 · 페어링 호출 순서는 
+온보딩 & 페어링 전체 흐름 에 있습니다. 테이블 구조는 
+ERD초안 입니다.
+아직 확정되지 않은 항목
+항목
+	
+내용
+
+
+조회 · 생성 기간 상한
+	
+calendar from~to 최대 범위(31일 제안), RANGE 반복 기간 길이. 확정 전까지 설정값
+
+
+페어링 폴링 주기
+	
+타임아웃은 10분으로 확정, 주기(몇 초마다)는 미정. 2초 제안
+
+
+만료 PENDING 정리 주기
+	
+정리 배치가 얼마나 자주 도는지
+
+
+sync 부분 실패 · dates 길이
+	
+이미 삭제된 smallRoutineId 가 섞인 경우 무시 권장, dates 최대 3일 제안
+엔드포인트
+전체보기
+내 정보 수정
+유저
+PATCH
+/api/v1/users/me
+body: name
+보호자 성명 등 프로필 수정
+온보딩 1차 단계에서도 사용
+USER 관련 API 구현
+회원 탈퇴
+유저
+DELETE
+/api/v1/users/me
+-
+계정 탈퇴. 자녀 · 기기 · 루틴 · 양식까지 전부 함께 soft delete (한 트랜잭션)
+cascade 정책 확정(2026-09-10). 보유 캐릭터는 그대로 두고 조회 경로만 막힘. 탈퇴 후 같은 이메일로 재가입 가능(새 계정)
+USER 관련 API 구현
+내 정보 조회
+유저
+GET
+/api/v1/users/me
+-
+로그인한 보호자 프로필 조회
+USER 관련 API 구현
+유저
+3
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+로그인
+유저
+POST
+/api/v1/auth/login
+body: email, password
+이메일 · 비밀번호 로그인. 호출할 때마다 accessUuid 를 새로 발급하고 기존 값은 무효
+인증 불필요. 한 계정은 한 기기에서만 로그인 상태
+인증 관련 API 구현
+회원가입
+유저
+POST
+/api/v1/auth/signup
+body: email, password
+이메일 · 비밀번호로 가입. 가입과 동시에 로그인 상태(accessUuid 발급)
+인증 불필요. 온보딩 1차 시작. 이메일은 형식만 검사, 비밀번호 찾기·이메일 인증 없음
+인증 관련 API 구현
+토큰 재발급
+유저
+POST
+/api/v1/auth/refresh
+body: refreshToken
+액세스 토큰 만료 시 재발급
+인증 관련 API 구현
+로그아웃
+유저
+POST
+/api/v1/auth/logout
+-
+access_uuid 를 비워 무효화. 이후 그 값을 들고 있던 요청은 전부 401
+만료가 없는 구조라 로그아웃이 값을 무효로 만드는 유일한 수단
+인증 관련 API 구현
+소셜 로그인
+유저
+POST
+/api/v1/auth/social-login
+body: provider, idToken
+구글·카카오 소셜 로그인. 최초 로그인 시 회원가입 처리 후 JWT 발급
+응답에 isFirstLogin 포함 → 온보딩 분기
+인증 관련 API 구현
+인증
+5
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+기기
+5
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+자녀 기기 목록 조회
+유저
+GET
+/api/v1/children/{childId}/devices
+path: childId
+자녀에게 연결된 기기 전체 목록. 기기별 deviceId, nickname, status, battery, lastSyncedAt 반환
+[N기기 변경] 신설.
+근거: 1기기 시절엔 자녀 상세·대시보드에 기기 정보를 끼워 넣으면 됐지만, N대부터는 목록 조회 경로가 별도로 필요. 설정창 기기 관리 화면의 진입점
+디바이스 관련 API 구현
+페어링 코드 발급 (온보딩 2차 정보 전송 후)
+유저
+POST
+/api/v1/devices/pairing
+body: childId, nickname
+앱이 서버에 pairingCode를 요청해 받고 PENDING 상태의 기기 행 생성. 응답에 deviceId 포함. 이후 핫스팟을 통해 기기에 와이파이 정보와 함께 전달
+온보딩 3차 시작. 핫스팩 접속 전에 호출(인터넷 필요). deviceUid 는 받지 않음(기기가 claim 때 직접 전달). pairingCode 는 숫자 10자리 문자열, 유효 10분. 자녀당 최대 10대
+디바이스 관련 API 구현
+기기 연결 해제
+유저
+DELETE
+/api/v1/devices/{deviceId}
+path: deviceId
+기기 페어링 해제 (분실·교체 시)
+설정창 - 기기 삭제
+디바이스 관련 API 구현
+기기 정보 수정
+유저
+PATCH
+/api/v1/devices/{deviceId}
+path: deviceId / body: nickname
+기기 별칭 수정
+설정창 - 기기 수정
+디바이스 관련 API 구현
+기기 상태 조회
+유저
+GET
+/api/v1/devices/{deviceId}
+path: deviceId
+배터리 잔량, 연결 상태(PENDING/ACTIVE), 마지막 동기화 시점 조회
+온보딩 마지막 단계에서 status가 PENDING→ACTIVE로 바뀌는지 폴링하는 용도로도 사용. 응답에 lastSyncedAt 필수
+디바이스 관련 API 구현
+대시보드
+3
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+기간별 이행률 조회
+유저
+GET
+/api/v1/children/{childId}/stats
+path: childId / query: from, to
+일자별 미션 이행률 통계
+small_routines 직접 집계 (집계 테이블 없음)
+대시보드 API 구현
+대시보드 조회
+유저
+GET
+/api/v1/children/{childId}/dashboard
+path: childId
+내 기기(메인창). 이번주·어제 이행률, 배터리, 인사이트 통합 조회
+배터리는 lastSyncedAt 기준값으로 함께 반환
+
+[N기기 변경] battery 단일 필드 → devices[] 배열(deviceId, nickname, battery, status, lastSyncedAt)로 변경.
+근거: 기기가 여러 대면 단일 battery 값이 어느 기기 것인지 표현 불가. 응답 스키마 breaking change
+대시보드 API 구현
+미션별 이행률 조회
+유저
+GET
+/api/v1/children/{childId}/stats/missions
+path: childId / query: from, to
+series_id 기준으로 묶은 미션별 이행률
+'OO 미션 이행률이 낮아요' 인사이트 생성용
+대시보드 API 구현
+디바이스API
+3
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+기기 토큰 재발급
+기기
+POST
+/device-api/v1/token/refresh
+body: deviceUid, secret
+claim 시 받은 secret을 바디에 담아 새 토큰을 발급받음. 재페어링 없이 기기가 자체 복구
+토큰은 시간 만료 없음. 유출·사고 시 재발급용. 재발급 시 token_hash 덮어쓰기 → 기존 토큰 자동 무효화
+기기 등록 (claim)
+기기
+POST
+/device-api/v1/claim
+body: pairingCode, deviceUid, firmware
+기기가 집 와이파이 접속 후 pairingCode 로 인증. 서버가 PENDING 행을 찾아 device_uid·paired_at 를 채우고 ACTIVE 로 전환 → 응답으로 deviceAccessUuid 발급
+인증 헤더 없음. 핫스팩 통신은 앱→기기 단방향. pairingCode 는 일회용·유효 10분, 사용 후 비움. token · secret 은 삭제됨
+기기 동기화 및 인증 API
+기기 동기화 (push + pull)
+기기
+POST
+/device-api/v1/sync
+header: X-Device-Uuid / body: battery, firmware, completions[], dates[]
+완료 기록·배터리 업로드와 하루치 루틴 다운로드를 한 번에 처리. 루틴은 만들지 않고 읽기만 함
+응답 serverTime 으로 RTC 보정. UPDATE 기반이라 멱등성 보장. 인증은 X-Device-Uuid. 완료로 추가된 할 일 1개당 캐릭터 exp +1 (응답에는 반영 안 됨)
+기기 동기화 및 인증 API
+루틴
+13
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+고정 루틴 템플릿 수정
+유저
+PATCH
+/api/v1/routine-templates/{templateId}
+path: templateId / body: title, startTime, endTime, smallRoutines[]
+고정 루틴 정의 수정
+이후 생성분부터 적용. 이미 생성된 빅루틴은 변경 안 됨
+루틴 기능 API 구현
+고정 루틴 템플릿 목록
+유저
+GET
+/api/v1/children/{childId}/routine-templates
+path: childId
+활성화된 고정 루틴 템플릿 목록 조회
+루틴 기능 API 구현
+캘린더 조회
+유저
+GET
+/api/v1/children/{childId}/calendar
+path: childId / query: from, to
+루틴 등록 메인창 캘린더용. 날짜별 루틴 요약
+고정 루틴 지연 생성 트리거 지점
+루틴 기능 API 구현
+빅루틴 생성
+유저
+POST
+/api/v1/children/{childId}/big-routines
+path: childId / body: title, startTime, endTime, startDate, endDate, smallRoutines[]
+단일 날짜 또는 기간 배치 생성. 기간 지정 시 날짜별 행을 각각 생성
+동일 series_id 부여. 응답에 seriesId, createdDates 반환
+루틴 기능 API 구현
+날짜별 루틴 조회
+유저
+GET
+/api/v1/children/{childId}/routines
+path: childId / query: date
+특정 날짜의 빅루틴 + 내부 스몰루틴 전체 조회
+고정 루틴 지연 생성 트리거 지점
+루틴 기능 API 구현
+스몰루틴 순서 변경
+유저
+PUT
+/api/v1/big-routines/{bigRoutineId}/small-routines/order
+path: bigRoutineId / body: [{smallRoutineId, order}]
+연속적인 할 일 순서 일괄 재정렬
+드래그 정렬 UI 대응
+루틴 기능 API 구현
+스몰루틴 수정
+유저
+PATCH
+/api/v1/small-routines/{smallRoutineId}
+path: smallRoutineId / body: title
+스몰루틴 제목 수정
+series_id 유지 (같은 미션의 이름 변경으로 간주)
+루틴 기능 API 구현
+빅루틴 수정
+유저
+PATCH
+/api/v1/big-routines/{bigRoutineId}
+path: bigRoutineId / body: title, startTime, endTime
+해당 날짜의 빅루틴만 수정
+series_id 유지. 다른 날짜에 영향 없음
+루틴 기능 API 구현
+고정 루틴 템플릿 비활성화
+유저
+DELETE
+/api/v1/routine-templates/{templateId}
+path: templateId
+is_active = false 처리. 이후 자동 생성 중단
+기존에 생성된 빅루틴은 유지
+루틴 기능 API 구현
+스몰루틴 추가
+유저
+POST
+/api/v1/big-routines/{bigRoutineId}/small-routines
+path: bigRoutineId / body: title, order
+빅루틴 내부 할 일 추가
+새 series_id 발급 (새로운 미션으로 간주)
+루틴 기능 API 구현
+스몰루틴 삭제
+유저
+DELETE
+/api/v1/small-routines/{smallRoutineId}
+path: smallRoutineId
+스몰루틴 삭제
+soft delete (이행률 통계 보존)
+루틴 기능 API 구현
+고정 루틴 템플릿 생성
+유저
+POST
+/api/v1/children/{childId}/routine-templates
+path: childId / body: title, startTime, endTime, smallRoutines[]
+고정 빅루틴 정의 생성. 이후 날짜 조회 시 지연 생성의 원본이 됨
+날짜 범위 루틴은 템플릿 생성 안 함
+루틴 기능 API 구현
+빅루틴 삭제
+유저
+DELETE
+/api/v1/big-routines/{bigRoutineId}
+path: bigRoutineId / query: scope (single | series)
+해당 날짜만 또는 같은 series 전체 삭제
+soft delete (통계 보존)
+루틴 기능 API 구현
+자녀
+5
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+자녀 정보 수정
+유저
+PATCH
+/api/v1/children/{childId}
+path: childId / body: name, birthDate, relationship
+자녀 정보 수정
+설정창 - 자녀 정보 수정
+자녀 관련 API 구현
+자녀 삭제
+유저
+DELETE
+/api/v1/children/{childId}
+path: childId
+자녀 삭제 (soft delete)
+자녀 관련 API 구현
+자녀 목록 조회
+유저
+GET
+/api/v1/children
+-
+보호자에게 연결된 자녀 목록
+페이지네이션 없이 전체 반환.  deviceCount 는 미확정이고 현재 서버 응답에 없음
+자녀 관련 API 구현
+자녀 상세 조회
+유저
+GET
+/api/v1/children/{childId}
+path: childId
+자녀 상세 정보 조회
+자녀 관련 API 구현
+자녀 등록 (온보딩 2차)
+유저
+POST
+/api/v1/children
+body: name, birthDate, relationship
+자녀 정보 등록 및 보호자와 관계 설정
+온보딩 2차 단계
+자녀 관련 API 구현
+캐릭터
+2
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+보유 캐릭터 조회
+유저
+GET
+/api/v1/children/{childId}/characters
+path: childId
+자녀가 보유한 캐릭터와 성장 단계 조회
+설정창 - 캐릭터 도감. 획득 시나리오 확정 후 상세 보완 필요
+캐릭터 관련 API 구현
+캐릭터 도감 조회
+유저
+GET
+/api/v1/characters
+-
+전체 캐릭터 마스터 목록 (도감용)
+assets는 S3 key만 반환, URL은 런타임 조립
+캐릭터 관련 API 구현
+커뮤니티
+11
+기능
+사용자
+Method
+URL
+param
+설명
+기타
+칸반보드
+댓글 목록 조회
+유저
+GET
+/api/v1/posts/{postId}/comments
+path: postId
+댓글·대댓글 목록 조회 (계층 구조)
+parent_comment_id 기준 트리 구성
+커뮤니티 관련 API 구현
+좋아요 등록
+유저
+POST
+/api/v1/posts/{postId}/likes
+path: postId
+게시글 좋아요
+unique(post_id, user_id)로 중복 방지
+커뮤니티 관련 API 구현
+게시글 상세 조회
+유저
+GET
+/api/v1/posts/{postId}
+path: postId
+게시글 단건 조회
+커뮤니티 관련 API 구현
+댓글 수정
+유저
+PATCH
+/api/v1/comments/{commentId}
+path: commentId / body: content
+댓글 수정 (작성자 본인만)
+커뮤니티 관련 API 구현
+댓글 작성
+유저
+POST
+/api/v1/posts/{postId}/comments
+path: postId / body: content, parentCommentId
+댓글 또는 대댓글 작성
+parentCommentId 있으면 대댓글
+커뮤니티 관련 API 구현
+게시글 삭제
+유저
+관리자
+DELETE
+/api/v1/posts/{postId}
+path: postId
+게시글 삭제 (soft delete)
+관리자 신고 처리 시나리오 미정
+커뮤니티 관련 API 구현
+좋아요 취소
+유저
+DELETE
+/api/v1/posts/{postId}/likes
+path: postId
+게시글 좋아요 취소
+커뮤니티 관련 API 구현
+게시글 목록 조회
+유저
+GET
+/api/v1/posts
+query: page, size
+커뮤니티 게시글 목록 (페이지네이션)
+커뮤니티 기능 상세 미정
+커뮤니티 관련 API 구현
+게시글 작성
+유저
+POST
+/api/v1/posts
+body: title, content
+게시글 등록
+커뮤니티 관련 API 구현
+댓글 삭제
+유저
+관리자
+DELETE
+/api/v1/comments/{commentId}
+path: commentId
+댓글 삭제 (soft delete)
+대댓글 존재 시 처리 정책 필요
+커뮤니티 관련 API 구현
+게시글 수정
+유저
+PATCH
+/api/v1/posts/{postId}
+path: postId / body: title, content
+게시글 수정 (작성자 본인만)
+커뮤니티 관련 API 구현
+기기 동기화 (push + pull)
+전체보기
