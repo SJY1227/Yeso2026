@@ -21,5 +21,6 @@
 
 - [디자이너 전달 사항](designer-handoff.md)
 - [서버·앱 개발자 전달 사항](server-app-handoff.md)
+- [BLE Wi-Fi 설정 계약](ble-wifi-provisioning.md): 보드 BLE 사양, 앱 UUID·조각 JSON 수신, 5초 설정 진입, 개발 모드 제한과 앱 수정 사항. 실물 연동은 미검증.
 - [이미지 묶음과 배포](image-assets.md)
 - [루틴 실물 테스트 모드](device-demo.md): 실제 기록을 보존하는 RAM 전용 일정·모의 시각·자동 검사·직접 체험.

@@ -1,5 +1,6 @@
 #include "Drawing.h"
 #include "HomeRenderer.h"
+#include "FontBitmap.h"
 #include "../generated/ProductAssets.h"
 #include <cstring>
 #include <algorithm>
@@ -57,17 +58,20 @@ void drawText(uint16_t* dst, const assets::Font& font, const char* p, int center
   int x = centered ? center-w/2 : center;
   while (*p) {
     const auto* g = glyph(font,codepoint(p)); if (!g) continue;
+    uint8_t scratch[128];
+    const auto* bitmap=fontBitmap(font,size_t(g-font.glyphs),scratch,sizeof(scratch));
+    if(!bitmap){x+=(g->advance64*size+source*32)/(source*64);continue;}
     const int gw = (g->width*size + source-1)/source, gh = (g->height*size + source-1)/source;
     for (int yy = 0; yy < gh; ++yy) for (int xx = 0; xx < gw; ++xx) {
       const size_t offset = size_t(yy*source/size)*g->width + xx*source/size;
-      unsigned alpha = font.bitsPerPixel==8 ? font.pixels[g->offset+offset] :
-        ((font.pixels[g->offset+offset/4] >> (6-2*(offset%4)))&3)*85;
+      unsigned alpha = font.bitsPerPixel==8 ? bitmap[offset] :
+        ((bitmap[offset/4] >> (6-2*(offset%4)))&3)*85;
       if(smooth && size!=source) {
         const auto coverage=[&](int sx,int sy)->float {
           if(sx<0||sy<0||sx>=g->width||sy>=g->height)return 0;
           const size_t at=size_t(sy)*g->width+sx;
-          return font.bitsPerPixel==8 ? font.pixels[g->offset+at] :
-              ((font.pixels[g->offset+at/4]>>(6-2*(at%4)))&3)*85;
+          return font.bitsPerPixel==8 ? bitmap[at] :
+              ((bitmap[at/4]>>(6-2*(at%4)))&3)*85;
         };
         const float sx=(xx+0.5f)*source/size-0.5f,sy=(yy+0.5f)*source/size-0.5f;
         const int ix=int(std::floor(sx)),iy=int(std::floor(sy));

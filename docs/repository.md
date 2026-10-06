@@ -1,6 +1,6 @@
 # 개발 환경 준비와 저장소 구성
 
-2026-10-06, Product v0.8.2 기준. 이미 빌드와 실물 검사를 마친 소스·자산·문서를 다른 개발자가 이어서 다룰 수 있도록 정리한다. 펌웨어가 구현된 범위와 실제 서버 연결 완료 여부는 [개발 상태](development.md)를 따른다.
+2026-10-07 갱신. 소스·자산·문서를 다른 개발자가 이어서 다룰 수 있도록 정리한다. v0.8.2 실물 검증 이력과 v0.9.0 코드·빌드 검증을 구분하며, 펌웨어 구현 범위와 실제 연결 완료 여부는 [개발 상태](development.md)를 따른다.
 
 ## 보관 범위
 
@@ -44,7 +44,9 @@ python tools/fetch_sources.py
 .\tools\verify-build.ps1
 ```
 
-PC 검사는 12개 C++ 실행 파일과 PowerShell 백업 도구 검사를 포함한다. 빌드는 `build/firmware`로 출력한다. 한글 경로에 대한 현재 링커 제한 때문에 중간 파일은 `%LOCALAPPDATA%/RoutineDeviceBuild/<경로 해시>`에 쓴다. `LOCALAPPDATA` 자체도 ASCII 경로여야 한다. 다른 OS에 대한 전체 도구 이식은 완료하지 않았다.
+PC 검사는 14개 C++ 실행 파일과 PowerShell 백업 도구 검사를 포함한다. 일반 빌드는 `build/firmware`로 출력한다. 한글 경로에 대한 현재 링커 제한 때문에 중간 파일은 `%LOCALAPPDATA%/RoutineDeviceBuild/<경로 해시>`에 쓴다. `LOCALAPPDATA` 자체도 ASCII 경로여야 한다. 다른 OS에 대한 전체 도구 이식은 완료하지 않았다.
+
+앱 BLE 개발 연동은 `tools/build.ps1 -BleDevelopment`, 결과 검증은 `tools/verify-build.ps1 -BleDevelopment`를 사용한다. 출력은 `build/firmware-ble-development`이며 별도 캐시를 쓴다. 이 빌드만 평문 BLE와 사설 IPv4 HTTP를 허용한다. [BLE 계약과 보드 사양](ble-wifi-provisioning.md)을 먼저 읽는다. `-Port`를 주지 않으면 업로드하지 않는다.
 
 보드 옵션은 `tools/build.ps1`의 FQBN에 고정돼 있다: XIAO ESP32-S3 Plus, Flash 16MB, OPI PSRAM, `app3M_fat9M_16MB`, Hardware CDC. 임의로 파티션/전체 지우기 옵션을 바꾸지 않는다.
 

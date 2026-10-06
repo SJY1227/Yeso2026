@@ -17,6 +17,8 @@ class DeviceNetwork {
   bool busy() const { return working_.load() || identityPending_ || configTransfer_.active(); }
   Status status() const { return status_; }
   void printStatus() const;
+  bool acceptProvisioning(const provisioning::Config& config);
+  bool finishProvisioning(const provisioning::Config& config);
  private:
   struct Settings {
     uint32_t magic=0x41504931;
@@ -29,6 +31,7 @@ class DeviceNetwork {
     bool claimUncertain=false;
   } settings_{};
   bool saveSettings(const Settings& next);
+  bool queuePairing(const char* code);
   bool configure(const uint8_t* data,size_t size);
   bool start(bool claim,const application::ProductState& state,int64_t now,int battery);
   static void worker(void* context);

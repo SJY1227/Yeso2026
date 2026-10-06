@@ -3,6 +3,8 @@
 #include <Adafruit_ST7789.h>
 #include "../../input/Intent.h"
 #include "../../input/ContextualGestures.h"
+#include "../../input/SystemGestures.h"
+#include "ProvisioningBuild.h"
 #include <esp_sleep.h>
 #include <atomic>
 #include <freertos/FreeRTOS.h>
@@ -21,6 +23,7 @@ class Board {
   uint16_t* pixels() { return pixels_; }
   void present();
   void armButton();
+  bool takeSetupRequest(){return setupRequested_.exchange(false);}
   input::InputEvent pollInput();
   input::Intent pollIntent(){return pollInput().intent;} // Diagnostic mode.
   void inputContext(uint32_t context){inputContext_=context;}
@@ -35,7 +38,12 @@ class Board {
   static void inputTask(void* context);
   Adafruit_ST7789 display_;
   uint16_t* pixels_ = nullptr;
+#if ROUTINE_BLE_DEVELOPMENT
+  input::SystemGestures gestures_;
+#else
   input::ContextualGestures gestures_;
+#endif
+  std::atomic<bool> setupRequested_{false};
   input::BuzzerPulse buzzer_;
   TaskHandle_t inputTask_=nullptr;
   QueueHandle_t inputQueue_=nullptr;

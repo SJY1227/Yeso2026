@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image,ImageFont,ImageDraw
 import numpy as np
 from generate_assets import numbers, font_set, FONT, ROOT
-from image_lzss import image_cpp
+from image_lzss import image_cpp, compress, decompress
 
 OUT=ROOT/'firmware/RoutineDevice/src/generated'
 def main():
@@ -33,10 +33,14 @@ extern const Font koreanFont, uiFont, growthFont, statusFont;
         padded=np.pad(levels,(0,(-len(levels))%4)).reshape(-1,4)
         packed=(padded[:,0]<<6)|(padded[:,1]<<4)|(padded[:,2]<<2)|padded[:,3]
         glyphs.append((cp,len(data),w,h,l,t,round(font.getlength(char)*64)))
-        data.extend(packed)
+        raw=packed.tobytes()
+        assert len(raw)<=128, 'Increase and verify the runtime glyph scratch capacity first'
+        encoded=compress(raw)
+        assert decompress(encoded,len(raw)) == raw
+        data.extend(encoded)
     cpp+='const uint8_t koreanPixels[] = {\n'+numbers(data)+'\n};\nconst Glyph koreanGlyphs[] = {\n'
     cpp+='\n'.join('  {'+','.join(map(str,g))+'},' for g in glyphs)+'\n};\n'
-    cpp+=f'const Font koreanFont = {{koreanPixels,koreanGlyphs,{len(glyphs)},2}};\n'
+    cpp+=f'const Font koreanFont = {{koreanPixels,koreanGlyphs,{len(glyphs)},2,true,sizeof(koreanPixels)}};\n'
     labels='>확인취소포기완료진짜로...?하시겠습니까도감을선택해주세요캐릭터먹이좋은하루보내~'
     cpp+=font_set('uiFont',labels,20,500)
     # Native-size coverage masks keep the small home labels legible on a 240px LCD.

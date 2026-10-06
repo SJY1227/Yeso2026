@@ -26,12 +26,15 @@ void ProductRuntime::begin() {
     loaded=product_.begin();
   }
   clock_.begin();network_.begin();board_.armButton();activityAt_=millis();
+  setupRequested_=kBleDevelopment&&!clock_.configured();
   Preferences uiSettings;if(uiSettings.begin("routine-ui",true))motion_.enable(uiSettings.getBool("motion",true));
   Serial.printf("RoutineDevice PRODUCT v%s storage-mounted=%d load=%u assets=%d\n",kFirmwareVersion,mounted,unsigned(loaded),assets_.ready());
   Serial.println("D3 tap=Next; double=Previous; hold800=Confirm. help for USB commands.");
+  if(kBleDevelopment)Serial.println("BLE DEVELOPMENT: plaintext setup; D3 hold5s=settings; hold800+release=Confirm; local HTTP enabled");
   status();
 }
 void ProductRuntime::status() {
+  Serial.printf("BLE: development=%d active=%d state=%s\n",kBleDevelopment,ble_.active(),ble_.status());
   Serial.printf("Session: demo=%d clock=%s persistence=%s\n",demo_.active(),demo_.active()?"simulated":"system",demo_.active()?"ram":"flash");
   network_.printStatus();
   Serial.printf("Product: generation=%llu revision=%llu runs=%u events=%u screen=%u selection=%u fault=%d\n",
@@ -83,6 +86,13 @@ bool ProductRuntime::demoCommand(const char* line){
   status();return true;
 }
 void ProductRuntime::command(const char* line) {
+  if(!std::strcmp(line,"ble start")){
+    if(!kBleDevelopment||demo_.active()||ble_.active())Serial.println("BLE ERR unavailable");
+    else {setupRequested_=true;Serial.println("BLE setup requested");}return;
+  }
+  if(!std::strcmp(line,"ble stop")){setupRequested_=false;ble_.stop(clock_);resetPresentation();Serial.println("BLE stopped");return;}
+  if(!std::strcmp(line,"ble status")){status();return;}
+  if(ble_.active()&&std::strcmp(line,"status")){Serial.println("ERR BLE setup active; ble stop first");return;}
   if(demoCommand(line))return;
   // Whitelist before any storage/network/configuration dispatcher. Test writes
   // cannot escape via USB imports, backups, settings, image uploads or pairing.
@@ -131,7 +141,7 @@ void ProductRuntime::command(const char* line) {
   switch(parsed.kind){
     case Kind::Status:status();break;
     case Kind::Sync:clock_.requestSync();Serial.println("OK sync");break;
-    case Kind::WifiSetup:Serial.println(clock_.configure(parsed.ssid,parsed.password)?"OK network saved; sync requested":"ERR network");break;
+    case Kind::WifiSetup:Serial.println(clock_.configure(parsed.ssid,parsed.password)?"OK network test started; saved after IP":"ERR network");break;
     case Kind::Idle:idleMs_=parsed.seconds*1000;Serial.println("OK idle");break;
     case Kind::Sleep:pendingSleep_=parsed.seconds;break;
     default:Serial.println("ERR command");break;
@@ -143,7 +153,7 @@ void ProductRuntime::dispatchInput(input::Intent intent){
   product_.input(intent,time());
 }
 void ProductRuntime::sleep(uint32_t seconds){
-  if(demo_.active()||!seconds||board_.inputBusy()||!board_.canPresent()||transfer_.active()||assets_.active()||network_.busy()||!assets_.ready())return;
+  if(demo_.active()||ble_.active()||setupRequested_||clock_.setupState()==provisioning::JoinState::Connecting||!seconds||board_.inputBusy()||!board_.canPresent()||transfer_.active()||assets_.active()||network_.busy()||!assets_.ready())return;
   Serial.printf("Sleep: %lus\n",static_cast<unsigned long>(seconds));Serial.flush();Serial.end();
   const auto result=sleepAndResync(board_,clock_,seconds);lastSleep_=result;
   beginUsbConsole();network_.request();activityAt_=millis();dirty_=true;
@@ -152,18 +162,27 @@ void ProductRuntime::sleep(uint32_t seconds){
 void ProductRuntime::tick(){
   if(!ready_){delay(10);return;}
   board_.updateBuzzer();clock_.tick();
-  if(!demo_.active())network_.tick(product_,clock_,-1,!assets_.active()&&!transfer_.active());
+  if(board_.takeSetupRequest()&&!demo_.active()){
+    if(ble_.active()){ble_.stop(clock_);resetPresentation();}else setupRequested_=kBleDevelopment;
+  }
+  if(!demo_.active())network_.tick(product_,clock_,-1,!ble_.active()&&!setupRequested_&&clock_.setupState()!=provisioning::JoinState::Connecting&&!assets_.active()&&!transfer_.active());
+  if(setupRequested_&&!network_.busy()&&!assets_.active()&&!transfer_.active()&&!demo_.active()&&clock_.setupState()!=provisioning::JoinState::Connecting){
+    setupRequested_=false;inputSession_.invalidate();board_.inputContext(0);board_.armButton();motion_.skip();
+    if(!ble_.start())Serial.println("BLE ERR start");shownSetupStatus_=nullptr;dirty_=true;
+  }
+  const bool wasSetup=ble_.active();ble_.tick(clock_,network_);
+  if(wasSetup&&!ble_.active())resetPresentation();
   if(!inputSession_.matches(product_.state(),product_.view())){inputSession_.invalidate();board_.inputContext(0);}
   const auto event=board_.pollInput();const auto intent=event.intent;
   if(board_.inputBusy()||intent!=input::Intent::None)activityAt_=millis();
   // Controller input itself advances time and rejects presses for changed screens.
-  if(!assets_.active()){
+  if(!assets_.active()&&!ble_.active()){
     if(intent!=input::Intent::None&&assets_.ready()&&inputSession_.accepts(event.context,product_.state(),product_.view())){
       // A delayed skip press from the last animation frame is still only a skip.
       if(inputSession_.transient()){motion_.skip();dirty_=true;product_.tick(time());}
       else dispatchInput(intent);
     }else {if(intent!=input::Intent::None)++discardedInputs_;product_.tick(time());}
-  }
+  }else if(ble_.active())product_.tick(time());
   assets_.tick();
   for(unsigned i=0;i<64&&Serial.available()&&!assets_.receiving();++i){
     const auto result=lines_.push(char(Serial.read()));
@@ -172,6 +191,19 @@ void ProductRuntime::tick(){
   }
   transfer_.tick(millis());
   if(product_.takeAlert())board_.beep(80);
+  if(ble_.active()){
+    if((dirty_||shownSetupStatus_!=ble_.status())&&board_.canPresent()){
+      std::fill_n(board_.pixels(),240*320,uint16_t(0xffff));
+      ui::drawing::text(board_.pixels(),"Wi-Fi setup",120,55,22,0);
+      ui::drawing::text(board_.pixels(),ble_.name(),120,100,18,0);
+      ui::drawing::text(board_.pixels(),ble_.status(),120,150,18,0);
+      ui::drawing::text(board_.pixels(),"Open the app",120,200,16,0);
+      ui::drawing::text(board_.pixels(),"D3 hold 5s: close",120,245,16,0);
+      ui::drawing::text(board_.pixels(),"DEVELOPMENT",120,290,16,0xf800);
+      board_.present();shownSetupStatus_=ble_.status();dirty_=false;
+    }
+    delay(1);return;
+  }
   uint16_t minutes=0;bool known=false;
   if(demo_.active()){known=true;minutes=uint16_t(((time().unixSeconds+9*3600)/60)%1440);}
   else known=clock_.localMinutes(minutes);

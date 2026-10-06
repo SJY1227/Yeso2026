@@ -17,6 +17,8 @@ try {
         }
     )
     $cases = @(
+        @{Name='provisioning-tests'; Sources=@('tests/provisioning_tests.cpp','firmware/RoutineDevice/src/application/WifiProvisioning.cpp')},
+        @{Name='font-bitmap-tests'; Sources=@('tests/font_bitmap_tests.cpp') + $portableSources},
         @{Name='native-tests'; Sources=@('tests/native_tests.cpp') + $portableSources},
         @{Name='diagnostics-tests'; Sources=@('tests/diagnostics_tests.cpp','firmware/RoutineDevice/src/diagnostics/HardwareCheck.cpp')},
         @{Name='routine-engine-tests'; Sources=@('tests/routine_engine_tests.cpp','firmware/RoutineDevice/src/domain/RoutineEngine.cpp')},

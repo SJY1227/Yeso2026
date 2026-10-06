@@ -38,12 +38,16 @@ void Board::armButton() {
   if(inputTask_)vTaskSuspend(inputTask_);
   if(inputQueue_)xQueueReset(inputQueue_);
   gestures_.begin(millis(),pressed(),inputContext_.load());gestureBusy_=pressed();inputOverflow_=false;
+  setupRequested_=false;
   if(inputTask_)vTaskResume(inputTask_);
 }
 void Board::inputTask(void* context){
   auto& self=*static_cast<Board*>(context);
   for(;;){
     const auto event=self.gestures_.update(millis(),self.pressed(),self.inputContext_.load());
+#if ROUTINE_BLE_DEVELOPMENT
+    if(self.gestures_.takeSetup())self.setupRequested_=true;
+#endif
     self.gestureBusy_=self.gestures_.busy();
     if(event.intent!=input::Intent::None&&xQueueSend(self.inputQueue_,&event,0)!=pdTRUE)self.inputOverflow_=true;
     vTaskDelay(pdMS_TO_TICKS(5));

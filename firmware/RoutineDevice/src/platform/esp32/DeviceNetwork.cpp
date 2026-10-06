@@ -6,6 +6,8 @@
 #include <Arduino.h>
 #include <HTTPClient.h>
 #include <NetworkClientSecure.h>
+#include <NetworkClient.h>
+#include "ProvisioningBuild.h"
 #include <Preferences.h>
 #include <esp_system.h>
 #include <cstring>
@@ -16,9 +18,7 @@
 namespace routine::platform {
 namespace {
 bool validEndpoint(const char* s){
-  if(!s||std::strncmp(s,"https://",8)||!s[8]||std::strlen(s)>180)return false;
-  for(const char* p=s;*p;++p)if(static_cast<unsigned char>(*p)<=32||*p=='@'||*p=='?'||*p=='#'||*p=='\\')return false;
-  const char* slash=std::strchr(s+8,'/');return !slash||slash[1]==0;
+  return provisioning::validServerUrl(s,false);
 }
 class BoundedBody : public Stream {
  public:
@@ -38,9 +38,32 @@ void DeviceNetwork::begin(){
   if(!storeReady_){status_=Status::StorageError;return;}
   if(storage.isKey("settings")){
     if(storage.getBytesLength("settings")!=sizeof(settings_)||storage.getBytes("settings",&settings_,sizeof(settings_))!=sizeof(settings_)||settings_.magic!=0x41504931){status_=Status::StorageError;storeReady_=false;return;}
-    if(!std::memchr(settings_.endpoint,0,sizeof(settings_.endpoint))||!std::memchr(settings_.ca,0,sizeof(settings_.ca))||!std::memchr(settings_.uuid,0,sizeof(settings_.uuid))||!validEndpoint(settings_.endpoint)||!settings_.ca[0]||(settings_.uuid[0]&&!api::validUuid(settings_.uuid))){status_=Status::StorageError;storeReady_=false;return;}
+    if(!std::memchr(settings_.endpoint,0,sizeof(settings_.endpoint))||!std::memchr(settings_.ca,0,sizeof(settings_.ca))||!std::memchr(settings_.uuid,0,sizeof(settings_.uuid))||!provisioning::validServerUrl(settings_.endpoint,true)||(std::strncmp(settings_.endpoint,"https://",8)==0&&!settings_.ca[0])||(settings_.uuid[0]&&!api::validUuid(settings_.uuid))){status_=Status::StorageError;storeReady_=false;return;}
   }
   status_=settings_.claimUncertain?Status::ClaimUncertain:!settings_.endpoint[0]?Status::Unconfigured:settings_.uuid[0]?Status::Ready:Status::Unpaired;
+}
+bool DeviceNetwork::acceptProvisioning(const provisioning::Config& config){
+  if(!kBleDevelopment||!storeReady_||busy()||settings_.claimUncertain||!api::validPairingCode(config.pairingCode)||!provisioning::validServerUrl(config.serverUrl,true))return false;
+  // Existing identities never move to an app-supplied origin or get re-claimed.
+  if(settings_.uuid[0])return std::strcmp(settings_.endpoint,config.serverUrl)==0;
+  if(!std::strncmp(config.serverUrl,"https://",8)&&(!settings_.ca[0]||std::strcmp(settings_.endpoint,config.serverUrl)))return false;
+  // Cancel an older unsent code, but retain the server/CA until Wi-Fi commits.
+  provisioning::erase(pairingCode_,sizeof(pairingCode_));return true;
+}
+bool DeviceNetwork::finishProvisioning(const provisioning::Config& config){
+  if(!acceptProvisioning(config))return false;
+  if(settings_.uuid[0])return true;
+  if(!std::strcmp(settings_.endpoint,config.serverUrl))return queuePairing(config.pairingCode);
+  auto* next=new(std::nothrow) Settings(settings_);if(!next)return false;
+  std::strcpy(next->endpoint,config.serverUrl);next->ca[0]=0;
+  const bool ok=saveSettings(*next);delete next;
+  return ok&&queuePairing(config.pairingCode);
+}
+bool DeviceNetwork::queuePairing(const char* code){
+  if(!storeReady_||busy()||settings_.claimUncertain||!settings_.endpoint[0])return false;
+  if(settings_.uuid[0])return true; // Wi-Fi replacement retains account identity.
+  if(!api::validPairingCode(code))return false;
+  std::strcpy(pairingCode_,code);pending_=true;halted_=false;nextAt_=0;return true;
 }
 bool DeviceNetwork::saveSettings(const Settings& next){
   if(!storeReady_)return false;
@@ -123,9 +146,12 @@ bool DeviceNetwork::start(bool claim,const application::ProductState& state,int6
 void DeviceNetwork::worker(void* context){auto* self=static_cast<DeviceNetwork*>(context);self->runRequest();self->done_.store(true,std::memory_order_release);vTaskDelete(nullptr);}
 void DeviceNetwork::runRequest(){
   NetworkClientSecure socket;socket.setCACert(settings_.ca);socket.setHandshakeTimeout(10);
+  NetworkClient localSocket;
   HTTPClient http;http.setConnectTimeout(8000);http.setTimeout(8000);http.setFollowRedirects(HTTPC_DISABLE_FOLLOW_REDIRECTS);
   const std::string url=std::string(settings_.endpoint)+(claimJob_?"/device-api/v1/claim":"/device-api/v1/sync");
-  if(!http.begin(socket,url.c_str())){httpStatus_=-1;return;}
+  const bool tls=!std::strncmp(settings_.endpoint,"https://",8);
+  if(!tls&&(!kBleDevelopment||!provisioning::validServerUrl(settings_.endpoint,true))){httpStatus_=-4;return;}
+  if(!http.begin(tls?static_cast<NetworkClient&>(socket):localSocket,url.c_str())){httpStatus_=-1;return;}
   http.addHeader("Content-Type","application/json");
   if(!claimJob_)http.addHeader("X-Device-Uuid",settings_.uuid);
   httpStatus_=http.POST(reinterpret_cast<uint8_t*>(&requestBody_[0]),requestBody_.size());
@@ -176,6 +202,7 @@ void DeviceNetwork::tick(application::ProductController& product,const NetworkCl
   if(!allowed||working_.load()||configTransfer_.active()||halted_||product.faulted())return;
   if(!storeReady_){status_=Status::StorageError;return;}
   if(!settings_.endpoint[0]){status_=Status::Unconfigured;return;}
+  if(!provisioning::validServerUrl(settings_.endpoint,kBleDevelopment)){status_=Status::Unconfigured;return;}
   if(settings_.claimUncertain){status_=Status::ClaimUncertain;return;}
   const bool claim=pairingCode_[0]!=0;
   if(!claim&&!settings_.uuid[0]){status_=Status::Unpaired;return;}

@@ -6,11 +6,19 @@
 #include <atomic>
 #include <cstring>
 #include <ctime>
+#include <Preferences.h>
+#include "../../application/StateCodec.h"
 
 namespace routine::platform {
 namespace {
 std::atomic<uint32_t> timeReceipts{0};
 constexpr int64_t kEarliestTime = 1577836800;  // Reject an unset clock (2020-01-01).
+struct SavedWifi {
+  uint32_t magic=0x57494631;
+  char ssid[33]{},password[64]{};
+  uint8_t reserved[3]{};
+  uint32_t crc=0;
+};
 void receivedTime(struct timeval* value) {
   // Called on the TCP/IP task; never render or mutate product state here.
   if (value && value->tv_sec >= kEarliestTime) timeReceipts.fetch_add(1);
@@ -18,19 +26,30 @@ void receivedTime(struct timeval* value) {
 }
 void NetworkClock::begin(const ClockSettings& settings) {
   settings_ = settings;
-  WiFi.persistent(true);  // The SDK's NVS keeps the one configured network.
+  WiFi.persistent(false); // Candidate settings must never overwrite the last good network.
   WiFi.setAutoReconnect(false);  // Bounded attempts are owned by ClockSync.
   configured_ = loadSavedNetwork();
   requestSync();
 }
 bool NetworkClock::loadSavedNetwork() {
   if (!WiFi.mode(WIFI_STA)) return false;
-  wifi_config_t saved{};
-  const bool exists = esp_wifi_get_config(WIFI_IF_STA, &saved) == ESP_OK && saved.sta.ssid[0];
-  // Do not print SSID/password or keep an extra credential copy in the app.
-  volatile uint8_t* bytes = reinterpret_cast<volatile uint8_t*>(&saved);
-  for (size_t i = 0; i < sizeof(saved); ++i) bytes[i] = 0;
-  return exists;
+  Preferences storage;if(!storage.begin("routine-wifi",false))return false;
+  if(storage.isKey("good")){
+    SavedWifi data{};
+    const bool valid=storage.getBytesLength("good")==sizeof(data)&&storage.getBytes("good",&data,sizeof(data))==sizeof(data)&&
+      data.magic==0x57494631&&data.crc==application::crc32(reinterpret_cast<const uint8_t*>(&data),offsetof(SavedWifi,crc))&&
+      std::memchr(data.ssid,0,sizeof(data.ssid))&&data.ssid[0]&&std::memchr(data.password,0,sizeof(data.password));
+    if(valid){std::memcpy(saved_.sta.ssid,data.ssid,std::strlen(data.ssid));std::memcpy(saved_.sta.password,data.password,std::strlen(data.password));}
+    provisioning::erase(&data,sizeof(data));return valid;
+  }
+  // Upgrade old USB-configured devices without erasing their SDK NVS settings.
+  return esp_wifi_get_config(WIFI_IF_STA,&saved_)==ESP_OK&&saved_.sta.ssid[0];
+}
+bool NetworkClock::applyNetwork(const wifi_config_t& config){
+  if(!WiFi.mode(WIFI_STA)||!WiFi.STA.begin(false)||!WiFi.STA.disconnect(false,1000))return false;
+  auto copy=config;
+  const bool ok=esp_wifi_set_storage(WIFI_STORAGE_RAM)==ESP_OK&&esp_wifi_set_config(WIFI_IF_STA,&copy)==ESP_OK;
+  provisioning::erase(&copy,sizeof(copy));return ok&&WiFi.STA.connect();
 }
 bool NetworkClock::connected() const { return WiFi.status() == WL_CONNECTED; }
 void NetworkClock::stopTime() {
@@ -40,9 +59,7 @@ void NetworkClock::stopTime() {
 void NetworkClock::apply(application::SyncActions actions) {
   if (actions.stopTime) stopTime();
   if (actions.connect) {
-    WiFi.mode(WIFI_STA);
-    WiFi.disconnect(false, false);  // Keep the stored network on failure/retry.
-    WiFi.begin();
+    applyNetwork(saved_);
   }
   if (actions.requestTime) {
     stopTime();
@@ -54,15 +71,22 @@ void NetworkClock::apply(application::SyncActions actions) {
 }
 void NetworkClock::requestSync() {
   ++requests_;
+  if(join_.state()==provisioning::JoinState::Connecting)return;
   apply(sync_.request(millis(), configured_, connected()));
 }
 void NetworkClock::tick() {
+  if(join_.state()==provisioning::JoinState::Connecting){
+    join_.tick(*this,millis());
+    if(join_.state()!=provisioning::JoinState::Connecting)requestSync();
+    return;
+  }
   const bool received = timeRunning_ && timeReceipts.load() != receiptBaseline_;
   const bool wasFresh = sync_.fresh();
   apply(sync_.tick(millis(), connected(), received));
   if (!wasFresh && sync_.fresh()) ++successes_;
 }
 bool NetworkClock::suspend() {
+  if(join_.state()==provisioning::JoinState::Connecting)return false;
   apply(sync_.suspend());
   return WiFi.mode(WIFI_OFF);  // Credentials survive; every wake reconnects.
 }
@@ -72,14 +96,26 @@ bool NetworkClock::configure(const char* ssid, const char* password) {
   if (length && (length < 8 || length > 63)) return false;
   for (size_t i = 0; i < length; ++i)
     if (static_cast<unsigned char>(password[i]) < 32 || static_cast<unsigned char>(password[i]) > 126) return false;
-  stopTime();
-  if (!WiFi.mode(WIFI_STA)) return false;
-  // Use the configuration result, not an old association status from a previous
-  // failed password attempt (WiFi.begin() returns that status).
-  if (!WiFi.STA.begin() || !WiFi.STA.connect(ssid, password, 0, nullptr, false)) return false;
-  configured_ = true;
-  requestSync();
-  return true;
+  provisioning::Config candidate;std::strcpy(candidate.ssid,ssid);std::strcpy(candidate.password,password);
+  const bool ok=join_.start(*this,candidate,millis());candidate.clear();
+  if(!ok&&join_.state()!=provisioning::JoinState::Connecting)requestSync();return ok;
+}
+bool NetworkClock::tryCandidate(const char* ssid,const char* password){
+  apply(sync_.suspend());candidate_={};
+  std::memcpy(candidate_.sta.ssid,ssid,std::strlen(ssid));std::memcpy(candidate_.sta.password,password,std::strlen(password));
+  return applyNetwork(candidate_);
+}
+bool NetworkClock::hasCandidateIp()const{return connected()&&uint32_t(WiFi.localIP())!=0;}
+bool NetworkClock::persistCandidate(){
+  SavedWifi data;std::memcpy(data.ssid,candidate_.sta.ssid,32);std::memcpy(data.password,candidate_.sta.password,63);
+  data.crc=application::crc32(reinterpret_cast<const uint8_t*>(&data),offsetof(SavedWifi,crc));
+  Preferences storage;const bool ok=storage.begin("routine-wifi",false)&&storage.putBytes("good",&data,sizeof(data))==sizeof(data);
+  provisioning::erase(&data,sizeof(data));
+  if(ok){saved_=candidate_;configured_=true;provisioning::erase(&candidate_,sizeof(candidate_));}return ok;
+}
+void NetworkClock::restorePrevious(){
+  provisioning::erase(&candidate_,sizeof(candidate_));
+  if(configured_)applyNetwork(saved_);else WiFi.disconnect(false,false);
 }
 int64_t NetworkClock::unixSeconds() const { return static_cast<int64_t>(time(nullptr)); }
 bool NetworkClock::localMinutes(uint16_t& minutes) const {

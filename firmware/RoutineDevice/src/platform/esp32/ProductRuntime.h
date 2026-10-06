@@ -4,6 +4,7 @@
 #include "FlashSlots.h"
 #include "AssetStorage.h"
 #include "DeviceNetwork.h"
+#include "BleProvisioning.h"
 #include "../../application/ProductController.h"
 #include "../../application/InputSession.h"
 #include "../../application/ScheduleTransfer.h"
@@ -28,6 +29,9 @@ class ProductRuntime {
   Board board_;
   NetworkClock clock_;
   DeviceNetwork network_;
+  BleProvisioning ble_;
+  bool setupRequested_=false;
+  const char* shownSetupStatus_=nullptr;
   FlashSlots flash_;
   AssetStorage assets_;
   application::SnapshotStore store_;

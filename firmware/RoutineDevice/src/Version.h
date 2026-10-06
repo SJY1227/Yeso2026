@@ -1,2 +1,8 @@
 #pragma once
-namespace routine { inline constexpr char kFirmwareVersion[]="0.8.2"; }
+namespace routine {
+#if defined(ROUTINE_BLE_DEVELOPMENT) && ROUTINE_BLE_DEVELOPMENT
+inline constexpr char kFirmwareVersion[]="0.9.0-ble-dev";
+#else
+inline constexpr char kFirmwareVersion[]="0.9.0";
+#endif
+}
